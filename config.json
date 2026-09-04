@@ -1,0 +1,11 @@
+{
+  "suzuriUserName": "carewave",
+  "itemPriority": ["t-shirt", "sticker", "can-badge", "acrylic-keychain"],
+  "hashtags": ["#SUZURI"],
+  "includeItemHashtag": true,
+  "copyTone": "落ち着いた、押し付けがましくない語り口",
+  "maxBodyLength": 180,
+  "enabledPlatforms": ["bluesky"],
+  "cooldownRuns": 3,
+  "dryRun": false
+}

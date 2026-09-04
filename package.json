@@ -1,0 +1,24 @@
+{
+  "name": "suzuri-autopost",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SUZURI の商品を毎日2回 Bluesky に自動投稿する",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "post": "tsx src/index.ts",
+    "check": "tsx src/index.ts --check",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.20.42",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

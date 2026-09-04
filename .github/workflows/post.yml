@@ -1,0 +1,84 @@
+name: SUZURI 自動投稿
+
+on:
+  schedule:
+    # cron は UTC で書きます。日本時間 = UTC + 9時間。
+    - cron: '30 21 * * *' # 日本時間 6:30（前日の 21:30 UTC）
+    - cron: '30 9 * * *' # 日本時間 18:30
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'どちらの枠として実行するか'
+        type: choice
+        options: [manual, morning, evening]
+        default: manual
+      dry_run:
+        description: '投稿せずに生成結果だけ確認する'
+        type: boolean
+        default: true
+
+# 同時に走って state が壊れないようにする
+concurrency:
+  group: suzuri-autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 実行する枠を決める
+        id: slot
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT"
+            echo "dry=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 21 * * *" ]; then
+            echo "slot=morning" >> "$GITHUB_OUTPUT"
+            echo "dry=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "slot=evening" >> "$GITHUB_OUTPUT"
+            echo "dry=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 投稿する
+        env:
+          SUZURI_API_TOKEN: ${{ secrets.SUZURI_API_TOKEN }}
+          BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ "${{ steps.slot.outputs.dry }}" = "true" ]; then
+            npm run post -- --slot=${{ steps.slot.outputs.slot }} --dry-run
+          else
+            npm run post -- --slot=${{ steps.slot.outputs.slot }}
+          fi
+
+      - name: 投稿の記録をコミットする
+        if: always()
+        run: |
+          if [ -z "$(git status --porcelain state/posted.json)" ]; then
+            echo "state に変更はありません。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/posted.json
+          git commit -m "chore: 投稿記録を更新 [skip ci]"
+          git push || {
+            echo "push が競合したので rebase して再試行します。"
+            git pull --rebase --autostash
+            git push
+          }
