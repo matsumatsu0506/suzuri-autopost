@@ -233,11 +233,76 @@ Gemini の無料枠は混雑時に一時的なエラー（HTTP 503）を返す�
 
 ---
 
+## Threads を使う（Phase 2）
+
+`src/platforms/threads.ts` は実装済みです。以下の準備をすれば使えます。
+
+### 画像について（解決済み）
+
+Threads は画像ファイルを送れず、**公開された JPEG / PNG の URL** しか受け付けません。
+SUZURI の画像URLは末尾の拡張子で形式が決まり、`....png.webp` を **`....png.jpg`** にすると
+JPEG がそのまま返ってきます（8種類のアイテムで実測確認済み）。
+そのため**画像を自前でホストする必要はありません**。`src/image.ts` の `toPublicJpegUrl` が変換します。
+
+### 準備の手順
+
+1. https://developers.facebook.com/ でMetaの開発者登録をする
+2. アプリを作り、ユースケースとして「Threads API」を選ぶ
+3. 権限 `threads_basic` と `threads_content_publish` を追加する
+4. 自分の Threads アカウントをテスターとして追加し、Threads 側で承認する
+5. 長期アクセストークン（60日有効）を発行する
+6. `.env` の `THREADS_ACCESS_TOKEN` に入れて、ローカルで確認する
+
+```bash
+npm run post -- --dry-run
+```
+
+7. 問題なければ `config.json` の `enabledPlatforms` に `"threads"` を足す
+
+```json
+"enabledPlatforms": ["bluesky", "threads"]
+```
+
+8. GitHub にも登録する
+
+```bash
+gh secret set THREADS_ACCESS_TOKEN
+```
+
+### トークンの自動更新（重要）
+
+Threads の長期トークンは**60日で失効**します。放置すると2か月で投稿が止まります。
+`.github/workflows/refresh-threads-token.yml` が毎週月曜3:00にトークンを更新しますが、
+**Secrets を書き換える権限が必要**なので、以下の準備が要ります。
+
+1. https://github.com/settings/personal-access-tokens で Fine-grained personal access token を作る
+   - Repository access: `suzuri-autopost` のみ
+   - Permissions → Repository permissions → **Secrets: Read and write**
+   - 有効期限は長め（1年など）にする
+2. 作ったトークンを登録する
+
+```bash
+gh secret set GH_PAT
+```
+
+3. 手動で1回動かして確認する
+
+```bash
+gh workflow run refresh-threads-token.yml
+```
+
+これを設定しない場合は、50日おきに自分でトークンを再発行して
+`gh secret set THREADS_ACCESS_TOKEN` を実行する必要があります。
+
+### Threads の制限
+
+- 本文は **500文字**まで（Blueskyの300文字に合わせているので余裕があります）
+- 画像は JPEG/PNG、8MBまで、幅320〜1440px
+- コンテナ作成から公開まで**35秒待ちます**（Metaの推奨に従っています）
+- 1日250投稿まで
+
 ## これから増やせるもの
 
-- **Threads**（`src/platforms/threads.ts` にスタブがあります）
-  - 画像は JPEG/PNG の**公開URL**が必要です。バイナリは送れません
-  - アクセストークンが**60日で失効**するため、自動更新の仕組みが別途必要です
 - **Instagram**
   - プロアカウント（ビジネスまたはクリエイター）への切り替えが必要です。無料です
   - 自分のアカウントにだけ投稿するなら、Meta の審査は不要です

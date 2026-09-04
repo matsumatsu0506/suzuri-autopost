@@ -1,0 +1,50 @@
+# Threads の長期アクセストークンは60日で失効します。
+# このワークフローが毎週トークンを更新し、Secrets を上書きします。
+#
+# 動かすには GH_PAT という Secret が必要です（Secrets を書き換える権限は
+# 標準の GITHUB_TOKEN には無いため）。README の「Threads を使う」を参照。
+name: Threads トークン更新
+
+on:
+  schedule:
+    - cron: '0 18 * * 0' # 毎週月曜 3:00 JST
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: トークンを更新して Secrets に書き戻す
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${THREADS_ACCESS_TOKEN:-}" ]; then
+            echo "THREADS_ACCESS_TOKEN が未設定です。Threads を使っていないならこのワークフローは不要です。"
+            exit 0
+          fi
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "SUZURI_AUTOPOST_FAILED GH_PAT が未設定のため、トークンを更新できません。"
+            exit 1
+          fi
+
+          response=$(curl --silent --show-error \
+            -G "https://graph.threads.net/refresh_access_token" \
+            --data-urlencode "grant_type=th_refresh_token" \
+            --data-urlencode "access_token=${THREADS_ACCESS_TOKEN}")
+
+          new_token=$(echo "$response" | jq -r '.access_token // empty')
+          expires_in=$(echo "$response" | jq -r '.expires_in // empty')
+
+          if [ -z "$new_token" ]; then
+            # トークン本体は出さず、エラーメッセージだけ出す
+            echo "SUZURI_AUTOPOST_FAILED トークンの更新に失敗しました:"
+            echo "$response" | jq -r '.error.message // "原因不明"'
+            exit 1
+          fi
+
+          printf '%s' "$new_token" | gh secret set THREADS_ACCESS_TOKEN --repo "${{ github.repository }}"
+          echo "トークンを更新しました。あと $(( expires_in / 86400 )) 日有効です。"

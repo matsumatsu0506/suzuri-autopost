@@ -16,6 +16,20 @@ export interface PreparedImage {
   width: number;
   height: number;
   bytes: number;
+  /** Threads / Instagram / Facebook 用の、公開された JPEG の URL */
+  publicJpegUrl: string;
+}
+
+/**
+ * SUZURI の画像URLは末尾の拡張子で形式が決まる。
+ * `....png.webp?h=...` を `....png.jpg?h=...` にすると JPEG がそのまま返ってくる
+ * （8種類のアイテムで実測確認済み）。
+ *
+ * Threads / Instagram / Facebook は画像ファイルを送れず「公開された JPEG か PNG の URL」
+ * しか受け付けないため、この変換だけで要件を満たせる。画像を自前でホストする必要はない。
+ */
+export function toPublicJpegUrl(sampleImageUrl: string): string {
+  return sampleImageUrl.replace(/\.webp(\?|$)/, '.jpg$1');
 }
 
 /**
@@ -45,6 +59,7 @@ export async function prepareImage(sampleImageUrl: string): Promise<PreparedImag
         width: info.width,
         height: info.height,
         bytes: data.byteLength,
+        publicJpegUrl: toPublicJpegUrl(sampleImageUrl),
       };
     }
   }

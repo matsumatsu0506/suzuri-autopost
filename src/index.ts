@@ -161,6 +161,7 @@ async function main(): Promise<void> {
   console.log('画像を JPEG に変換しています...');
   const image = await prepareImage(product.sampleImageUrl);
   line('変換後の画像', `${image.width}x${image.height} / ${Math.round(image.bytes / 1024)} KB`);
+  line('画像の公開URL（Threads用）', image.publicJpegUrl);
 
   console.log('紹介文を生成しています...');
   const copy = await generateCopy(product, image, config, {
@@ -201,6 +202,7 @@ async function main(): Promise<void> {
       imageMimeType: image.mimeType,
       imageWidth: image.width,
       imageHeight: image.height,
+      imagePublicUrl: image.publicJpegUrl,
       linkUrl: product.sampleUrl,
     });
     results.push(result);
