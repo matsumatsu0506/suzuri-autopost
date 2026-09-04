@@ -1,21 +1,23 @@
-﻿name: SUZURI 閾ｪ蜍墓兜遞ｿ
+name: SUZURI 自動投稿
 
 on:
   schedule:
-    # cron 縺ｯ UTC 縺ｧ譖ｸ縺阪∪縺吶よ律譛ｬ譎る俣 = UTC + 9譎る俣縲・    - cron: '30 21 * * *' # 譌･譛ｬ譎る俣 6:30・亥燕譌･縺ｮ 21:30 UTC・・    - cron: '30 9 * * *' # 譌･譛ｬ譎る俣 18:30
+    # cron は UTC で書きます。日本時間 = UTC + 9時間。
+    - cron: '30 21 * * *' # 日本時間 6:30（前日の 21:30 UTC）
+    - cron: '30 9 * * *' # 日本時間 18:30
   workflow_dispatch:
     inputs:
       slot:
-        description: '縺ｩ縺｡繧峨・譫縺ｨ縺励※螳溯｡後☆繧九°'
+        description: 'どちらの枠として実行するか'
         type: choice
         options: [manual, morning, evening]
         default: manual
       dry_run:
-        description: '謚慕ｨｿ縺帙★縺ｫ逕滓・邨先棡縺縺醍｢ｺ隱阪☆繧・
+        description: '投稿せずに生成結果だけ確認する'
         type: boolean
         default: true
 
-# 蜷梧凾縺ｫ襍ｰ縺｣縺ｦ state 縺悟｣翫ｌ縺ｪ縺・ｈ縺・↓縺吶ｋ
+# 同時に走って state が壊れないようにする
 concurrency:
   group: suzuri-autopost
   cancel-in-progress: false
@@ -37,7 +39,7 @@ jobs:
 
       - run: npm ci
 
-      - name: 螳溯｡後☆繧区棧繧呈ｱｺ繧√ｋ
+      - name: 実行する枠を決める
         id: slot
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -51,7 +53,7 @@ jobs:
             echo "dry=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: 謚慕ｨｿ縺吶ｋ
+      - name: 投稿する
         env:
           SUZURI_API_TOKEN: ${{ secrets.SUZURI_API_TOKEN }}
           BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
@@ -65,19 +67,19 @@ jobs:
             npm run post -- --slot=${{ steps.slot.outputs.slot }}
           fi
 
-      - name: 謚慕ｨｿ縺ｮ險倬鹸繧偵さ繝溘ャ繝医☆繧・        if: always()
+      - name: 投稿の記録をコミットする
+        if: always()
         run: |
           if [ -z "$(git status --porcelain state/posted.json)" ]; then
-            echo "state 縺ｫ螟画峩縺ｯ縺ゅｊ縺ｾ縺帙ｓ縲・
+            echo "state に変更はありません。"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state/posted.json
-          git commit -m "chore: 謚慕ｨｿ險倬鹸繧呈峩譁ｰ [skip ci]"
+          git commit -m "chore: 投稿記録を更新 [skip ci]"
           git push || {
-            echo "push 縺檎ｫｶ蜷医＠縺溘・縺ｧ rebase 縺励※蜀崎ｩｦ陦後＠縺ｾ縺吶・
+            echo "push が競合したので rebase して再試行します。"
             git pull --rebase --autostash
             git push
           }
-
