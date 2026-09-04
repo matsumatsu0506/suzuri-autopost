@@ -59,6 +59,7 @@ jobs:
           BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
         run: |
           if [ "${{ steps.slot.outputs.dry }}" = "true" ]; then
             npm run post -- --slot=${{ steps.slot.outputs.slot }} --dry-run
