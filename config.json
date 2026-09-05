@@ -5,7 +5,7 @@
   "includeItemHashtag": true,
   "copyTone": "落ち着いた、押し付けがましくない語り口",
   "maxBodyLength": 180,
-  "enabledPlatforms": ["bluesky"],
+  "enabledPlatforms": ["bluesky", "threads"],
   "cooldownRuns": 3,
   "dryRun": false
 }

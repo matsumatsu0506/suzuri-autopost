@@ -23,6 +23,11 @@ export interface PostResult {
   ok: boolean;
   uri?: string;
   error?: string;
+  /**
+   * 投稿の結果として得られた、画像の公開URL。
+   * Bluesky は投稿した画像を CDN で公開するので、それを後続の Threads / Instagram に渡す。
+   */
+  publicImageUrl?: string;
 }
 
 export interface PostAdapter {

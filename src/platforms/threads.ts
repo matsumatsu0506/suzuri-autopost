@@ -51,6 +51,19 @@ async function fetchUserId(token: string): Promise<string> {
   return data.id;
 }
 
+/** 公開した投稿の閲覧用URLを取得する。失敗しても投稿自体は成功しているので例外にしない。 */
+async function fetchPermalink(postId: string, token: string): Promise<string | null> {
+  try {
+    const response = await fetch(
+      `${API}/${postId}?fields=permalink&access_token=${encodeURIComponent(token)}`,
+    );
+    const data = (await response.json()) as { permalink?: string };
+    return data.permalink ?? null;
+  } catch {
+    return null;
+  }
+}
+
 /**
  * Threads への投稿。
  *
@@ -66,7 +79,11 @@ export class ThreadsAdapter implements PostAdapter {
       const token = requireEnv('THREADS_ACCESS_TOKEN');
 
       if (!payload.imagePublicUrl) {
-        throw new Error('Threads には画像の公開URLが必要ですが、渡されていません。');
+        throw new Error(
+          'Threads には画像の公開URLが必要ですが、渡されていません。' +
+            'この URL は Bluesky への投稿が成功したときに得られるため、' +
+            'config.json の enabledPlatforms で bluesky を threads より前に有効にしてください。',
+        );
       }
       const text =
         payload.text.length > MAX_TEXT_LENGTH
@@ -117,7 +134,9 @@ export class ThreadsAdapter implements PostAdapter {
         throw new Error(`公開後のIDを取得できませんでした: ${JSON.stringify(published)}`);
       }
 
-      return { platform: this.name, ok: true, uri: `https://www.threads.net/post/${postId}` };
+      // 投稿IDから閲覧用URLは組み立てられない（別の短い符号が使われる）ので、APIに問い合わせる
+      const permalink = await fetchPermalink(postId, token);
+      return { platform: this.name, ok: true, uri: permalink ?? `投稿ID ${postId}` };
     } catch (error) {
       return { platform: this.name, ok: false, error: (error as Error).message };
     }

@@ -72,8 +72,17 @@ function runFieldCheck(products: unknown[]): void {
   console.log('');
 }
 
+/**
+ * Threads は画像の公開URLを必要とし、その URL は Bluesky に投稿して初めて手に入る。
+ * そのため Bluesky を必ず先に実行する。
+ */
+const PLATFORM_ORDER = ['bluesky', 'threads'];
+
 function buildAdapters(enabled: string[]): PostAdapter[] {
-  return enabled.map((name) => {
+  const sorted = [...enabled].sort(
+    (a, b) => PLATFORM_ORDER.indexOf(a) - PLATFORM_ORDER.indexOf(b),
+  );
+  return sorted.map((name) => {
     if (name === 'bluesky') return new BlueskyAdapter();
     if (name === 'threads') return new ThreadsAdapter();
     throw new Error(`config.json の enabledPlatforms に未知の値があります: ${name}`);
@@ -161,7 +170,6 @@ async function main(): Promise<void> {
   console.log('画像を JPEG に変換しています...');
   const image = await prepareImage(product.sampleImageUrl);
   line('変換後の画像', `${image.width}x${image.height} / ${Math.round(image.bytes / 1024)} KB`);
-  line('画像の公開URL（Threads用）', image.publicJpegUrl);
 
   console.log('紹介文を生成しています...');
   const copy = await generateCopy(product, image, config, {
@@ -193,6 +201,8 @@ async function main(): Promise<void> {
 
   const adapters = buildAdapters(config.enabledPlatforms);
   const results = [];
+  let publicImageUrl: string | undefined;
+
   for (const adapter of adapters) {
     console.log(`${adapter.name} へ投稿しています...`);
     const result = await adapter.post({
@@ -202,10 +212,12 @@ async function main(): Promise<void> {
       imageMimeType: image.mimeType,
       imageWidth: image.width,
       imageHeight: image.height,
-      imagePublicUrl: image.publicJpegUrl,
+      imagePublicUrl: publicImageUrl,
       linkUrl: product.sampleUrl,
     });
     results.push(result);
+    // 先に投稿したSNSが画像の公開URLを返したら、後続のSNSに引き継ぐ
+    if (result.publicImageUrl) publicImageUrl = result.publicImageUrl;
     if (result.ok) console.log(`  成功: ${result.uri}`);
     else console.error(`  失敗: ${result.error}`);
   }

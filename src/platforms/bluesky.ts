@@ -44,7 +44,15 @@ export class BlueskyAdapter implements PostAdapter {
         createdAt: new Date().toISOString(),
       });
 
-      return { platform: this.name, ok: true, uri: response.uri };
+      // アップロードした画像は Bluesky の CDN で公開される。
+      // Threads / Instagram は「画像の公開URL」しか受け取れないので、これを後続に渡す。
+      const cid = (uploaded.data.blob.ref as unknown as { $link?: string })?.$link
+        ?? String(uploaded.data.blob.ref);
+      const did = agent.session?.did;
+      const publicImageUrl =
+        did && cid ? `https://cdn.bsky.app/img/feed_fullsize/plain/${did}/${cid}@jpeg` : undefined;
+
+      return { platform: this.name, ok: true, uri: response.uri, publicImageUrl };
     } catch (error) {
       return { platform: this.name, ok: false, error: (error as Error).message };
     }

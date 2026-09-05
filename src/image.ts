@@ -16,26 +16,15 @@ export interface PreparedImage {
   width: number;
   height: number;
   bytes: number;
-  /** Threads / Instagram / Facebook 用の、公開された JPEG の URL */
-  publicJpegUrl: string;
 }
 
 /**
- * SUZURI の画像URLは末尾の拡張子で形式が決まる。
- * `....png.webp?h=...` を `....png.jpg?h=...` にすると JPEG がそのまま返ってくる
- * （8種類のアイテムで実測確認済み）。
+ * SUZURI の sampleImageUrl は WebP を返すので JPEG に変換する。
  *
- * Threads / Instagram / Facebook は画像ファイルを送れず「公開された JPEG か PNG の URL」
- * しか受け付けないため、この変換だけで要件を満たせる。画像を自前でホストする必要はない。
- */
-export function toPublicJpegUrl(sampleImageUrl: string): string {
-  return sampleImageUrl.replace(/\.webp(\?|$)/, '.jpg$1');
-}
-
-/**
- * SUZURI の sampleImageUrl は WebP を返す。
- * Bluesky は WebP も受け付けるが、Threads / Instagram は JPEG か PNG しか受け付けないため、
- * 最初から JPEG に統一しておく。
+ * 注意: SUZURI の画像URLの拡張子を .jpg に変えると JPEG は返ってくるが、
+ * **lens.suzuri.jp は Meta のクローラーを拒否する**ため、その URL を
+ * Threads / Instagram に渡すことはできない（実測で subcode 2207052 になる）。
+ * 画像の公開URLは Bluesky に投稿したあとの CDN URL を使う（platforms/bluesky.ts を参照）。
  */
 export async function prepareImage(sampleImageUrl: string): Promise<PreparedImage> {
   const response = await fetch(sampleImageUrl);
@@ -59,7 +48,6 @@ export async function prepareImage(sampleImageUrl: string): Promise<PreparedImag
         width: info.width,
         height: info.height,
         bytes: data.byteLength,
-        publicJpegUrl: toPublicJpegUrl(sampleImageUrl),
       };
     }
   }
