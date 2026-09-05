@@ -1,6 +1,11 @@
 export interface PostPayload {
   /** 投稿する本文（URL・ハッシュタグを含む完成形） */
   text: string;
+  /**
+   * URL を除いた本文。
+   * Instagram はキャプション内のURLがリンクにならず、貼っても押せないので、こちらを使う。
+   */
+  captionWithoutLink?: string;
   /** 画像の代替テキスト。アクセシビリティ上の必須項目。 */
   altText: string;
   /** JPEG に変換済みの画像データ。Bluesky はこれを直接アップロードする。 */

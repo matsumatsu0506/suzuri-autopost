@@ -3,6 +3,8 @@ import { composePost } from './compose.js';
 import { generateCopy } from './copy.js';
 import { prepareImage } from './image.js';
 import { BlueskyAdapter } from './platforms/bluesky.js';
+import { FacebookPageAdapter } from './platforms/facebook.js';
+import { InstagramAdapter } from './platforms/instagram.js';
 import { ThreadsAdapter } from './platforms/threads.js';
 import type { PostAdapter } from './platforms/types.js';
 import { groupByMaterial, selectTarget } from './select.js';
@@ -73,10 +75,10 @@ function runFieldCheck(products: unknown[]): void {
 }
 
 /**
- * Threads は画像の公開URLを必要とし、その URL は Bluesky に投稿して初めて手に入る。
- * そのため Bluesky を必ず先に実行する。
+ * Threads / Instagram / Facebook は画像の公開URLを必要とし、
+ * その URL は Bluesky に投稿して初めて手に入る。そのため Bluesky を必ず先に実行する。
  */
-const PLATFORM_ORDER = ['bluesky', 'threads'];
+const PLATFORM_ORDER = ['bluesky', 'threads', 'instagram', 'facebook'];
 
 function buildAdapters(enabled: string[]): PostAdapter[] {
   const sorted = [...enabled].sort(
@@ -85,6 +87,8 @@ function buildAdapters(enabled: string[]): PostAdapter[] {
   return sorted.map((name) => {
     if (name === 'bluesky') return new BlueskyAdapter();
     if (name === 'threads') return new ThreadsAdapter();
+    if (name === 'instagram') return new InstagramAdapter();
+    if (name === 'facebook') return new FacebookPageAdapter();
     throw new Error(`config.json の enabledPlatforms に未知の値があります: ${name}`);
   });
 }
@@ -188,6 +192,12 @@ async function main(): Promise<void> {
   console.log('=== ここまで ===');
   line('文字数', `${composed.graphemes} / 300`);
   if (composed.trimmed) console.log('※ 上限に収めるため紹介文を短くしました。');
+  if (config.enabledPlatforms.includes('instagram')) {
+    console.log('');
+    console.log('=== Instagram のキャプション（URLはリンクにならないので載せません） ===');
+    console.log(composed.textWithoutLink);
+    console.log('=== ここまで ===');
+  }
   console.log('');
   console.log('=== 画像の代替テキスト（alt） ===');
   console.log(copy.alt);
@@ -207,6 +217,7 @@ async function main(): Promise<void> {
     console.log(`${adapter.name} へ投稿しています...`);
     const result = await adapter.post({
       text: composed.text,
+      captionWithoutLink: composed.textWithoutLink,
       altText: copy.alt,
       imageBuffer: image.buffer,
       imageMimeType: image.mimeType,

@@ -34,6 +34,8 @@ function buildHashtags(product: SuzuriProduct, config: AppConfig): string[] {
 
 export interface ComposedPost {
   text: string;
+  /** URL を含まない版。Instagram はURLがリンクにならないのでこちらを使う。 */
+  textWithoutLink: string;
   body: string;
   tail: string;
   graphemes: number;
@@ -49,7 +51,8 @@ export function composePost(
   product: SuzuriProduct,
   config: AppConfig,
 ): ComposedPost {
-  const tail = `\n\n${product.sampleUrl}\n${buildHashtags(product, config).join(' ')}`;
+  const hashtags = buildHashtags(product, config).join(' ');
+  const tail = `\n\n${product.sampleUrl}\n${hashtags}`;
   const tailLength = graphemeLength(tail);
   const budget = BLUESKY_MAX_GRAPHEMES - tailLength;
 
@@ -63,5 +66,6 @@ export function composePost(
   }
 
   const text = body + tail;
-  return { text, body, tail, graphemes: graphemeLength(text), trimmed };
+  const textWithoutLink = `${body}\n\n${hashtags}`;
+  return { text, textWithoutLink, body, tail, graphemes: graphemeLength(text), trimmed };
 }
