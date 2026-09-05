@@ -10,6 +10,30 @@ const MAX_EDGE = 1200;
 /** 元画像が小さくファイルサイズに余裕があるので、画質は高めから始める。 */
 const QUALITY_STEPS = [92, 85, 75, 65, 55];
 
+/**
+ * 画像の公開URLが実際に取得できる状態になるまで待つ。
+ *
+ * Bluesky に投稿した直後は、CDN がまだ JPEG を生成していないことがある。
+ * その状態で Threads / Instagram に渡すと「メディアをダウンロードできませんでした」
+ * （subcode 2207052）で失敗するため、こちらで先に叩いて温めておく。
+ */
+export async function warmUpImageUrl(url: string, attempts = 6, delayMs = 5000): Promise<boolean> {
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        // 本文まで読み切って、CDN に確実に生成させる
+        await response.arrayBuffer();
+        return true;
+      }
+    } catch {
+      /* ネットワークエラーは再試行する */
+    }
+    if (i < attempts - 1) await new Promise((r) => setTimeout(r, delayMs));
+  }
+  return false;
+}
+
 export interface PreparedImage {
   buffer: Buffer;
   mimeType: 'image/jpeg';

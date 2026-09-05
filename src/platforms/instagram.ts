@@ -47,20 +47,25 @@ export class InstagramAdapter implements PostAdapter {
         access_token: token,
       };
 
-      let container: { id?: string };
-      try {
-        container = await graphPost(`${igUserId}/media`, {
-          ...baseParams,
-          alt_text: payload.altText,
-        });
-      } catch (error) {
-        console.warn(
-          `  alt_text 付きでの作成に失敗したため、alt_text なしで再試行します: ${(error as Error).message}`,
-        );
+      // 代替テキストは必ず付けたいので、失敗しても間を空けて2回まで同じ内容で再試行する
+      // （画像の取得失敗は一時的なことが多いため）。それでも駄目なときだけ alt_text を外す。
+      const withAlt = { ...baseParams, alt_text: payload.altText };
+      let container: { id?: string } | null = null;
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          container = await graphPost(`${igUserId}/media`, withAlt);
+          break;
+        } catch (error) {
+          console.warn(`  コンテナの作成に失敗しました（${attempt + 1}回目）: ${(error as Error).message}`);
+          if (attempt < 2) await sleep(10_000);
+        }
+      }
+      if (!container) {
+        console.warn('  代替テキストなしで最後の再試行をします。');
         container = await graphPost(`${igUserId}/media`, baseParams);
       }
 
-      const creationId = container.id;
+      const creationId = container?.id;
       if (!creationId) throw new Error('コンテナIDを取得できませんでした。');
 
       // 2. 画像の処理が終わるまで待つ

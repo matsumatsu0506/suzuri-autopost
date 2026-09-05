@@ -10,6 +10,7 @@
   "scripts": {
     "post": "tsx src/index.ts",
     "check": "tsx src/index.ts --check",
+    "meta:setup": "tsx src/setup-meta.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

@@ -1,7 +1,7 @@
 import { loadConfig, loadDotEnv, requireEnv } from './config.js';
 import { composePost } from './compose.js';
 import { generateCopy } from './copy.js';
-import { prepareImage } from './image.js';
+import { prepareImage, warmUpImageUrl } from './image.js';
 import { BlueskyAdapter } from './platforms/bluesky.js';
 import { FacebookPageAdapter } from './platforms/facebook.js';
 import { InstagramAdapter } from './platforms/instagram.js';
@@ -228,7 +228,16 @@ async function main(): Promise<void> {
     });
     results.push(result);
     // 先に投稿したSNSが画像の公開URLを返したら、後続のSNSに引き継ぐ
-    if (result.publicImageUrl) publicImageUrl = result.publicImageUrl;
+    if (result.publicImageUrl && !publicImageUrl) {
+      publicImageUrl = result.publicImageUrl;
+      // 後続のSNSが取りに行く前に、CDNで画像が生成されるのを待つ
+      const warm = await warmUpImageUrl(publicImageUrl);
+      console.log(
+        warm
+          ? '  画像の公開URLが利用可能になりました。'
+          : '  ⚠️ 画像の公開URLがまだ取得できません。後続のSNSで失敗する可能性があります。',
+      );
+    }
     if (result.ok) console.log(`  成功: ${result.uri}`);
     else console.error(`  失敗: ${result.error}`);
   }
