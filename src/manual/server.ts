@@ -203,7 +203,7 @@ async function createPost(req: IncomingMessage) {
     await github.triggerManualRun(repo);
     notes.unshift('投稿を受け付けました。数分以内に投稿されます。');
   } else {
-    notes.unshift(`${formatJst(scheduledAt)} に予約しました。予約時刻から15〜30分ほど遅れることがあります。`);
+    notes.unshift(`${formatJst(scheduledAt)} に予約しました。予約時刻より遅れて投稿されることがあります。`);
   }
   console.log(`予約を保存しました: ${id}`);
   return { id, message: notes.join('') };

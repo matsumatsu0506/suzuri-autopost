@@ -353,7 +353,9 @@ npm run ui
 
 ### 知っておくこと
 
-- 予約時刻から **15〜30分ほど遅れる**ことがあります（GitHub Actions の定期実行の仕様）
+- GitHub Actions の定期実行だけに任せると、**予約時刻から数時間遅れる**ことがあります
+  （2026年9月の実測で、6:30 の自動投稿が 8:55 に、18:30 が翌 0:58 に動いた日がありました）。
+  時間どおりに動かすには「予約を時間どおりに動かす」の設定をしてください
 - リポジトリは公開なので、**予約中の本文と画像・動画は、場所を知っていれば投稿前でも見られます**
 - 動画は 100MB まで。Bluesky は3分、Threads は5分、Instagram は3秒〜15分まで
 - 形式が合わない動画（WebM、4K、H.264 以外など）は、送信時に ffmpeg で MP4（H.264 / AAC・横幅1920px以下）に自動変換します
@@ -365,6 +367,49 @@ npm run ui
 - 投稿の途中で処理が止まった場合（1時間以上「投稿処理中」のまま）は、
   二重投稿を避けるため自動では投稿し直さず「失敗」にします。SNS側を確認してから再試行してください
 - 失敗したときは GitHub からメールが届きます。ログには `MANUAL_POST_FAILED` という文字列が入ります
+
+### 予約を時間どおりに動かす（おすすめ・無料）
+
+GitHub の定期実行は混雑すると数時間遅れたり、実行が飛ばされたりします。
+無料のタイマーサービス **cron-job.org** から5分ごとにワークフローを呼び出すと、
+予約時刻から5分以内に投稿されるようになります。PC の電源が切れていても動きます。
+
+アカウント作成と鍵（トークン）の発行は、ご自身で行ってください。
+
+#### 手順1: GitHub で専用の鍵を作る
+
+1. https://github.com/settings/personal-access-tokens/new を開く
+2. Token name に `cron-job-org-manual-post` と入れる
+3. Expiration（有効期限）は「No expiration」（期限なし）を選ぶ
+4. Repository access で「Only select repositories」を選び、`suzuri-autopost` だけを選ぶ
+5. Permissions の Repository permissions で、**Actions を「Read and write」** にする。ほかは触らない
+6. 「Generate token」を押し、表示された鍵をコピーする（**一度しか表示されません**）
+
+この鍵でできるのは「このリポジトリのワークフローを起動・停止すること」だけです。
+コードや GitHub Secrets を読んだり書き換えたりはできません。
+
+#### 手順2: cron-job.org にジョブを登録する
+
+1. https://cron-job.org/ で無料アカウントを作ってログインする
+2. 「CREATE CRONJOB」を押す
+3. 次のように入力する
+   - Title: `SNS予約投稿`
+   - URL: `https://api.github.com/repos/matsumatsu0506/suzuri-autopost/actions/workflows/manual-post.yml/dispatches`
+   - Execution schedule: 「Every 5 minutes」
+4. 「ADVANCED」のタブを開き、次のように入力する
+   - Request method: `POST`
+   - Headers に次の3つを追加する
+     - `Authorization` … `Bearer 手順1でコピーした鍵`（Bearer のあとに半角スペース）
+     - `Accept` … `application/vnd.github+json`
+     - `Content-Type` … `application/json`
+   - Request body: `{"ref":"main"}`
+5. 保存して「TEST RUN」を押す。応答が 200 か 204 なら成功です
+
+成功すると、GitHub の Actions の画面に「手動投稿・予約投稿」が `workflow_dispatch` として5分ごとに並びます。
+予約が無いときは10秒ほどで終わります（公開リポジトリなので料金はかかりません）。
+
+- 鍵を作り直したときは、cron-job.org の Authorization も書き換える
+- cron-job.org は失敗が25回を超えるとジョブを自動で止めます。止まったら鍵の期限や権限を確認する
 
 ### 投稿画面を使う前の準備
 
