@@ -501,6 +501,8 @@
         button.disabled = false;
         return;
       }
+      // 自分で削除した予約を、自動更新が「投稿済みになった」と読み上げないようにする
+      if (action === 'delete') lastSummaries.delete(item.id);
       setStatus(data.message);
       await loadQueue({ quiet: true });
       $('queue-title').focus();
