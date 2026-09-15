@@ -346,7 +346,7 @@ export async function publishToInstagram(input: PublishInput): Promise<PublishRe
 // ---------------------------------------------------------------------------
 
 /** ファイルを直接アップロードする（公開URLを Meta に取りに行かせないので確実）。 */
-async function uploadToFacebook<T>(
+export async function uploadToFacebook<T>(
   host: string,
   path: string,
   fields: Record<string, string>,
