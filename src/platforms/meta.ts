@@ -17,7 +17,7 @@ interface GraphError {
   code?: number;
 }
 
-function describeError(status: number, data: { error?: GraphError }): string {
+export function describeError(status: number, data: { error?: GraphError }): string {
   const e = data.error;
   if (!e) return `HTTP ${status}`;
   const parts = [e.error_user_title, e.error_user_msg, e.message].filter(Boolean);

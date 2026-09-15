@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SNS投稿</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #111827;
+    --panel: #1f2937;
+    --field: #374151;
+    --line: #6b7280;
+    --text: #f9fafb;
+    --muted: #d1d5db;
+    --accent: #3b82f6;
+    --accent-strong: #2563eb;
+    --danger: #fca5a5;
+    --danger-bg: #450a0a;
+    --ok: #86efac;
+    --focus: #fde047;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, "Yu Gothic UI", "Meiryo", sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  main { max-width: 900px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.7rem; margin: 0 0 16px; }
+  h2 { font-size: 1.35rem; margin: 0 0 16px; }
+  h3 { font-size: 1.1rem; margin: 0 0 8px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+  .panel {
+    background: var(--panel);
+    border: 3px solid var(--line);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  fieldset { border: 0; padding: 0; margin: 0 0 28px; }
+  legend { font-weight: 700; font-size: 1.05rem; margin-bottom: 10px; padding: 0; }
+  label { font-weight: 700; }
+  .field { margin-bottom: 28px; }
+  .field > label { display: block; margin-bottom: 8px; }
+  .help { color: var(--muted); font-size: 0.95rem; margin: 6px 0 0; }
+  .over { color: var(--danger); font-weight: 700; }
+
+  .when-row { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: end; }
+  .when-row label.inline { display: block; font-weight: 700; margin-bottom: 6px; }
+  input[type="datetime-local"] {
+    font: inherit; padding: 8px 10px; border-radius: 4px;
+    border: 2px solid var(--line); background: #fff; color: #111;
+  }
+  input[type="datetime-local"]:disabled { opacity: 0.45; }
+
+  .check { display: inline-flex; align-items: center; gap: 10px; cursor: pointer; font-weight: 700; }
+  .check input { width: 22px; height: 22px; accent-color: var(--accent); }
+
+  .accounts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px 24px; }
+  .account { display: flex; align-items: center; gap: 12px; font-weight: 400; cursor: pointer; }
+  .account input { width: 22px; height: 22px; accent-color: var(--accent); flex: none; }
+  .icon {
+    flex: none; width: 40px; height: 40px; border-radius: 50%;
+    display: grid; place-items: center; font-weight: 800; font-size: 1rem; color: #fff;
+  }
+  .icon.bluesky { background: #1185fe; }
+  .icon.threads { background: #000; border: 1px solid #555; }
+  .icon.instagram { background: linear-gradient(45deg, #f09433, #dc2743 50%, #bc1888); }
+  .icon.facebook { background: #1877f2; }
+  .account small { display: block; color: var(--muted); }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+
+  textarea, input[type="file"] {
+    width: 100%; font: inherit; color: var(--text);
+    background: var(--field); border: 2px solid var(--line); border-radius: 8px; padding: 12px;
+  }
+  textarea { resize: vertical; }
+  textarea::placeholder { color: #9ca3af; }
+
+  button {
+    font: inherit; font-weight: 700; cursor: pointer; border-radius: 8px;
+    padding: 10px 18px; border: 2px solid var(--line); background: var(--field); color: var(--text);
+  }
+  button:hover { border-color: var(--muted); }
+  button:disabled { opacity: 0.5; cursor: wait; }
+  button.primary { background: var(--accent-strong); border-color: var(--accent); font-size: 1.1rem; padding: 12px 28px; }
+  button.danger { border-color: #b91c1c; }
+
+  .status { min-height: 1.7em; margin: 0 0 16px; font-weight: 700; color: var(--ok); }
+  .status.error { color: var(--danger); }
+  .errors { background: var(--danger-bg); border: 2px solid #ef4444; border-radius: 8px; padding: 12px 18px; margin-bottom: 24px; }
+  .errors ul { margin: 0; padding-left: 1.4em; }
+
+  .queue-head { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; }
+  .queue-head h2 { margin: 0; }
+  .item { border-top: 2px solid var(--line); padding: 18px 0; }
+  .item:first-child { border-top: 0; }
+  .item-text { white-space: pre-wrap; word-break: break-word; margin: 8px 0; }
+  .item ul { margin: 8px 0; padding-left: 1.4em; }
+  .item li { margin: 4px 0; }
+  .item a { color: #93c5fd; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>SNS投稿</h1>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+
+  <section class="panel" aria-labelledby="form-title">
+    <h2 id="form-title">投稿を作成</h2>
+
+    <div id="errors" class="errors" tabindex="-1" hidden>
+      <h3>入力内容を確認してください</h3>
+      <ul id="error-list"></ul>
+    </div>
+
+    <form id="post-form" novalidate>
+      <fieldset>
+        <legend>投稿日時</legend>
+        <div class="when-row">
+          <label class="check"><input type="checkbox" id="post-now" name="postNow" value="1" checked> 今すぐ投稿</label>
+          <div>
+            <label class="inline" for="scheduled-at">予約する日時（日本時間）</label>
+            <input type="datetime-local" id="scheduled-at" name="scheduledAt" step="60" disabled aria-describedby="when-help">
+          </div>
+        </div>
+        <p id="when-help" class="help">予約する場合は「今すぐ投稿」のチェックを外してください。GitHub の仕組みで動くため、予約時刻から15〜30分ほど遅れて投稿されることがあります。</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>投稿アカウント</legend>
+        <div class="accounts" id="accounts"></div>
+      </fieldset>
+
+      <div class="field">
+        <label for="text">ポスト本文</label>
+        <textarea id="text" name="text" rows="8" placeholder="ポスト内容" aria-describedby="counts"></textarea>
+        <p id="counts" class="help"></p>
+      </div>
+
+      <div class="field">
+        <label for="file">画像または動画（任意・1つだけ）</label>
+        <input type="file" id="file" name="file" accept="image/*,video/*" aria-describedby="file-help file-info">
+        <p id="file-help" class="help">動画は100MBまで、Bluesky に投稿する場合は3分までです。形式が合わない動画は自動で変換します。Instagram は文字だけの投稿ができないので、添付がないときは Instagram のチェックを外してください。</p>
+        <p id="file-info" class="help"></p>
+        <button type="button" id="clear-file" hidden>添付を取り消す</button>
+      </div>
+
+      <div class="field">
+        <label for="alt" id="alt-label">代替テキスト</label>
+        <textarea id="alt" name="alt" rows="3" aria-describedby="alt-help"></textarea>
+        <p id="alt-help" class="help">画像や動画の内容を短く説明する文です。スクリーンリーダーで読み上げられます。画像を添付したときは必須です。Instagram の動画（リール）には付けられません。</p>
+      </div>
+
+      <button type="submit" id="submit" class="primary">今すぐ投稿する</button>
+    </form>
+  </section>
+
+  <section class="panel" aria-labelledby="queue-title">
+    <div class="queue-head">
+      <h2 id="queue-title">予約一覧</h2>
+      <button type="button" id="reload">最新の状態に更新</button>
+    </div>
+    <p class="help">すべてのSNSに投稿できたものは一覧から自動で消えます。失敗したものは残るので、再試行か削除を選べます。</p>
+    <div id="queue" aria-live="off"></div>
+  </section>
+</main>
+
+<script>
+  const BOOT = /*BOOTSTRAP*/null;
+  const $ = (id) => document.getElementById(id);
+  const form = $('post-form');
+  const STORAGE_KEY = 'manual-post:platforms';
+
+  const dateFormat = new Intl.DateTimeFormat('ja-JP', {
+    timeZone: 'Asia/Tokyo', year: 'numeric', month: 'long', day: 'numeric',
+    weekday: 'short', hour: 'numeric', minute: '2-digit',
+  });
+  const segmenter = new Intl.Segmenter('ja', { granularity: 'grapheme' });
+  const graphemes = (s) => { let n = 0; for (const _ of segmenter.segment(s)) n++; return n; };
+  const chars = (s) => [...s].length;
+
+  function setStatus(message, isError = false) {
+    const el = $('status');
+    el.textContent = '';
+    el.classList.toggle('error', isError);
+    // 同じ文言でも読み上げ直されるように、いったん空にしてから入れる
+    setTimeout(() => { el.textContent = message; }, 50);
+  }
+
+  function showErrors(messages) {
+    const list = $('error-list');
+    list.replaceChildren(...messages.map((m) => {
+      const li = document.createElement('li');
+      li.textContent = m;
+      return li;
+    }));
+    $('errors').hidden = false;
+    $('errors').focus();
+  }
+
+  function hideErrors() {
+    $('errors').hidden = true;
+    $('error-list').replaceChildren();
+  }
+
+  // ---- 投稿アカウント ----
+  function loadSavedPlatforms() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+      return Array.isArray(saved) ? saved : null;
+    } catch { return null; }
+  }
+  function savePlatforms() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selectedPlatforms())); } catch {}
+  }
+
+  const saved = loadSavedPlatforms();
+  const iconLetters = { bluesky: 'B', threads: '@', instagram: 'IG', facebook: 'f' };
+  $('accounts').replaceChildren(...BOOT.platforms.map((p) => {
+    const label = document.createElement('label');
+    label.className = 'account';
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.name = 'platforms';
+    input.value = p.id;
+    input.checked = saved ? saved.includes(p.id) : true;
+    const icon = document.createElement('span');
+    icon.className = `icon ${p.id}`;
+    icon.setAttribute('aria-hidden', 'true');
+    icon.textContent = iconLetters[p.id] || '';
+    const text = document.createElement('span');
+    text.textContent = p.label;
+    if (p.account) {
+      // 読み上げで「Blueskycarewave…」と続けて読まれないよう、見えない区切りを入れる
+      const separator = document.createElement('span');
+      separator.className = 'visually-hidden';
+      separator.textContent = '、';
+      const small = document.createElement('small');
+      small.textContent = p.account;
+      text.append(separator, small);
+    }
+    label.append(input, icon, text);
+    return label;
+  }));
+
+  function selectedPlatforms() {
+    return [...form.querySelectorAll('input[name="platforms"]:checked')].map((i) => i.value);
+  }
+  const labelOf = (id) => BOOT.platforms.find((p) => p.id === id)?.label ?? id;
+
+  // ---- 文字数 ----
+  function countFor(id, text) {
+    return id === 'bluesky' ? graphemes(text) : chars(text);
+  }
+  function updateCounts() {
+    const text = $('text').value.trim();
+    const selected = selectedPlatforms();
+    const el = $('counts');
+    if (selected.length === 0) {
+      el.textContent = '投稿アカウントが選ばれていません。';
+      el.classList.add('over');
+      return;
+    }
+    let over = false;
+    el.textContent = '文字数: ' + selected.map((id) => {
+      const n = countFor(id, text);
+      const max = BOOT.limits[id];
+      if (n > max) over = true;
+      return `${labelOf(id)} ${n}／${max}${n > max ? '（超過）' : ''}`;
+    }).join('、');
+    el.classList.toggle('over', over);
+  }
+
+  // ---- 投稿日時 ----
+  function toLocalInputValue(date) {
+    const jst = new Date(date.getTime() + 9 * 60 * 60 * 1000);
+    return jst.toISOString().slice(0, 16);
+  }
+  function updateWhen() {
+    const now = $('post-now').checked;
+    const input = $('scheduled-at');
+    input.disabled = now;
+    input.required = !now;
+    if (!now) {
+      input.min = toLocalInputValue(new Date());
+      if (!input.value) {
+        // 既定は1時間後の、15分単位に切り上げた時刻
+        const d = new Date(Date.now() + 60 * 60 * 1000);
+        d.setMinutes(Math.ceil(d.getMinutes() / 15) * 15, 0, 0);
+        input.value = toLocalInputValue(d);
+      }
+    }
+    $('submit').textContent = now ? '今すぐ投稿する' : '予約する';
+  }
+
+  // ---- 添付ファイル ----
+  function formatDuration(sec) {
+    const total = Math.round(sec);
+    const m = Math.floor(total / 60);
+    const s = total % 60;
+    return m > 0 ? `${m}分${s}秒` : `${s}秒`;
+  }
+  function fileKind(file) {
+    if (!file) return null;
+    if (file.type.startsWith('image/')) return 'image';
+    if (file.type.startsWith('video/')) return 'video';
+    return /\.(mp4|mov|m4v|webm|mkv|avi|wmv|mpg|mpeg|3gp)$/i.test(file.name) ? 'video'
+      : /\.(jpe?g|png|webp|gif|heic|avif|tiff?)$/i.test(file.name) ? 'image' : null;
+  }
+  function updateFile() {
+    const file = $('file').files[0];
+    const info = $('file-info');
+    $('clear-file').hidden = !file;
+    const kind = fileKind(file);
+    $('alt-label').textContent = kind === 'image' ? '代替テキスト（必須）' : '代替テキスト';
+    if (!file) { info.textContent = ''; return; }
+    const mb = (file.size / 1024 / 1024).toFixed(1);
+    const kindLabel = kind === 'video' ? '動画' : kind === 'image' ? '画像' : '対応していないファイル';
+    info.textContent = `選択中: ${file.name}（${kindLabel}・${mb}MB）`;
+    if (kind === 'video') {
+      const video = document.createElement('video');
+      video.preload = 'metadata';
+      const url = URL.createObjectURL(file);
+      video.onloadedmetadata = () => {
+        if (Number.isFinite(video.duration)) info.textContent += `・長さ ${formatDuration(video.duration)}`;
+        URL.revokeObjectURL(url);
+      };
+      video.onerror = () => URL.revokeObjectURL(url);
+      video.src = url;
+    }
+  }
+
+  // ---- 送信前の確認（サーバー側でも同じ確認をする） ----
+  function checkBeforeSubmit() {
+    const errors = [];
+    const text = $('text').value.trim();
+    const selected = selectedPlatforms();
+    const file = $('file').files[0];
+    const kind = fileKind(file);
+    if (selected.length === 0) errors.push('投稿アカウントを1つ以上選んでください。');
+    if (!text && !file) errors.push('本文を入力するか、画像か動画を添付してください。');
+    for (const id of selected) {
+      const n = countFor(id, text);
+      if (n > BOOT.limits[id]) errors.push(`${labelOf(id)} の本文は${BOOT.limits[id]}文字までです（現在${n}文字）。`);
+    }
+    if (selected.includes('instagram') && !file) {
+      errors.push('Instagram は文字だけの投稿ができません。画像か動画を添付するか、Instagram のチェックを外してください。');
+    }
+    if (file && !kind) errors.push('添付できるのは画像か動画だけです。');
+    if (kind === 'image' && !$('alt').value.trim()) errors.push('画像の代替テキストを入力してください。');
+    if (!$('post-now').checked && !$('scheduled-at').value) errors.push('予約する日時を入力してください。');
+    return errors;
+  }
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    hideErrors();
+    const errors = checkBeforeSubmit();
+    if (errors.length) { showErrors(errors); return; }
+
+    const postNow = $('post-now').checked;
+    const names = selectedPlatforms().map(labelOf).join('、');
+    const when = postNow ? '今すぐ' : dateFormat.format(new Date(`${$('scheduled-at').value}:00+09:00`)) + ' に';
+    if (!confirm(`${names} に${when}投稿します。よろしいですか？`)) return;
+
+    const button = $('submit');
+    button.disabled = true;
+    form.setAttribute('aria-busy', 'true');
+    const hasVideo = fileKind($('file').files[0]) === 'video';
+    setStatus(hasVideo
+      ? '送信しています。動画の変換とアップロードに数分かかることがあります。この画面を閉じずにお待ちください。'
+      : '送信しています。');
+
+    try {
+      const response = await fetch('/api/posts', {
+        method: 'POST',
+        headers: { 'X-CSRF-Token': BOOT.csrfToken },
+        body: new FormData(form),
+      });
+      const data = await response.json().catch(() => ({ errors: ['サーバーから正しい応答がありませんでした。'] }));
+      if (!response.ok) {
+        setStatus('送信できませんでした。', true);
+        showErrors(data.errors || ['送信できませんでした。']);
+        return;
+      }
+      $('text').value = '';
+      $('alt').value = '';
+      $('file').value = '';
+      updateFile();
+      updateCounts();
+      setStatus(data.message);
+      loadQueue({ quiet: true });
+    } catch (error) {
+      setStatus('送信できませんでした。', true);
+      showErrors([`投稿画面のサーバーに接続できませんでした。コマンドプロンプトの画面が閉じていないか確認してください。（${error.message}）`]);
+    } finally {
+      button.disabled = false;
+      form.removeAttribute('aria-busy');
+    }
+  });
+
+  // ---- 予約一覧 ----
+  const statusLabels = { pending: '投稿待ち', in_progress: '投稿処理中', done: '投稿済み', failed: '失敗' };
+  let lastSummaries = new Map();
+  let pollTimer = null;
+
+  function renderItem(item) {
+    const article = document.createElement('article');
+    article.className = 'item';
+    article.setAttribute('aria-labelledby', `item-${item.id}`);
+
+    const h3 = document.createElement('h3');
+    h3.id = `item-${item.id}`;
+    h3.textContent = `${dateFormat.format(new Date(item.scheduledAt))}　${item.summaryLabel}`;
+
+    const text = document.createElement('p');
+    text.className = 'item-text';
+    text.textContent = item.text || '（本文なし）';
+    article.append(h3, text);
+
+    if (item.media) {
+      const media = document.createElement('p');
+      media.className = 'help';
+      const mb = (item.media.bytes / 1024 / 1024).toFixed(1);
+      const duration = item.media.durationSec ? `・${formatDuration(item.media.durationSec)}` : '';
+      media.textContent = `添付: ${item.media.kind === 'video' ? '動画' : '画像'}（${mb}MB${duration}）`
+        + (item.media.alt ? `　代替テキスト: ${item.media.alt}` : '');
+      article.append(media);
+    }
+
+    const list = document.createElement('ul');
+    let hasFailed = false;
+    let hasDone = false;
+    for (const p of BOOT.platforms) {
+      const result = item.platforms[p.id];
+      if (!result) continue;
+      if (result.status === 'failed') hasFailed = true;
+      if (result.status === 'done') hasDone = true;
+      const li = document.createElement('li');
+      li.append(`${p.label}: ${statusLabels[result.status] || result.status}`);
+      if (result.uri && /^https:\/\//.test(result.uri)) {
+        li.append('　');
+        const a = document.createElement('a');
+        a.href = result.uri;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = `${p.label} の投稿を開く`;
+        li.append(a);
+      }
+      if (result.error) li.append(`　理由: ${result.error}`);
+      list.append(li);
+    }
+    article.append(list);
+
+    if (item.summary !== 'posting') {
+      const actions = document.createElement('div');
+      actions.className = 'actions';
+      if (hasFailed) {
+        const retry = document.createElement('button');
+        retry.type = 'button';
+        retry.textContent = '失敗したSNSに再試行';
+        retry.addEventListener('click', () => changeItem(item, 'retry', retry));
+        actions.append(retry);
+      }
+      const del = document.createElement('button');
+      del.type = 'button';
+      del.className = 'danger';
+      del.textContent = item.summary === 'scheduled' && !hasDone && !hasFailed ? '予約を取り消す' : '一覧から削除';
+      del.addEventListener('click', () => changeItem(item, 'delete', del));
+      actions.append(del);
+      article.append(actions);
+    }
+    return article;
+  }
+
+  async function changeItem(item, action, button) {
+    const question = action === 'retry'
+      ? '失敗したSNSにもう一度投稿します。よろしいですか？'
+      : `${dateFormat.format(new Date(item.scheduledAt))} の予約を削除します。よろしいですか？`;
+    if (!confirm(question)) return;
+    button.disabled = true;
+    setStatus(action === 'retry' ? '再試行を依頼しています。' : '削除しています。');
+    try {
+      const response = await fetch(`/api/posts/${encodeURIComponent(item.id)}/${action}`, {
+        method: 'POST',
+        headers: { 'X-CSRF-Token': BOOT.csrfToken },
+      });
+      const data = await response.json().catch(() => ({ errors: ['サーバーから正しい応答がありませんでした。'] }));
+      if (!response.ok) {
+        setStatus((data.errors || ['操作できませんでした。']).join(' '), true);
+        button.disabled = false;
+        return;
+      }
+      setStatus(data.message);
+      await loadQueue({ quiet: true });
+      $('queue-title').focus();
+    } catch (error) {
+      setStatus(`操作できませんでした: ${error.message}`, true);
+      button.disabled = false;
+    }
+  }
+
+  async function loadQueue({ quiet = false } = {}) {
+    const reload = $('reload');
+    reload.disabled = true;
+    if (!quiet) setStatus('予約一覧を読み込んでいます。');
+    try {
+      const response = await fetch('/api/queue');
+      const data = await response.json();
+      if (!response.ok) throw new Error((data.errors || []).join(' '));
+      const items = data.items;
+      const container = $('queue');
+      if (items.length === 0) {
+        const p = document.createElement('p');
+        p.textContent = '予約はありません。';
+        container.replaceChildren(p);
+      } else {
+        container.replaceChildren(...items.map(renderItem));
+      }
+
+      // 自動更新で状態が変わったものだけ読み上げる
+      const changes = [];
+      const current = new Map(items.map((i) => [i.id, i.summary]));
+      for (const [id, before] of lastSummaries) {
+        const after = current.get(id);
+        if (after === undefined && (before === 'scheduled' || before === 'posting')) changes.push('予約していた投稿が、すべてのSNSに投稿されました。');
+        else if (after && after !== before && (after === 'failed' || after === 'partial')) changes.push('投稿に失敗したSNSがあります。予約一覧を確認してください。');
+      }
+      lastSummaries = current;
+      if (changes.length) setStatus([...new Set(changes)].join(' '), changes.some((c) => c.includes('失敗')));
+      else if (!quiet) setStatus(`予約一覧を更新しました。${items.length}件あります。`);
+
+      // 投稿待ちで時刻を過ぎたもの・処理中のものがあれば、1分ごとに静かに更新する
+      const waiting = items.some((i) => i.summary === 'posting'
+        || (i.summary === 'scheduled' && new Date(i.scheduledAt).getTime() <= Date.now()));
+      clearTimeout(pollTimer);
+      if (waiting) pollTimer = setTimeout(() => loadQueue({ quiet: true }), 60_000);
+    } catch (error) {
+      if (!quiet) setStatus(`予約一覧を読み込めませんでした: ${error.message}`, true);
+    } finally {
+      reload.disabled = false;
+    }
+  }
+
+  $('queue-title').tabIndex = -1;
+  $('post-now').addEventListener('change', updateWhen);
+  $('text').addEventListener('input', updateCounts);
+  $('accounts').addEventListener('change', () => { savePlatforms(); updateCounts(); });
+  $('file').addEventListener('change', updateFile);
+  $('clear-file').addEventListener('click', () => { $('file').value = ''; updateFile(); $('file').focus(); });
+  $('reload').addEventListener('click', () => loadQueue());
+
+  updateWhen();
+  updateCounts();
+  updateFile();
+  loadQueue({ quiet: true });
+</script>
+</body>
+</html>

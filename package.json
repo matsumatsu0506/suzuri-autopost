@@ -11,6 +11,8 @@
     "post": "tsx src/index.ts",
     "check": "tsx src/index.ts --check",
     "meta:setup": "tsx src/setup-meta.ts",
+    "ui": "tsx src/manual/server.ts",
+    "queue:run": "tsx src/manual/run-queue.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

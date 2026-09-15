@@ -1,0 +1,55 @@
+name: 手動投稿・予約投稿
+
+on:
+  schedule:
+    # 15分ごとに「予定時刻を過ぎた予約」が無いか確認する。
+    # cron は UTC。GitHub が混雑していると数分〜数十分遅れる。
+    - cron: '*/15 * * * *'
+  # 投稿画面の「今すぐ投稿」「再試行」は、これを呼んですぐに動かす
+  workflow_dispatch:
+
+# 同じ予約を2つの実行が同時に投稿しないようにする
+concurrency:
+  group: manual-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # src/manual/run-queue.ts の STALE_MS（60分）より短くしておくこと
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: 投稿待ちの予約があるか確認する
+        id: check
+        run: |
+          if grep -lqE '"status": "(pending|in_progress)"' queue/posts/*.json 2>/dev/null; then
+            echo "has=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "投稿待ちの予約はありません。"
+            echo "has=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v5
+        if: steps.check.outputs.has == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - if: steps.check.outputs.has == 'true'
+        run: npm ci
+
+      - name: 予定時刻を過ぎた予約を投稿する
+        if: steps.check.outputs.has == 'true'
+        env:
+          BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          # 投稿後に一時ファイル（Release）を削除するため
+          GH_TOKEN: ${{ github.token }}
+        run: npm run queue:run

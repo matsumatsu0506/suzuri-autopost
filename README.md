@@ -5,7 +5,8 @@ SUZURI で販売している自分のグッズを、毎日2回（日本時間 6:
 
 - 費用は無料です（GitHub Actions の無料枠と Gemini API の無料枠だけを使います）
 - クレジットカードの登録は不要です
-- 操作はすべてターミナルから行えます。管理画面はありません
+- 自動投稿の操作はすべてターミナルから行えます
+- 自分で書いた文章・画像・動画を投稿・予約するための投稿画面もあります（「手動投稿・予約投稿」を参照）
 
 ## 仕組み
 
@@ -310,6 +311,75 @@ gh workflow run refresh-threads-token.yml
   - **個人プロフィールへの自動投稿はできません**（API が廃止されています）
   - Facebook ページを作れば投稿できます
 
+## 手動投稿・予約投稿
+
+SUZURI の自動投稿とは別に、自分で書いた文章や画像・動画を
+Bluesky / Threads / Instagram / Facebookページ にまとめて投稿・予約できます。
+
+### 投稿画面を開く
+
+`open-post-ui.bat` をダブルクリックするか、コマンドプロンプトで次を実行します。
+
+```bash
+cd /d C:\Users\matsu\suzuri-autopost
+```
+
+```bash
+npm run ui
+```
+
+ブラウザで投稿画面（ http://127.0.0.1:5178/ ）が開きます。
+終わるときはコマンドプロンプトの画面で Ctrl + C を押します。
+
+画面の項目は上から順に次のとおりです。
+
+- 投稿日時 … 「今すぐ投稿」のチェックを外すと、予約する日時（日本時間）を入力できます
+- 投稿アカウント … 投稿するSNSを選びます。前回選んだものを覚えています
+- ポスト本文 … 入力欄の下に、選んだSNSごとの文字数が出ます
+- 画像または動画 … 1つだけ添付できます（任意）
+- 代替テキスト … 画像では必須です
+- 予約一覧 … 投稿待ち・失敗した予約が並びます。取り消し・再試行ができます
+
+### 仕組み
+
+1. 投稿画面で送信すると、予約の内容が `queue/posts/` に保存されます（GitHub API で直接コミット）
+2. 画像・動画は **GitHub の Release に一時的に置きます**。
+   Threads と Instagram は、ネット上に公開されたファイルのURLしか受け付けないためです
+3. `.github/workflows/manual-post.yml` が15分ごとに動き、予定時刻を過ぎた予約を投稿します。
+   「今すぐ投稿」と「再試行」のときは、その場でこのワークフローを呼び出します
+4. すべてのSNSで成功したら、一時ファイルの Release を削除し、記録を `queue/done/` に移します
+
+**PC の電源を切っていても、予約は GitHub で実行されます。** 投稿画面を開いておく必要もありません。
+
+### 知っておくこと
+
+- 予約時刻から **15〜30分ほど遅れる**ことがあります（GitHub Actions の定期実行の仕様）
+- リポジトリは公開なので、**予約中の本文と画像・動画は、場所を知っていれば投稿前でも見られます**
+- 動画は 100MB まで。Bluesky は3分、Threads は5分、Instagram は3秒〜15分まで
+- 形式が合わない動画（WebM、4K、H.264 以外など）は、送信時に ffmpeg で MP4（H.264 / AAC・横幅1920px以下）に自動変換します
+- 動画は Instagram ではリールとして投稿されます。リールには代替テキストを付けられません
+- Instagram は文字だけの投稿ができません
+- X（旧Twitter）は API が有料のため対応していません
+- 一部のSNSだけ失敗した場合、成功したSNSにはもう投稿されています。
+  予約一覧の「失敗したSNSに再試行」で、失敗したSNSにだけ投稿し直せます
+- 投稿の途中で処理が止まった場合（1時間以上「投稿処理中」のまま）は、
+  二重投稿を避けるため自動では投稿し直さず「失敗」にします。SNS側を確認してから再試行してください
+- 失敗したときは GitHub からメールが届きます。ログには `MANUAL_POST_FAILED` という文字列が入ります
+
+### 投稿画面を使う前の準備
+
+- `gh` コマンドで GitHub にログインしていること（`gh auth status` で確認）
+- ffmpeg がインストールされていること（動画を添付する場合）
+- GitHub Secrets は自動投稿と同じもの（`BLUESKY_*` `THREADS_ACCESS_TOKEN` `META_PAGE_ACCESS_TOKEN`）を使うので、追加の登録は不要です
+
+表示するアカウント名とポート番号は `config.json` の `manualPost` で変えられます。
+
+### 投稿せずに、予定時刻を過ぎた予約を確認する
+
+```bash
+npm run queue:run -- --dry-run
+```
+
 ## ファイルの場所
 
 - `src/index.ts` … 全体の流れ
@@ -320,5 +390,12 @@ gh workflow run refresh-threads-token.yml
 - `src/compose.ts` … 本文を組み立てて文字数を調整する
 - `src/state.ts` … 投稿の記録を読み書きする
 - `src/platforms/bluesky.ts` … Bluesky への投稿
+- `src/manual/server.ts` … 投稿画面（`npm run ui`）
+- `src/manual/page.html` … 投稿画面の見た目と操作
+- `src/manual/run-queue.ts` … 予約の実行（GitHub Actions）
+- `src/manual/publish.ts` … 手動投稿で各SNSに投稿する処理
+- `src/manual/media-prepare.ts` … 画像・動画の変換
+- `queue/posts/` … 投稿待ち・失敗した予約
+- `queue/done/` … 投稿が終わった予約の記録
 - `config.json` … 設定
 - `state/posted.json` … 投稿の記録

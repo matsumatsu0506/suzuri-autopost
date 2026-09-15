@@ -7,5 +7,15 @@
   "maxBodyLength": 180,
   "enabledPlatforms": ["bluesky", "threads", "instagram", "facebook"],
   "cooldownRuns": 3,
-  "dryRun": false
+  "dryRun": false,
+  "manualPost": {
+    "repo": "matsumatsu0506/suzuri-autopost",
+    "port": 5178,
+    "accounts": {
+      "bluesky": "carewave.bsky.social",
+      "threads": "@masayoshimatsumae",
+      "instagram": "@masayoshimatsumae",
+      "facebook": "有限会社ケアウェーブ"
+    }
+  }
 }

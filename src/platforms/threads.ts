@@ -1,7 +1,7 @@
 import { requireEnv } from '../config.js';
 import type { PostAdapter, PostPayload, PostResult } from './types.js';
 
-const API = 'https://graph.threads.net/v1.0';
+export const API = 'https://graph.threads.net/v1.0';
 
 /** Threads は本文500文字まで。 */
 const MAX_TEXT_LENGTH = 500;
@@ -16,7 +16,7 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function callThreadsApi(
+export async function callThreadsApi(
   path: string,
   params: Record<string, string>,
 ): Promise<Record<string, unknown>> {
@@ -35,7 +35,7 @@ async function callThreadsApi(
 }
 
 /** トークンから投稿先のユーザーIDを引く（IDを別途 Secrets に置かなくて済むように）。 */
-async function fetchUserId(token: string): Promise<string> {
+export async function fetchUserId(token: string): Promise<string> {
   const response = await fetch(`${API}/me?fields=id,username&access_token=${encodeURIComponent(token)}`);
   const data = (await response.json().catch(() => ({}))) as {
     id?: string;
@@ -52,7 +52,7 @@ async function fetchUserId(token: string): Promise<string> {
 }
 
 /** 公開した投稿の閲覧用URLを取得する。失敗しても投稿自体は成功しているので例外にしない。 */
-async function fetchPermalink(postId: string, token: string): Promise<string | null> {
+export async function fetchPermalink(postId: string, token: string): Promise<string | null> {
   try {
     const response = await fetch(
       `${API}/${postId}?fields=permalink&access_token=${encodeURIComponent(token)}`,

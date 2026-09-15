@@ -28,6 +28,16 @@ export function loadDotEnv(path = '.env'): void {
   }
 }
 
+/** 手動投稿・予約投稿（npm run ui）の設定。 */
+export interface ManualPostConfig {
+  /** 予約データと一時ファイルを置く GitHub リポジトリ（owner/name） */
+  repo: string;
+  /** 投稿画面を開くポート番号 */
+  port: number;
+  /** 投稿画面に表示するアカウント名（表示用。投稿先はトークンで決まる） */
+  accounts: Record<string, string>;
+}
+
 export interface AppConfig {
   suzuriUserName: string;
   itemPriority: string[];
@@ -38,6 +48,7 @@ export interface AppConfig {
   enabledPlatforms: string[];
   cooldownRuns: number;
   dryRun: boolean;
+  manualPost: ManualPostConfig;
 }
 
 const CONFIG_PATH = resolve(process.cwd(), 'config.json');
@@ -52,6 +63,8 @@ export function loadConfig(): AppConfig {
     );
   }
 
+  const manual = (raw.manualPost ?? {}) as Partial<ManualPostConfig>;
+
   return {
     suzuriUserName: raw.suzuriUserName,
     itemPriority: raw.itemPriority ?? [],
@@ -62,6 +75,11 @@ export function loadConfig(): AppConfig {
     enabledPlatforms: raw.enabledPlatforms ?? ['bluesky'],
     cooldownRuns: raw.cooldownRuns ?? 3,
     dryRun: raw.dryRun ?? false,
+    manualPost: {
+      repo: manual.repo ?? 'matsumatsu0506/suzuri-autopost',
+      port: manual.port ?? 5178,
+      accounts: manual.accounts ?? {},
+    },
   };
 }
 
