@@ -7,13 +7,16 @@
   "media": null,
   "platforms": {
     "bluesky": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-09-21T09:09:11.288Z"
     },
     "threads": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-09-21T09:09:11.288Z"
     },
     "facebook": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-09-21T09:09:11.288Z"
     }
   }
 }
