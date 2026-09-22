@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20260922-103247-vgg8",
+  "createdAt": "2026-09-22T01:32:47.557Z",
+  "scheduledAt": "2026-09-28T12:00:00.000Z",
+  "text": "雨の日の、部屋の音。\n\n出かけるときはスマホに持ち替えて、\n外でも声で話しかけられます。\n\n#個人開発 #AI会話 #ゲーム制作",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20260922-103247-vgg8.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 138669,
+    "width": 1080,
+    "height": 1080,
+    "durationSec": 6.246,
+    "alt": "女性キャラクターが「雨の音、けっこう好きなんだ。こういう日は、家にいられるのが、うれしくなる。」と話す動画。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-103247-vgg8/video-20260922-103247-vgg8.mp4",
+    "releaseTag": "manual-20260922-103247-vgg8"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
