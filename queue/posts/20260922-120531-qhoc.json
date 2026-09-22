@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20260922-120531-qhoc",
+  "createdAt": "2026-09-22T03:05:31.234Z",
+  "scheduledAt": "2026-09-26T12:00:00.000Z",
+  "text": "洗濯物をたたむ。テレビを見る。眠る。\n\n彼女は呼ばれなくても動きます。\n家の中が3Dで見えて、いまどの部屋にいるか分かります。\n\n#個人開発 #ゲーム制作",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20260922-120531-qhoc.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 128410,
+    "width": 1080,
+    "height": 1080,
+    "durationSec": 5.735,
+    "alt": "女性キャラクターが話す動画。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-120531-qhoc/video-20260922-120531-qhoc.mp4",
+    "releaseTag": "manual-20260922-120531-qhoc"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
