@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20260922-120526-drgi",
+  "createdAt": "2026-09-22T03:05:26.616Z",
+  "scheduledAt": "2026-09-25T12:00:00.000Z",
+  "text": "話したくない日もあります。\n\nこのゲームは、黙っていても怒りません。\n話しかけないと進まない作りには、していません。\n\n#個人開発 #AI会話",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20260922-120526-drgi.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 206492,
+    "width": 1080,
+    "height": 1080,
+    "durationSec": 8.9,
+    "alt": "女性キャラクターが話す動画。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-120526-drgi/video-20260922-120526-drgi.mp4",
+    "releaseTag": "manual-20260922-120526-drgi"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
