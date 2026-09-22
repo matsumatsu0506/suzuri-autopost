@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20260922-120521-avh8",
+  "createdAt": "2026-09-22T03:05:21.717Z",
+  "scheduledAt": "2026-09-24T12:00:00.000Z",
+  "text": "料理は、彼女が自分で始めます。\nこちらが頼まなくても、台所に立ちます。\n\nうまくいった日は、自慢してきます。\n\n#個人開発 #AIキャラクター",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20260922-120521-avh8.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 160310,
+    "width": 1080,
+    "height": 1080,
+    "durationSec": 7.314,
+    "alt": "女性キャラクターが話す動画。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-120521-avh8/video-20260922-120521-avh8.mp4",
+    "releaseTag": "manual-20260922-120521-avh8"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
