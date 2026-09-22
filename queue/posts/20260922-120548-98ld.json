@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20260922-120548-98ld",
+  "createdAt": "2026-09-22T03:05:48.105Z",
+  "scheduledAt": "2026-09-27T03:00:00.000Z",
+  "text": "作品のアカウントを作りました。\n\n幼なじみと暮らすAI会話ゲーム\n『同居生活はじめました。〜となりから、一生まで〜』\n\n毎晩のひとことは、そちらでお届けしています。\n各SNSで tonari_issho を探してください。\n\n🏠 tonari-issho.com",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20260922-120548-98ld.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 73746,
+    "width": 1080,
+    "height": 1080,
+    "alt": "リビングに立つ女性キャラクターの画像。「作品のアカウントを作りました」「毎晩のひとことは、そちらでお届けしています」「各SNSで tonari_issho」と書かれている。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-120548-98ld/image-20260922-120548-98ld.jpg",
+    "releaseTag": "manual-20260922-120548-98ld"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
