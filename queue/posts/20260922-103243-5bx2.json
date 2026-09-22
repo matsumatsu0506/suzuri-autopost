@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20260922-103243-5bx2",
+  "createdAt": "2026-09-22T01:32:43.236Z",
+  "scheduledAt": "2026-09-27T12:00:00.000Z",
+  "text": "洗濯物をたたむ。テレビを見る。眠る。\n\n彼女は呼ばれなくても動きます。\n家の中が3Dで見えて、いまどの部屋にいるか分かります。\n\n#個人開発 #ゲーム制作",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20260922-103243-5bx2.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 128410,
+    "width": 1080,
+    "height": 1080,
+    "durationSec": 5.735,
+    "alt": "女性キャラクターが「洗濯物、たたんでおいたよ。……たたみ方、前よりうまくなったと思わない？」と話す動画。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-103243-5bx2/video-20260922-103243-5bx2.mp4",
+    "releaseTag": "manual-20260922-103243-5bx2"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
