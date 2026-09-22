@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20260922-103252-au1c",
+  "createdAt": "2026-09-22T01:32:52.136Z",
+  "scheduledAt": "2026-09-29T12:00:00.000Z",
+  "text": "【ベータテスター5名募集】\n\n1週間、彼女の声を聞いていただきました。\n実際に話してみませんか。無料です。\n\n・決まったセリフはありません\n・話しかけると、その場で返事が作られます\n・家ではPC、出かけるときはスマホ\n\n18歳以上の方が対象です。\nお申し込み → tonari-issho.com",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20260922-103252-au1c.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 132621,
+    "width": 1080,
+    "height": 1080,
+    "durationSec": 5.967,
+    "alt": "女性キャラクターが「おやすみなさい。……明日も、ここにいるからね。いってらっしゃいって、言わせて。」と話す動画。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20260922-103252-au1c/video-20260922-103252-au1c.mp4",
+    "releaseTag": "manual-20260922-103252-au1c"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
