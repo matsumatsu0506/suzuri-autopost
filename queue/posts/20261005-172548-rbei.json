@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261005-172548-rbei",
+  "createdAt": "2026-10-05T08:25:48.537Z",
+  "scheduledAt": "2026-10-05T08:25:48.537Z",
+  "text": "台本を貼ると、ナレーション・字幕・背景映像・BGM がそろった動画が出てくるツールを自作しました。月々の費用はゼロです。\n\nそして、このアプリのコードを私は1行も書いていません。Claude Code に日本語で指示して作らせました。\n\nそのとき使った「指示の型」と、実際の指示文5種を note にまとめました。\n\nhttps://note.com/carewave/n/n026e788cac55",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261005-172548-rbei.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 55305,
+    "width": 1280,
+    "height": 670,
+    "alt": "記事の見出し画像。濃紺の背景に白い大きな文字で「コードは1行も書いていない」とあり、その下に「AIに自分専用の動画ツールを作らせた記録」、さらに「指示文5種つき」「13分の動画が全自動」「失敗の実測値」の3つのタグが並んでいる。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261005-172548-rbei/image-20261005-172548-rbei.jpg",
+    "releaseTag": "manual-20261005-172548-rbei"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
