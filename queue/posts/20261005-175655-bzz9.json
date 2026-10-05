@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261005-175655-bzz9",
+  "createdAt": "2026-10-05T08:56:55.739Z",
+  "scheduledAt": "2026-10-05T08:56:55.739Z",
+  "text": "タスクマネージャーのディスクが、いつ見ても100%。\n\nClaude Code に「原因を調べて」と頼んだら、一時停止しても終了しても止まらない OneDrive の隠れたサービスが見つかりました。止めたら、ディスクの空き時間が 0% → 94% に。\n\n調べ方、AIへの頼み方、AIが一度見立てを外した場面まで、note にまとめました。\n\nhttps://note.com/carewave/n/n268d422b367f",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261005-175655-bzz9.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 73555,
+    "width": 1280,
+    "height": 670,
+    "alt": "紺色の背景に「AIに頼んだら、PCが重い犯人が見つかった」という題名。下に「タスクマネージャーでは見えない原因を、会話だけで特定」。その下の枠に「ディスクの空き時間」とあり、赤い0%から矢印で緑の94%へ変わっている。左上に「Claude Code × Windows 実録」。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261005-175655-bzz9/image-20261005-175655-bzz9.jpg",
+    "releaseTag": "manual-20261005-175655-bzz9"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
