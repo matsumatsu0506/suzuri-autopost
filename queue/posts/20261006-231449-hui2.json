@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261006-231449-hui2",
+  "createdAt": "2026-10-06T14:14:49.438Z",
+  "scheduledAt": "2026-10-06T14:14:49.438Z",
+  "text": "スマホを持って街へ出ると、その場所にいる人と出会えます。\n\n東京（山手線の全駅）と福島県いわき市を中心に、51か所。\n11人それぞれに暮らしと話し方があり、ひとりずつ別の声を作りました。\n\nこの映像は、ゲームの中のキャラクターをそのまま撮ったものです。\n\n『同居生活はじめました。』2026年12月2日 公開\nhttps://tonari-issho.com\n\n★ベータテスターを募集中。お住まいの市区町村をお知らせいただければ、そのあたりに出会える場所を作ります。",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261006-231449-hui2.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 5273956,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 54.677,
+    "alt": "ゲーム『同居生活はじめました。』の紹介映像。街で出会える11人の3Dキャラクターが、名前と年齢を添えて順に登場し、それぞれの声で挨拶や自己紹介を話します。最後に「2026年12月2日 公開」と出ます。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261006-231449-hui2/video-20261006-231449-hui2.mp4",
+    "releaseTag": "manual-20261006-231449-hui2"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
