@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261006-133723-kibo",
+  "createdAt": "2026-10-06T04:37:23.425Z",
+  "scheduledAt": "2026-10-06T04:37:23.425Z",
+  "text": "スマホを持って街へ出ると、その場所にいる人と出会えます。\n\n歩いていると「近づいています」と知らせが入り、カメラをかざして見回すと、その人がそこにいます。いま街にいるのは11人。ひとりずつ、別の声を作ってあります。\n\nAI会話ゲーム『同居生活はじめました。』\n2026年12月2日 公開／ベータテスター募集中\ntonari-issho.com",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261006-133723-kibo.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 5865142,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 54.677,
+    "alt": "縦型の紹介動画。街で出会える11人のキャラクターが順に現れ、それぞれ自分の声で短い自己紹介をする。画面には名前と、会いやすさの目安が出る。最後に公開日とベータテスター募集の案内が表示される。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261006-133723-kibo/video-20261006-133723-kibo.mp4",
+    "releaseTag": "manual-20261006-133723-kibo"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
