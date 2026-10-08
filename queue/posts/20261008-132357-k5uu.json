@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261008-132357-k5uu",
+  "createdAt": "2026-10-08T04:23:57.371Z",
+  "scheduledAt": "2026-10-08T04:23:57.371Z",
+  "text": "『同居生活はじめました。〜となりから、一生まで〜』\n主題歌に合わせて、立花ゆきが1曲まるごと踊りました。\n\n幼なじみと同じ部屋で暮らす、AI会話ゲームです。決まったセリフはありません。\n2026年12月2日 公開予定。いまベータテスターを募集しています。\nhttps://tonari-issho.com/#beta\n\n#同居生活はじめました #インディーゲーム #AIゲーム #個人開発 #ベータテスター募集",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261008-132357-k5uu.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 28462032,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 152.266667,
+    "alt": "青緑のロングスカートを着た立花ゆきが、リビングで主題歌に合わせてゆったりと踊る動画。画面の下にベータテスター募集中とtonari-issho.comの文字。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261008-132357-k5uu/video-20261008-132357-k5uu.mp4",
+    "releaseTag": "manual-20261008-132357-k5uu"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
