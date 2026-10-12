@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261012-213343-tp90",
+  "createdAt": "2026-10-12T12:33:43.470Z",
+  "scheduledAt": "2026-10-12T12:33:43.470Z",
+  "text": "幼なじみのゆきと同じ部屋で暮らす、AI会話ゲームを個人で作っています。\n決まったセリフはなく、声で話せます。\n\nベータテスターを5名だけ募集します（18歳以上・無料）。\nお礼に、公開後の有料コース1か月分をお贈りします。\nhttps://tonari-issho.com/\n#インディーゲーム #テストプレイ募集",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261012-213343-tp90.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "3Dの部屋のリビングに、黒い長い髪の女の子が立っている絵。白いブラウスに紺のスカート。後ろにテレビとソファと観葉植物。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261012-213343-tp90/image-20261012-213343-tp90.jpg",
+    "releaseTag": "manual-20261012-213343-tp90"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
