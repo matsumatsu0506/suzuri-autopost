@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261014-180010-e26q",
+  "createdAt": "2026-10-14T09:00:10.658Z",
+  "scheduledAt": "2026-10-14T09:00:10.658Z",
+  "text": "【お知らせ】11月1日（日）10時から、CAMPFIREでクラウドファンディングを始めます。\n\n会話だけじゃない。同じ部屋で暮らして、同じ街を歩いて、恋をする。\nAIの幼なじみが、すぐとなりにいるゲームです。\n\nいま「もうすぐ公開」のページが見られます。\n「気になる」を押すと、始まったときにお知らせが届きます。\nhttps://camp-fire.jp/projects/986551/view\n#クラウドファンディング #インディーゲーム",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261014-180010-e26q.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 8074468,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.45,
+    "alt": "縦動画。3Dの部屋で暮らす黒髪の女の子、料理する姿、街で出会うキャラクターたちが順に映り、字幕で「すぐとなりに、いる。」と出る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261014-180010-e26q/video-20261014-180010-e26q.mp4",
+    "releaseTag": "manual-20261014-180010-e26q"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
