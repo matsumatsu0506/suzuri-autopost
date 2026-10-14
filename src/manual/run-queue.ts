@@ -41,17 +41,12 @@ function commitQueue(message: string): boolean {
     console.log(`（GitHub Actions ではないのでコミットしません: ${message}）`);
     return true;
   }
+  // commit だけでなく pull --rebase（コミットの作り直し）にも名前が要るので、リポジトリに設定しておく
+  git(['config', 'user.name', 'github-actions[bot]']);
+  git(['config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com']);
   git(['add', '-A', 'queue']);
   if (!git(['status', '--porcelain', 'queue']).trim()) return true;
-  git([
-    '-c',
-    'user.name=github-actions[bot]',
-    '-c',
-    'user.email=41898282+github-actions[bot]@users.noreply.github.com',
-    'commit',
-    '-m',
-    `${message} [skip ci]`,
-  ]);
+  git(['commit', '-m', `${message} [skip ci]`]);
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       git(['push']);
