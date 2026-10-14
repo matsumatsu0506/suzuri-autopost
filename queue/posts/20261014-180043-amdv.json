@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261014-180043-amdv",
+  "createdAt": "2026-10-14T09:00:43.806Z",
+  "scheduledAt": "2026-10-25T09:00:00.000Z",
+  "text": "クラウドファンディングまで、あと1週間です。\n\n決まったセリフは、ひとつもありません。\n話しかけた言葉に、その場で返事が作られます。\nスマホを持って街へ出れば、AIのキャラクターに会えます。\n\n11月1日（日）10時から。ページは今も見られます。\nhttps://camp-fire.jp/projects/986551/view\n#クラウドファンディング #インディーゲーム",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261014-180043-amdv.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "3Dの部屋のリビングに、黒い長い髪の女の子が立っている絵。白いブラウスに紺のスカート。後ろにテレビとソファと観葉植物。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261014-180043-amdv/image-20261014-180043-amdv.jpg",
+    "releaseTag": "manual-20261014-180043-amdv"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
