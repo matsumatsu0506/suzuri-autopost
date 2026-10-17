@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261017-120233-on5m",
+  "createdAt": "2026-10-17T03:02:33.135Z",
+  "scheduledAt": "2026-10-17T03:02:33.135Z",
+  "text": "AI���v���p��ȃ\\�t�g�uCakewalk Sonar�v�Ńh���~��ł�����ł݂܂����B\n��Claude Code����ʂ����Ȃ��瑀��B�ŏ���2���������u�������c�_����82�_�B���Ȃ��Ȃ牽�_�H\n�{�� https://youtu.be/mOv_wDmIFHA\n#DTM #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261017-120233-on5m.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2060769,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 43,
+    "alt": "��ȃ\\�t�g�̃s�A�m���[���ɁA�h���~�t�@�\\���V�h��8�̉������K�i�̂悤�ɕ���ł����l�q",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261017-120233-on5m/video-20261017-120233-on5m.mp4",
+    "releaseTag": "manual-20261017-120233-on5m"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
