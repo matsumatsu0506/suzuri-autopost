@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261019-115200-5c2i",
+  "createdAt": "2026-10-19T02:52:00.545Z",
+  "scheduledAt": "2026-10-19T02:52:00.545Z",
+  "text": "AIは本格3Dソフトを使いこなせるか？ 第2話\n3Dソフト Blender で、Claude Code が福島県いわき市・四倉の砂浜と海を作りました。砂浜・海・空を数字で置き、カメラの角度を計算して、水平線が上から3分の1に来る構図に。\n空が真っ白になったり、色が薄くなったりしながらも、原因を見つけて直して自己採点84点。\nこの動画もすべて Claude Code で自動作成しました。\n#Blender #3DCG #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261019-115200-5c2i.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2590545,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 43,
+    "alt": "3DソフトBlenderの画面を早送りした縦長の短い動画。カメラから見た画面が、最初は砂浜ばかりで海が細く、空も真っ白だったのが、設定を直すと青い空・青い海・ベージュの砂浜の景色になる。後半は完成画像と「第2話の点数 84点」の表示。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261019-115200-5c2i/video-20261019-115200-5c2i.mp4",
+    "releaseTag": "manual-20261019-115200-5c2i"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
