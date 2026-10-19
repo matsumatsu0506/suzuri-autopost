@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261019-105635-kibt",
+  "createdAt": "2026-10-19T01:56:35.348Z",
+  "scheduledAt": "2026-10-19T01:56:35.348Z",
+  "text": "AIは本格3Dソフトを使いこなせるか？\n3Dソフト Blender を、Claude Code が画面を見ながら操作。立方体を数字で動かし、床・球・円柱を足して色をつけ、カメラと太陽の光を置いて1枚の画像に仕上げました。\n起動直後に見えない窓に5分半止められながらも、自己採点86点。\nこの動画もすべて Claude Code で自動作成しました。\n#Blender #3DCG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261019-105635-kibt.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2610413,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 41,
+    "alt": "3DソフトBlenderの画面を早送りした縦長の短い動画。灰色の床に立方体・球・円柱が置かれ、青・赤・黄色の色がつき、カメラから見た画面に切り替わる。後半は、ベージュの床に黄色の円柱・青い立方体・赤い球が並ぶ完成画像と「第1話の点数 86点」の表示。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261019-105635-kibt/video-20261019-105635-kibt.mp4",
+    "releaseTag": "manual-20261019-105635-kibt"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
