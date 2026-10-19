@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261019-125201-ot5q",
+  "createdAt": "2026-10-19T03:52:01.674Z",
+  "scheduledAt": "2026-10-19T03:52:01.674Z",
+  "text": "AIは本格3Dソフトを使いこなせるか？ 第3話\n3Dソフト Blender で、Claude Code が四倉の海に防波堤・消波ブロック・灯台を置き、夕焼けにしました。形はすべて基本の形を数字で組み合わせ、太陽を3度まで下げて、逆光の灯台と海に伸びる光の道に。\n選んだ色が白に戻る失敗もありながら自己採点87点。\nこの動画もすべて Claude Code で自動作成しました。\n#Blender #3DCG #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261019-125201-ot5q.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2500115,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 40.6,
+    "alt": "3DソフトBlenderの画面を早送りした縦長の短い動画。灰色の床に防波堤と丸い消波ブロック、白い灯台が組み立てられ、カメラから見た景色が昼の青空から金色の夕焼けに変わる。後半は、夕日と海の光の道、逆光の灯台の完成画像と「第3話の点数 87点」の表示。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261019-125201-ot5q/video-20261019-125201-ot5q.mp4",
+    "releaseTag": "manual-20261019-125201-ot5q"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
