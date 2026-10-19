@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261019-142326-kiqh",
+  "createdAt": "2026-10-19T05:23:26.829Z",
+  "scheduledAt": "2026-10-19T05:23:26.829Z",
+  "text": "AIは本格3Dソフトを使いこなせるか？ 最終回\n3Dソフト Blender で Claude Code が作った四倉の夕焼けの海辺に、カメラの動きをつけて、作曲ソフトで作った歌「四倉の海」をのせました。曲の一番高い音で、夕日と灯台が並びます。\n自己採点85点。全4話、ありがとうございました。\nこの動画もすべて Claude Code で自動作成しました。\n#Blender #3DCG #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261019-142326-kiqh.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3509154,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 50.7,
+    "alt": "縦長の短い動画。上に「AIが3Dで作った四倉の海に AIが作った歌をのせました」の文字。真ん中に、夕焼けの海と白い灯台、防波堤を、カメラがゆっくり近づきながら映す3D映像が、歌つきで流れる。最後は「最終回の点数 85点」と完成画像。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261019-142326-kiqh/video-20261019-142326-kiqh.mp4",
+    "releaseTag": "manual-20261019-142326-kiqh"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
