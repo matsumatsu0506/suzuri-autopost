@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261021-084404-kv0d",
+  "createdAt": "2026-10-20T23:44:04.177Z",
+  "scheduledAt": "2026-10-20T23:44:04.177Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 障害物コース完全版 第1話\n障害物コースを「表」から組み立てる仕組みに作り直し、海の上に10ステージを作りました。消える床・トランポリン・赤い床・動く床・回る棒。自己採点70点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-obby\n本編: https://youtu.be/E8zBt3zuR_Y\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #障害物コース #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261021-084404-kv0d.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2514278,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.2,
+    "alt": "縦長の短い動画。上に「障害物コース完全版 海の世界10ステージ」の文字。真ん中に3Dのゲーム画面で、青い海の上に茶色や水色や黄色の足場がまっすぐ並び、黒い服の女性キャラが跳び移っていく。最後は白い塔の上に着いて「ゴール！」と出て、空が夕焼けに変わる。後半は「第1話の点数 70点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261021-084404-kv0d/video-20261021-084404-kv0d.mp4",
+    "releaseTag": "manual-20261021-084404-kv0d"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
