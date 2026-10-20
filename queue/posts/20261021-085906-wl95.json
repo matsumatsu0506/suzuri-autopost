@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261021-085906-wl95",
+  "createdAt": "2026-10-20T23:59:06.726Z",
+  "scheduledAt": "2026-10-20T23:59:06.726Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 障害物コース完全版 最終回\n障害物コース完全版、最終回。30ステージをスマホのタッチ操作でも遊べるようにして、itch.ioで公開しました。自己採点76点、全4話の平均72.75点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-obby\n本編: https://youtu.be/_SLxGBVoCWk\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #障害物コース #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261021-085906-wl95.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2681042,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.7,
+    "alt": "縦長の短い動画。上に「障害物コース完全版 スマホでも遊べる」の文字。真ん中に3Dのゲーム画面で、左下に十字のボタン、右下に「ジャンプ」のボタンが出ている。数字のキーで灯台の世界や空の世界のステージへ切り替わる。後半は「最終回の点数 76点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261021-085906-wl95/video-20261021-085906-wl95.mp4",
+    "releaseTag": "manual-20261021-085906-wl95"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
