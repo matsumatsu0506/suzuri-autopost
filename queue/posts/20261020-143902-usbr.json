@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-143902-usbr",
+  "createdAt": "2026-10-20T05:39:02.314Z",
+  "scheduledAt": "2026-10-20T05:39:02.314Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 第3話\nClaude Code が Godot を画面を見ながら操作し、四倉の海辺のゲームにタイトル画面・曲・クリア表示・やり直しをつけました。曲は Sonar編で作った「四倉の海」。遊ぶ間は歌なし、クリアで歌ありに切り替わります。\n自己採点89点。次回は最終回、ブラウザで遊べる形にして公開します。\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-143902-usbr.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2655315,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 39.5,
+    "alt": "縦長の短い動画。上に「AIがゲームエンジンで ゲームの形にする」の文字。真ん中に3Dのゲーム画面。紺色のタイトル画面のあと、白い砂浜から防波堤を灯台まで歩くと、左上に「クリア！ 灯台に灯りがともりました（Rキーで もう一度）」と出て、空が夕焼けに変わる。後半は「第3話の点数 89点」とクリア画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-143902-usbr/video-20261020-143902-usbr.mp4",
+    "releaseTag": "manual-20261020-143902-usbr"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
