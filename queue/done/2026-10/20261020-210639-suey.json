@@ -18,20 +18,24 @@
   },
   "platforms": {
     "bluesky": {
-      "status": "in_progress",
-      "at": "2026-10-20T12:06:59.548Z"
+      "status": "done",
+      "uri": "https://bsky.app/profile/did:plc:ogdmihoujc34ew42ro54mt3n/post/3myclwavh2f24",
+      "at": "2026-10-20T12:07:12.247Z"
     },
     "threads": {
-      "status": "in_progress",
-      "at": "2026-10-20T12:06:59.548Z"
+      "status": "done",
+      "uri": "https://www.threads.com/@masayoshimatsumae/post/Dety6npkcoS",
+      "at": "2026-10-20T12:07:50.707Z"
     },
     "instagram": {
-      "status": "in_progress",
-      "at": "2026-10-20T12:06:59.548Z"
+      "status": "done",
+      "uri": "https://www.instagram.com/reel/DetzBSdFK4r/",
+      "at": "2026-10-20T12:08:44.570Z"
     },
     "facebook": {
-      "status": "in_progress",
-      "at": "2026-10-20T12:06:59.548Z"
+      "status": "done",
+      "uri": "https://www.facebook.com/555750504445716/videos/28003338852672355",
+      "at": "2026-10-20T12:08:48.720Z"
     }
   }
 }
