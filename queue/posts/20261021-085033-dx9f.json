@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261021-085033-dx9f",
+  "createdAt": "2026-10-20T23:50:33.759Z",
+  "scheduledAt": "2026-10-20T23:50:33.759Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 障害物コース完全版 第2話\n障害物コースに2つ目の世界「灯台の世界」を作りました。ベルトコンベア・氷・回る床・壁ジャンプ。最後は灯台のてっぺんでゴール。自己採点74点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-obby\n本編: https://youtu.be/jIuoOYB_lzs\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #障害物コース #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261021-085033-dx9f.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2688269,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.7,
+    "alt": "縦長の短い動画。上に「障害物コース完全版 灯台の世界」の文字。真ん中に3Dのゲーム画面で、黄色と黒の市松模様のベルトの上を女性キャラが歩き、次に灰色の2枚の壁のあいだを跳ね返りながら上へのぼる。最後は白い灯台のてっぺんの赤い回廊に着いて「ゴール！」と出て、夕焼けの中で灯室が光る。後半は「第2話の点数 74点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261021-085033-dx9f/video-20261021-085033-dx9f.mp4",
+    "releaseTag": "manual-20261021-085033-dx9f"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
