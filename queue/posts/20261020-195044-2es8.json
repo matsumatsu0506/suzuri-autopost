@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-195044-2es8",
+  "createdAt": "2026-10-20T10:50:44.811Z",
+  "scheduledAt": "2026-10-20T10:50:44.811Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 番外編その1\nClaude Code が Godot で、四倉の海の上に「障害物コース」を作りました。動く床、回る棒、塔の上のゴール。でも10回も海に落ちて、浜から一度で通すことはできませんでした。自己採点76点。\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-195044-2es8.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2529125,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.2,
+    "alt": "縦長の短い動画。上に「AIがゲームエンジンで 障害物コースを作った」の文字。真ん中に3Dのゲーム画面。青い海の上に茶色の足場が続き、灰色のカプセルの人が橙色の動く床に乗り、赤い棒が回る台をこえていく。最後は高い塔の上で「ゴール！」と出て、空が夕焼けに変わる。後半は「番外編その1の点数 76点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-195044-2es8/video-20261020-195044-2es8.mp4",
+    "releaseTag": "manual-20261020-195044-2es8"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
