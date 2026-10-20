@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-210639-suey",
+  "createdAt": "2026-10-20T12:06:39.462Z",
+  "scheduledAt": "2026-10-20T12:06:39.462Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 番外編その3\nClaude Code が作った障害物コースで、VRoid再現シリーズの4人（AI秘書・着物・ケモミミ・ゴスロリ）から好きなキャラを選んで遊べるようにしました。歩く・跳ぶ動きは、骨をプログラムで動かしています。自己採点74点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-obby\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #VRoid #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-210639-suey.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2498219,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35,
+    "alt": "縦長の短い動画。上に「障害物コースを 4人から選んで遊べる」の文字。真ん中に3Dのゲーム画面。タイトル画面で「◀ AI秘書 ▶（1/4）」のように名前が出て、紺のスーツの女性、青い着物の女性、白い髪で青い服のケモミミの少女、黒いドレスのゴスロリの少女が順に入れ替わる。そのあと黒いドレスの少女が白い砂浜を歩き、白い髪の少女が高い塔の上に着くと「ゴール！」と出て空が夕焼けに変わる。後半は「番外編その3の点数 74点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-210639-suey/video-20261020-210639-suey.mp4",
+    "releaseTag": "manual-20261020-210639-suey"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
