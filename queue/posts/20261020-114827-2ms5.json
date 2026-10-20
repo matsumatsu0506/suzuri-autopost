@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-114827-2ms5",
+  "createdAt": "2026-10-20T02:48:27.888Z",
+  "scheduledAt": "2026-10-20T02:48:27.888Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 第2話\nClaude Code が Godot を画面を見ながら操作し、四倉の海辺のゲームに「灯台に着くと夕焼けに変わり、灯りがともる」仕掛けを作りました。灯台の音は3Dで、近づくほど大きく聞こえます。\n灯りが見えない失敗を直しつつ、自己採点85点。\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-114827-2ms5.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2897329,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 39.8,
+    "alt": "縦長の短い動画。上に「AIがゲームエンジンで 灯台に着くと…？」の文字。真ん中に3Dのゲーム画面。青い海に伸びる防波堤を、灰色のカプセルの人が灯台まで歩くと、左上に「灯台に着きました！」と出て、空が紫とオレンジの夕焼けに変わり、海に夕日の光の道ができる。最後は灯台のてっぺんが黄色く光る画面と「第2話の点数 85点」。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-114827-2ms5/video-20261020-114827-2ms5.mp4",
+    "releaseTag": "manual-20261020-114827-2ms5"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
