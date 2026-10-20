@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261021-085503-9wta",
+  "createdAt": "2026-10-20T23:55:03.744Z",
+  "scheduledAt": "2026-10-20T23:55:03.744Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 障害物コース完全版 第3話\n障害物コースに3つ目の世界「空の世界」を作り、金色のコイン・ステージごとの最速タイム・着地のほこり、そしてMixamoの本物の動きを入れました。自己採点71点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-obby\n本編: https://youtu.be/7LrP3QWvvyM\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #障害物コース #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261021-085503-9wta.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2967907,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.9,
+    "alt": "縦長の短い動画。上に「障害物コース完全版 空の世界と本物の動き」の文字。真ん中に3Dのゲーム画面で、空の高い所に白い雲の足場が並び、金色のコインを拾う。上昇気流で空中へ持ち上げられる場面、タイトル画面で女性キャラが腕を下ろして自然に立つ場面のあと、緑の島の金色の門をくぐって「ゴール！」と出て夕焼けに変わる。後半は「第3話の点数 71点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261021-085503-9wta/video-20261021-085503-9wta.mp4",
+    "releaseTag": "manual-20261021-085503-9wta"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
