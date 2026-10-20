@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-103351-qx7i",
+  "createdAt": "2026-10-20T01:33:51.630Z",
+  "scheduledAt": "2026-10-20T01:33:51.630Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 第1話\nゲームエンジン Godot を、Claude Code が画面を見ながら操作。Blenderで作った四倉の海辺を読み込み、カプセルの人で砂浜から防波堤を通って灯台まで歩けるようにしました。\nジャンプで防波堤を飛び越える失敗もありつつ、自己採点88点。\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-103351-qx7i.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2194025,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 39.2,
+    "alt": "縦長の短い動画。上に「AIがゲームエンジンで四倉の海辺を歩く」の文字。真ん中に3Dのゲーム画面が早送りで流れる。白い砂浜に灰色のカプセルの人が立ち、青い海へ伸びる防波堤の横で止まり、ジャンプで飛び越えたあと上に乗って、先端の赤い屋根の灯台まで歩く。最後は海に入ってスタートの砂浜に戻る。後半は「第1話の点数 88点」と、防波堤から見た灯台の画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-103351-qx7i/video-20261020-103351-qx7i.mp4",
+    "releaseTag": "manual-20261020-103351-qx7i"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
