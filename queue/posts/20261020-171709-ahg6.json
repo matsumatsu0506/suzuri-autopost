@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-171709-ahg6",
+  "createdAt": "2026-10-20T08:17:09.689Z",
+  "scheduledAt": "2026-10-20T08:17:09.689Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 最終回\nClaude Code が Godot で作ったゲーム「四倉の海」を、ブラウザで遊べる形にして itch.io で公開しました。曲も海辺の3Dも、ぜんぶAIが作っています。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-no-umi\n自己採点84点、全4話の平均86.5点。この動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #ClaudeCode #AI #いわき",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-171709-ahg6.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2647496,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 39.5,
+    "alt": "縦長の短い動画。上に「AIがゲームエンジンで 作ったゲームを公開」の文字。真ん中に3Dのゲーム画面。紺色のタイトル画面「四倉の海」のあと、白い砂浜から防波堤を灯台まで歩くと「クリア！」と出て、空が夕焼けに変わる。後半は「最終回の点数 84点」と、itch.io で公開中のゲームのページ。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-171709-ahg6/video-20261020-171709-ahg6.mp4",
+    "releaseTag": "manual-20261020-171709-ahg6"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
