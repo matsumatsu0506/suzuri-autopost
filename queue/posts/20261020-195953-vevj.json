@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261020-195953-vevj",
+  "createdAt": "2026-10-20T10:59:53.975Z",
+  "scheduledAt": "2026-10-20T10:59:53.975Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 番外編その2\nClaude Code が Godot で作った障害物コースに「音だけでも遊べる案内」をつけて、itch.io で公開しました。次の足場から「ピッ」と鳴り、右から聞こえたら右、高い音ほど近い。チェックポイントとタイムつき。自己採点76点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-obby\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #ClaudeCode #AI #アクセシビリティ",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261020-195953-vevj.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2765070,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 38.3,
+    "alt": "縦長の短い動画。上に「音だけでも遊べる 障害物コースを公開」の文字。真ん中に3Dのゲーム画面。海の上の茶色の足場に灰色のカプセルの人が着くと、左下に「チェックポイント！ ここから再開できます」と出る。右上には「タイム」の秒数。高い塔の上に着くと「ゴール！ タイム 24.4秒」と出て、空が夕焼けに変わる。後半は「番外編その2の点数 76点」と「itch.io で公開中」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261020-195953-vevj/video-20261020-195953-vevj.mp4",
+    "releaseTag": "manual-20261020-195953-vevj"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
