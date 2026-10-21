@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "20261022-071325-r6jo",
+  "createdAt": "2026-10-21T22:13:25.012Z",
+  "scheduledAt": "2026-10-21T22:13:25.012Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Roblox編 第6話\nRoblox Studioで、灯台の前のボス「大ダコ」を作りました。鐘を3つ鳴らすとタコが沈んでゴールへ。続きから遊べる保存とスマホ表示も。自己採点72点。\n本編: https://youtu.be/iSXDrdtFEG0\nこの動画もすべて Claude Code で自動作成しました。\n#Roblox #RobloxStudio #ゲーム制作 #オビー #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261022-071325-r6jo.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2832211,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34,
+    "alt": "縦長の短い動画。上に「Roblox編 第6話 灯台の前の大ダコ」の文字。真ん中にRobloxのゲーム画面で、赤い台の横から目のある大きなピンクのタコが顔を出し、長い足を振り回している。奥に紅白の灯台とピンクのバリア。後半は「第6話の点数 72点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261022-071325-r6jo/video-20261022-071325-r6jo.mp4",
+    "releaseTag": "manual-20261022-071325-r6jo"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    }
+  }
+}
