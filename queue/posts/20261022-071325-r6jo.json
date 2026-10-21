@@ -18,7 +18,8 @@
   },
   "platforms": {
     "bluesky": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-10-21T22:13:43.939Z"
     }
   }
 }
