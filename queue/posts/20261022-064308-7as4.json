@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261022-064308-7as4",
+  "createdAt": "2026-10-21T21:43:08.825Z",
+  "scheduledAt": "2026-10-21T21:43:08.825Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Roblox編 第2話\nRoblox Studioで、30ステージの障害物コースをプログラムで並べました。跳ぶ時刻を計算して、足場の端ぴったりで跳んでゴール。自己採点75点。\n本編: https://youtu.be/yVm2TG5C884\nこの動画もすべて Claude Code で自動作成しました。\n#Roblox #RobloxStudio #ゲーム制作 #オビー #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261022-064308-7as4.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3896930,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.1,
+    "alt": "縦長の短い動画。上に「Roblox編 第2話 30ステージを並べる」の文字。真ん中にRobloxのゲーム画面で、海の上に並んだ足場をキャラが次々に跳び移り、黄色いゴールの台に着く。後半は「第2話の点数 75点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261022-064308-7as4/video-20261022-064308-7as4.mp4",
+    "releaseTag": "manual-20261022-064308-7as4"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
