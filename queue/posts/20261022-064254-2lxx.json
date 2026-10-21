@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261022-064254-2lxx",
+  "createdAt": "2026-10-21T21:42:54.990Z",
+  "scheduledAt": "2026-10-21T21:42:54.990Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Roblox編 第1話\nRoblox Studioで、四倉の海と砂浜を地形のプログラム1つで作りました。0.21秒。でもスタート地点が砂に埋まっていました。自己採点74点。\n本編: https://youtu.be/tOWiZPO5LHM\nこの動画もすべて Claude Code で自動作成しました。\n#Roblox #RobloxStudio #ゲーム制作 #オビー #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261022-064254-2lxx.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2302816,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.5,
+    "alt": "縦長の短い動画。上に「Roblox編 第1話 海と砂浜を作る」の文字。真ん中にRobloxのゲーム画面で、砂浜の木の台に黒い服のキャラが立ち、奥に青い海と岩場が見える。後半は「第1話の点数 74点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261022-064254-2lxx/video-20261022-064254-2lxx.mp4",
+    "releaseTag": "manual-20261022-064254-2lxx"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
