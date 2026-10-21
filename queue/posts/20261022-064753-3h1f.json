@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261022-064753-3h1f",
+  "createdAt": "2026-10-21T21:47:53.897Z",
+  "scheduledAt": "2026-10-21T21:47:53.897Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Roblox編 第4話\nRoblox Studioで、障害物コースに邪魔をするキャラクターを作りました。カニ、影を落とすカモメ、転がる樽、追いかけるクラゲ。自己採点78点。\n本編: https://youtu.be/B1LrT_qIPxc\nこの動画もすべて Claude Code で自動作成しました。\n#Roblox #RobloxStudio #ゲーム制作 #オビー #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261022-064753-3h1f.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2937548,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.7,
+    "alt": "縦長の短い動画。上に「Roblox編 第4話 邪魔をするキャラ」の文字。真ん中にRobloxのゲーム画面で、足場の上を赤いカニが行き来し、坂の上から茶色い樽が転がってくる。紫のクラゲがキャラを追いかける。後半は「第4話の点数 78点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261022-064753-3h1f/video-20261022-064753-3h1f.mp4",
+    "releaseTag": "manual-20261022-064753-3h1f"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
