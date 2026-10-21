@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261022-065555-6uvo",
+  "createdAt": "2026-10-21T21:55:55.682Z",
+  "scheduledAt": "2026-10-21T21:55:55.682Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Roblox編 第5話\nRoblox Studioで、みんなで遊ぶ仕掛けを作りました。スイッチ橋、2人扉、タイムとランキング。2人で遊ぶテストで扉が開きました。自己採点72点。\n本編: https://youtu.be/M8hqNb6UnAA\nこの動画もすべて Claude Code で自動作成しました。\n#Roblox #RobloxStudio #ゲーム制作 #オビー #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261022-065555-6uvo.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2415094,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35,
+    "alt": "縦長の短い動画。上に「Roblox編 第5話 みんなで遊ぶ」の文字。真ん中に2つのゲーム画面が並び、1人がスイッチを踏むと橋が現れ、もう1人が渡る。2人が板に乗ると壁の扉が開く。後半は「第5話の点数 72点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261022-065555-6uvo/video-20261022-065555-6uvo.mp4",
+    "releaseTag": "manual-20261022-065555-6uvo"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
