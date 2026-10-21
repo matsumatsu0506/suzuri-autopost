@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261022-064656-usqm",
+  "createdAt": "2026-10-21T21:46:56.384Z",
+  "scheduledAt": "2026-10-21T21:46:56.384Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Roblox編 第3話\nRoblox Studioで、障害物コースに7つの仕掛けを作りました。跳ねない跳ねる床は、着地の処理が勢いを消していたのが原因でした。自己採点76点。\n本編: https://youtu.be/hv3musqhT8I\nこの動画もすべて Claude Code で自動作成しました。\n#Roblox #RobloxStudio #ゲーム制作 #オビー #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261022-064656-usqm.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3961228,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.9,
+    "alt": "縦長の短い動画。上に「Roblox編 第3話 7つの仕掛け」の文字。真ん中にRobloxのゲーム画面で、水色の足場が白くなって消え、キャラが海に落ちる。次に跳ねる床でキャラが上の台まで跳ね上がる。後半は「第3話の点数 76点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261022-064656-usqm/video-20261022-064656-usqm.mp4",
+    "releaseTag": "manual-20261022-064656-usqm"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
