@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261021-161642-8rxi",
+  "createdAt": "2026-10-21T07:16:42.722Z",
+  "scheduledAt": "2026-10-21T07:16:42.722Z",
+  "text": "撮り方の名前を知ると、AIへの頼み方が変わる｜第4回 レンズ・ピント・編集のわざ\n\nめまいショット・ドリーとズームの違い・ピント送り・ボケ。AIで画像・動画を作るとき、AIキャラを動かすときに、そのまま指示の言葉として使えます。\nClaude Code が立花ゆきを実際に撮りながら紹介しています。\n\n本編はこちら\nhttps://youtu.be/j8eRWvopjEY\n\n#カメラワーク #撮影技法 #AI動画 #ClaudeCode #同居生活はじめました",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261021-161642-8rxi.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 11861883,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 56.5,
+    "alt": "立花ゆき（3Dキャラ）を、めまいショット・ドリーとズームの違い・ピント送り・ボケなどの撮り方で撮った映像と、撮り方の名前・AIへの頼み方を縦に並べた紹介動画",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261021-161642-8rxi/video-20261021-161642-8rxi.mp4",
+    "releaseTag": "manual-20261021-161642-8rxi"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
