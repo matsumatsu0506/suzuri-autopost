@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261021-160427-vxa2",
+  "createdAt": "2026-10-21T07:04:27.909Z",
+  "scheduledAt": "2026-10-21T07:04:27.909Z",
+  "text": "撮り方の名前を知ると、AIへの頼み方が変わる｜第2回 構図と2人の撮り方\n\n三分割法・肩越しショット・イマジナリーライン・主観ショット。AIで画像・動画を作るとき、AIキャラを動かすときに、そのまま指示の言葉として使えます。\nClaude Code が立花ゆきを実際に撮りながら紹介しています。\n\n本編はこちら\nhttps://youtu.be/YTqSoNG2IVM\n\n#カメラワーク #撮影技法 #AI動画 #ClaudeCode #同居生活はじめました",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261021-160427-vxa2.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 5475775,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 54.033333,
+    "alt": "立花ゆき（3Dキャラ）を、三分割法・肩越しショット・イマジナリーライン・主観ショットなどの撮り方で撮った映像と、撮り方の名前・AIへの頼み方を縦に並べた紹介動画",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261021-160427-vxa2/video-20261021-160427-vxa2.mp4",
+    "releaseTag": "manual-20261021-160427-vxa2"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
