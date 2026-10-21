@@ -18,16 +18,20 @@
   },
   "platforms": {
     "bluesky": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-10-21T21:58:23.705Z"
     },
     "threads": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-10-21T21:58:23.705Z"
     },
     "instagram": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-10-21T21:58:23.705Z"
     },
     "facebook": {
-      "status": "pending"
+      "status": "in_progress",
+      "at": "2026-10-21T21:58:23.705Z"
     }
   }
 }
