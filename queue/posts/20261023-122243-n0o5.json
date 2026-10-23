@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261023-122243-n0o5",
+  "createdAt": "2026-10-23T03:22:43.968Z",
+  "scheduledAt": "2026-10-23T03:22:43.968Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 四倉の海シューティング 最終回\n四倉の海シューティング、最終回。タイトル画面と難易度(ふつう・やさしい)を仕上げて、itch.ioで無料公開しました。ブラウザですぐ遊べます。自己採点80点、全4話の平均76.25点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-shooting\n本編: https://youtu.be/WviuUIa8NfM\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #シューティング #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261023-122243-n0o5.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1927592,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.6,
+    "alt": "縦長の短い動画。上に「四倉の海シューティング 最終回 完成・公開」の文字。真ん中に夕焼けの海のタイトル画面で、大きな「四倉の海」の題名の下に「ふつう」「やさしい」の選択肢があり、矢印が「やさしい」に移って出撃する。後半は「最終回の点数 80点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261023-122243-n0o5/video-20261023-122243-n0o5.mp4",
+    "releaseTag": "manual-20261023-122243-n0o5"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
