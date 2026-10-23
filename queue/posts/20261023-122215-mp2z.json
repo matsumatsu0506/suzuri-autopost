@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261023-122215-mp2z",
+  "createdAt": "2026-10-23T03:22:15.924Z",
+  "scheduledAt": "2026-10-23T03:22:15.924Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 四倉の海シューティング 第2話\n四倉の海シューティング第2話。カモメ・敵機・海から撃つ船の3種類の敵と、夕方から夜へ空が変わる約3分半のステージを作りました。159体ぜんぶ倒して24700点。自己採点75点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-shooting\n本編: https://youtu.be/E6SN0NrmXPk\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #シューティング #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261023-122215-mp2z.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2611658,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.2,
+    "alt": "縦長の短い動画。上に「四倉の海シューティング 第2話 敵と長いステージ」の文字。真ん中のゲーム画面で、夕焼けの海を白と青の飛行機が飛び、カモメの群れを撃ち落とすと黄色い火花が散る。空が赤い日暮れ、暗い夜へと変わり、灯台に明かりが点く。後半は「第2話の点数 75点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261023-122215-mp2z/video-20261023-122215-mp2z.mp4",
+    "releaseTag": "manual-20261023-122215-mp2z"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
