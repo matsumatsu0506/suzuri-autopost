@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261023-122017-iivh",
+  "createdAt": "2026-10-23T03:20:17.445Z",
+  "scheduledAt": "2026-10-23T03:20:17.445Z",
+  "text": "AIはゲームエンジンを使いこなせるか？ Godot編 四倉の海シューティング 第1話\n四倉の海シリーズの第3弾、横スクロールシューティング(全4話)を作り始めました。第1話は、Blender編の海辺を背景に、白と青の飛行機で飛べるようにするところまで。自己採点72点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-shooting\n本編: https://youtu.be/4JwiTh6ZXXE\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #シューティング #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261023-122017-iivh.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2380224,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.8,
+    "alt": "縦長の短い動画。上に「四倉の海シューティング 第1話 飛べるようにする」の文字。真ん中に夕焼けの海のゲーム画面で、白と赤の灯台と防波堤、雲が右から左へ流れ、白と青の小さな飛行機が上下に動きながら黄色い弾を連射する。後半は「第1話の点数 72点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261023-122017-iivh/video-20261023-122017-iivh.mp4",
+    "releaseTag": "manual-20261023-122017-iivh"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
