@@ -122,9 +122,9 @@
       "title": "朱雀（すざく）"
     },
     "19197614": {
-      "lastPostedAt": "2026-10-03T14:25:22.591Z",
-      "postCount": 2,
-      "lastText": "白虎（びゃっこ） ステッカー（ステッカー / 税込622円）を SUZURI で販売しています。",
+      "lastPostedAt": "2026-10-23T14:22:43.154Z",
+      "postCount": 3,
+      "lastText": "白虎（びゃっこ） 缶バッジ（缶バッジ / 税込902円）を SUZURI で販売しています。",
       "title": "白虎（びゃっこ）"
     },
     "19197635": {
@@ -237,15 +237,15 @@
     }
   },
   "recentMaterialIds": [
+    19197614,
     19197589,
-    19197561,
-    19192774
+    19197561
   ],
   "lastRun": {
-    "at": "2026-10-23T00:04:40.735Z",
-    "slot": "morning",
-    "materialId": 19197589,
-    "productId": 81203852,
+    "at": "2026-10-23T14:22:43.154Z",
+    "slot": "evening",
+    "materialId": 19197614,
+    "productId": 81203938,
     "status": "success"
   }
 }
