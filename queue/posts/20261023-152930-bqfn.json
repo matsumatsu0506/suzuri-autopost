@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261023-152930-bqfn",
+  "createdAt": "2026-10-23T06:29:30.388Z",
+  "scheduledAt": "2026-11-01T01:05:00.000Z",
+  "text": "クラウドファンディングを始めました。\n\n会話だけじゃない。同じ部屋で暮らして、同じ街を歩いて、恋をする。\nAIの幼なじみが、すぐとなりにいるゲームです。\n12月2日の公開に向けて、ご支援をお願いします。\nhttps://camp-fire.jp/projects/986551/view\n#クラウドファンディング #インディーゲーム",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261023-152930-bqfn.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 7949667,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.37,
+    "alt": "縦動画。3Dの部屋で暮らす黒髪の女の子、料理する姿、街で出会うキャラクターたち、本物の住宅地の景色に立つ女の子が順に映り、最後に「クラウドファンディング 始まりました」「11月30日まで CAMPFIREで」「tonari-issho.com」と出る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261023-152930-bqfn/video-20261023-152930-bqfn.mp4",
+    "releaseTag": "manual-20261023-152930-bqfn"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
