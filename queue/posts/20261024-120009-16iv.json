@@ -2,7 +2,7 @@
   "version": 1,
   "id": "20261024-120009-16iv",
   "createdAt": "2026-10-24T03:00:09.688Z",
-  "scheduledAt": "2026-10-24T03:00:09.688Z",
+  "scheduledAt": "2026-10-24T03:14:32.652Z",
   "text": "街で出会える人も、新しい声に。\n海野乙姫（24）。四倉の海辺で、小さな宿を手伝っています。めったに会えない人です。\n\n▶ベータテスター5名募集（18歳以上・無料）\n▶11/1（日）10時 CAMPFIRE開始\nhttps://tonari-issho.com/",
   "media": {
     "kind": "video",
@@ -18,9 +18,7 @@
   },
   "platforms": {
     "bluesky": {
-      "status": "failed",
-      "error": "Bluesky への動画アップロードに失敗しました（HTTP 401）: 原因不明",
-      "at": "2026-10-24T03:12:45.318Z"
+      "status": "pending"
     },
     "threads": {
       "status": "done",
