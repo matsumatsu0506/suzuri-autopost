@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261024-120009-16iv",
+  "createdAt": "2026-10-24T03:00:09.688Z",
+  "scheduledAt": "2026-10-24T03:00:09.688Z",
+  "text": "街で出会える人も、新しい声に。\n海野乙姫（24）。四倉の海辺で、小さな宿を手伝っています。めったに会えない人です。\n\n▶ベータテスター5名募集（18歳以上・無料）\n▶11/1（日）10時 CAMPFIRE開始\nhttps://tonari-issho.com/",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261024-120009-16iv.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 6975256,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 27.306,
+    "alt": "縦動画。紺色の背景の前で、長い青い髪で白いセーターの女性が、こちらを見て「はじめまして。海野乙姫と申します」「会いに来てくださったら、うれしいです」と話す。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261024-120009-16iv/video-20261024-120009-16iv.mp4",
+    "releaseTag": "manual-20261024-120009-16iv"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
