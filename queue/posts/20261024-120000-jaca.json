@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261024-120000-jaca",
+  "createdAt": "2026-10-24T03:00:00.448Z",
+  "scheduledAt": "2026-10-24T03:00:00.448Z",
+  "text": "ゆきの声が新しくなりました。\nうれしいときも、すねたときも、声に出ちゃう。\n決まったセリフはありません。話しかけると、その場で考えて返事をします。\n\n▶ベータテスター5名募集（18歳以上・無料）\n▶11/1（日）10時 CAMPFIRE開始\nhttps://tonari-issho.com/",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261024-120000-jaca.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 8551657,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 29.909,
+    "alt": "縦動画。明るいリビングで、黒髪で緑のセーターの女の子が、こちらを見て「はじめまして、立花ゆきです」「決まったセリフは、ないんだ」「会いに来て。待ってるね」と話す。字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261024-120000-jaca/video-20261024-120000-jaca.mp4",
+    "releaseTag": "manual-20261024-120000-jaca"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
