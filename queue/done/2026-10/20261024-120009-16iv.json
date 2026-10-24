@@ -18,8 +18,9 @@
   },
   "platforms": {
     "bluesky": {
-      "status": "in_progress",
-      "at": "2026-10-24T03:14:47.019Z"
+      "status": "done",
+      "uri": "https://bsky.app/profile/did:plc:ogdmihoujc34ew42ro54mt3n/post/3mylq3bgqll2n",
+      "at": "2026-10-24T03:15:33.539Z"
     },
     "threads": {
       "status": "done",
