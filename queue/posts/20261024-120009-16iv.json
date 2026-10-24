@@ -18,20 +18,24 @@
   },
   "platforms": {
     "bluesky": {
-      "status": "in_progress",
-      "at": "2026-10-24T03:11:42.118Z"
+      "status": "failed",
+      "error": "Bluesky への動画アップロードに失敗しました（HTTP 401）: 原因不明",
+      "at": "2026-10-24T03:12:45.318Z"
     },
     "threads": {
-      "status": "in_progress",
-      "at": "2026-10-24T03:11:42.118Z"
+      "status": "done",
+      "uri": "https://www.threads.com/@masayoshimatsumae/post/De3I708AY_w",
+      "at": "2026-10-24T03:13:23.927Z"
     },
     "instagram": {
-      "status": "in_progress",
-      "at": "2026-10-24T03:11:42.118Z"
+      "status": "done",
+      "uri": "https://www.instagram.com/reel/De3JA1KFda_/",
+      "at": "2026-10-24T03:14:10.975Z"
     },
     "facebook": {
-      "status": "in_progress",
-      "at": "2026-10-24T03:11:42.118Z"
+      "status": "done",
+      "uri": "https://www.facebook.com/555750504445716/videos/2116651888964428",
+      "at": "2026-10-24T03:14:16.340Z"
     }
   }
 }
