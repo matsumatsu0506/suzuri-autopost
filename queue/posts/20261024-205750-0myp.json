@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261024-205750-0myp",
+  "createdAt": "2026-10-24T11:57:50.580Z",
+  "scheduledAt": "2026-10-24T11:57:50.580Z",
+  "text": "AIが4人のキャラに盆踊り「四倉音頭」を踊らせました。お手本の動画から動きを読み取り、昭和の盆踊り会場で、番ごとに主役が交代。踊りの再現度は70点、あなたなら何点？\n本編とフルバージョンはYouTube「Care Wave Software」で。https://youtu.be/yCDEa8sNHuo\n#四倉音頭 #盆踊り #VRoid #Unity #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261024-205750-0myp.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 6512518,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 45.477,
+    "alt": "昭和の盆踊り会場で、やぐらの周りを4人の3Dキャラが四倉音頭を踊る縦長の動画。番ごとに主役のキャラが大きく映り、最後は花火。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261024-205750-0myp/video-20261024-205750-0myp.mp4",
+    "releaseTag": "manual-20261024-205750-0myp"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
