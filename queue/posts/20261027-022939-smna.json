@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-022939-smna",
+  "createdAt": "2026-10-26T17:29:39.196Z",
+  "scheduledAt": "2026-10-26T17:29:39.196Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 第2話\n四倉の海ファイト第2話。AIがBlenderを画面操作して、ゆきとたつやの3Dモデルにポーズをつけ、8コマの絵を書き出してゲームに差し替えました。自己採点72点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\n本編: https://youtu.be/56eosAL5S5A\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #Blender #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-022939-smna.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1767008,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 30.9,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト 本物の絵になった！」の文字。Blenderの画面で女性キャラの3Dモデルの腕や足が動いてポーズがつき、そのあとゲーム画面で、白いブラウスの女性と黒い服の男性の絵が向かい合って戦う。後半は「第2話の点数 72点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-022939-smna/video-20261027-022939-smna.mp4",
+    "releaseTag": "manual-20261027-022939-smna"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
