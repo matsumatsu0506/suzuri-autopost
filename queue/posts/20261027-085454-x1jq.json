@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-085454-x1jq",
+  "createdAt": "2026-10-26T23:54:54.371Z",
+  "scheduledAt": "2026-10-26T23:54:54.371Z",
+  "text": "AIはPowerPointでゲームを作れるか？ 四倉の海 なぞときさんぽ 第4話\nAIがPowerPointでゲームを作るシリーズ第4話。画面の手がかりだけで解けるなぞときを3問。まちがえても「もどる」で何度でも挑戦できます。自己採点80点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-nazotoki\n本編: https://youtu.be/QWwmf-Z0rcE\nこの動画もすべて Claude Code で自動作成しました。\n#PowerPoint #パワポ #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-085454-x1jq.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1746724,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 30.4,
+    "alt": "縦長の短い動画。上に「PowerPointでなぞとき」の文字。砂浜に貝がらが5つ並び、右に「4こ」「5こ」「6こ」のボタン。まちがえると男の子が「もう一回、よく見てみろ」。三角・丸・星の問題を解いて「三つ、ぜんぶ解けた！」。後半は「第4話の点数 80点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-085454-x1jq/video-20261027-085454-x1jq.mp4",
+    "releaseTag": "manual-20261027-085454-x1jq"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
