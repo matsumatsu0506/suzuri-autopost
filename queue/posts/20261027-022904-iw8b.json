@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-022904-iw8b",
+  "createdAt": "2026-10-26T17:29:04.652Z",
+  "scheduledAt": "2026-10-26T17:29:04.652Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 第1話\nAIが、メモ帳だけでブラウザの2D格闘ゲームを作るシリーズ、第1話。双子の兄妹ゆきとたつやが、丸い頭に顔写真の「仮の姿」で殴り合えるところまで。自己採点74点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\n本編: https://youtu.be/2dvcGKOYxag\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #Blender #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-022904-iw8b.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1696484,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.3,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト ゆき vs たつや」の文字。真ん中にゲーム画面で、空と海と砂浜の上に、丸い頭に顔写真を貼った四角い体のキャラが2人向かい合い、パンチやキックを出し合って星が飛ぶ。最後に「たつやの勝ち」。後半は「第1話の点数 74点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-022904-iw8b/video-20261027-022904-iw8b.mp4",
+    "releaseTag": "manual-20261027-022904-iw8b"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
