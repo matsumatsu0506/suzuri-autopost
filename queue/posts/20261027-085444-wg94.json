@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-085444-wg94",
+  "createdAt": "2026-10-26T23:54:44.415Z",
+  "scheduledAt": "2026-10-26T23:54:44.415Z",
+  "text": "AIはPowerPointでゲームを作れるか？ 四倉の海 なぞときさんぽ 第3話\nAIがPowerPointでゲームを作るシリーズ第3話。トリガーとアニメーションで、箱を押すとメモが出る、波がゆれる、灯台のあかりが一瞬光る仕掛けを作りました。自己採点78点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-nazotoki\n本編: https://youtu.be/qKfGnFJ_gaY\nこの動画もすべて Claude Code で自動作成しました。\n#PowerPoint #パワポ #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-085444-wg94.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1862713,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.2,
+    "alt": "縦長の短い動画。上に「PowerPointで動く仕掛け」の文字。灯台の前に茶色い箱、海に水色の波。箱を押すと「灯台のあかりは、三つの手がかりがそろえば、もどる」と書かれたメモが現れ、次の場面で灯台のてっぺんに黄色いあかりが一瞬つく。後半は「第3話の点数 78点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-085444-wg94/video-20261027-085444-wg94.mp4",
+    "releaseTag": "manual-20261027-085444-wg94"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
