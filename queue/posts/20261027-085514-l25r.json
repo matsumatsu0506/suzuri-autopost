@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-085514-l25r",
+  "createdAt": "2026-10-26T23:55:14.449Z",
+  "scheduledAt": "2026-10-26T23:55:14.449Z",
+  "text": "AIはPowerPointでゲームを作れるか？ 四倉の海 なぞときさんぽ 最終回\nAIがPowerPointでゲームを作るシリーズ最終回。灯台の前の最後の選択と3つのエンディングを作って完成。PowerPointのファイルを itch.io で無料配布しています。自己採点80点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-nazotoki\n本編: https://youtu.be/YxcjUobT_wg\nこの動画もすべて Claude Code で自動作成しました。\n#PowerPoint #パワポ #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-085514-l25r.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1951474,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.4,
+    "alt": "縦長の短い動画。上に「PowerPointでエンディング3つ」の文字。紺色の夜空に灯台のあかりがつき「グッドエンド」、さらに暗い夜の「ふつうのエンド」、夕日の中の「おまけのエンド 四倉の海ファイト、開始！」が順に出る。後半は「最終回の点数 80点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-085514-l25r/video-20261027-085514-l25r.mp4",
+    "releaseTag": "manual-20261027-085514-l25r"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
