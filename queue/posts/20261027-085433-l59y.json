@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-085433-l59y",
+  "createdAt": "2026-10-26T23:54:33.662Z",
+  "scheduledAt": "2026-10-26T23:54:33.662Z",
+  "text": "AIはPowerPointでゲームを作れるか？ 四倉の海 なぞときさんぽ 第2話\nAIがPowerPointでゲームを作るシリーズ第2話。ゆきについていくか、たつやについていくか。選んだボタンで行き先が変わる分かれ道を作りました。自己採点82点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-nazotoki\n本編: https://youtu.be/KxTNXR9qIb8\nこの動画もすべて Claude Code で自動作成しました。\n#PowerPoint #パワポ #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-085433-l59y.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1779755,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 30.6,
+    "alt": "縦長の短い動画。上に「PowerPointで分かれ道」の文字。夕日の海辺で、女の子と男の子の横に「ゆきと行く」「たつやと行く」の2つのボタン。押すと、女の子だけ、男の子だけの場面に分かれる。後半は「第2話の点数 82点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-085433-l59y/video-20261027-085433-l59y.mp4",
+    "releaseTag": "manual-20261027-085433-l59y"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
