@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-085420-clb6",
+  "createdAt": "2026-10-26T23:54:20.764Z",
+  "scheduledAt": "2026-10-26T23:54:20.764Z",
+  "text": "AIはPowerPointでゲームを作れるか？ 四倉の海 なぞときさんぽ 第1話\nAIがPowerPointでゲームを作るシリーズ、第1話。夕暮れの四倉の浜で、ゆきとたつやが消えた灯台のあかりを探す、なぞときアドベンチャー。表紙とはじまりの場面を作りました。自己採点73点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-nazotoki\n本編: https://youtu.be/zafpRImxaQc\nこの動画もすべて Claude Code で自動作成しました。\n#PowerPoint #パワポ #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-085420-clb6.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1925787,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 32.8,
+    "alt": "縦長の短い動画。上に「PowerPointでゲームを作る」の文字。夕日の海辺と灯台を背景に「四倉の海 なぞときさんぽ」の表紙、「はじめる」ボタンを押すと、黒い髪の女の子と金色の髪の男の子が向かい合い、下の黒い帯にセリフが出る。後半は「第1話の点数 73点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-085420-clb6/video-20261027-085420-clb6.mp4",
+    "releaseTag": "manual-20261027-085420-clb6"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
