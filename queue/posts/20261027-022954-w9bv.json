@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261027-022954-w9bv",
+  "createdAt": "2026-10-26T17:29:54.415Z",
+  "scheduledAt": "2026-10-26T17:29:54.415Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 最終回\n四倉の海ファイト最終回。Blenderで描いた四倉の海辺、Audacityで作った効果音、クラシックの曲、タイトル・キャラ選び・勝利のひとこと、スマホのボタンまで入れて完成。ブラウザで無料で遊べます。自己採点81点。\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\n本編: https://youtu.be/IszVbWSxlJE\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #Blender #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261027-022954-w9bv.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2089109,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.5,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト ついに完成」の文字。夕日の海と灯台を背景に「四倉の海ファイト」のタイトル画面、女性キャラと男性キャラが戦い、「ゆきの勝ち！」のあと、女性キャラの横のふきだしに「やった！今日は私の勝ちだね」。後半は「第4話の点数 81点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261027-022954-w9bv/video-20261027-022954-w9bv.mp4",
+    "releaseTag": "manual-20261027-022954-w9bv"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
