@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-070227-k2r6",
+  "createdAt": "2026-10-27T22:02:27.680Z",
+  "scheduledAt": "2026-10-27T22:02:27.680Z",
+  "text": "AIはテニスゲームを作れるか？ 四倉の海テニス 第5話\nAIがGodotでテニスゲームを作るシリーズ第5話。選手をゆきとたつやの3Dモデルに替え、効果音・BGM・セリフをつけました。点を取ると、たつやは「別に、まぐれだろ」。自己採点67点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-tennis\n本編: https://youtu.be/UnyhRtk0iZw\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #テニス #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-070227-k2r6.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2070214,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.6,
+    "alt": "縦長の短い動画。上に「AIはテニスゲームを作れるか キャラと音」の文字。砂色のテニスコートで、手前の黒い髪の女の子と、奥の黒いシャツの男の子が、黄色いラケットでボールを打ち合う。点を取ると黄色い文字でセリフが出る。後半は「第5話の点数 67点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-070227-k2r6/video-20261028-070227-k2r6.mp4",
+    "releaseTag": "manual-20261028-070227-k2r6"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
