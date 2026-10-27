@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-070247-93fk",
+  "createdAt": "2026-10-27T22:02:47.641Z",
+  "scheduledAt": "2026-10-27T22:02:47.641Z",
+  "text": "AIはテニスゲームを作れるか？ 四倉の海テニス 最終回\nAIがGodotでテニスゲームを作るシリーズ最終回。日本語フォント・大きなタイトル・ブラウザ向けの書き出しで完成。四倉の浜で、ゆきとたつやが試合をします。itch.io で無料公開中。自己採点76点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-tennis\n本編: https://youtu.be/IBXgYi-fFcM\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #テニス #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-070247-93fk.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2021088,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 32.7,
+    "alt": "縦長の短い動画。上に「AIはテニスゲームを作れるか 四倉の海テニス 完成」の文字。最初に「四倉の海テニス」の黄色いタイトル画面、次に砂色のコートで、ゆきとたつやが試合をする。後半は「第6話の点数 76点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-070247-93fk/video-20261028-070247-93fk.mp4",
+    "releaseTag": "manual-20261028-070247-93fk"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
