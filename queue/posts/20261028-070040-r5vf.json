@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-070040-r5vf",
+  "createdAt": "2026-10-27T22:00:40.334Z",
+  "scheduledAt": "2026-10-27T22:00:40.334Z",
+  "text": "AIはテニスゲームを作れるか？ 四倉の海テニス 第1話\nAIがGodotでテニスゲームを作るシリーズ、第1話。四倉の浜にビーチテニスのコートを作り、ボールを跳ねさせました。最初は画面が真っ白、ボールは点、奥のコートは見えない…から直しました。自己採点77点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-tennis\n本編: https://youtu.be/stdmQyy2UJQ\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #テニス #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-070040-r5vf.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1758668,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.2,
+    "alt": "縦長の短い動画。上に「AIはテニスゲームを作れるか 浜のコートとボール」の文字。真ん中に3Dのゲーム画面で、最初は夕方の空と灯台とネットだけが見え、地面は真っ白。次に、青い海の前の砂色のテニスコートで、黄色いボールがネットを越えて跳ね、真下に黒い丸い影がついていく。後半は「第1話の点数 77点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-070040-r5vf/video-20261028-070040-r5vf.mp4",
+    "releaseTag": "manual-20261028-070040-r5vf"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
