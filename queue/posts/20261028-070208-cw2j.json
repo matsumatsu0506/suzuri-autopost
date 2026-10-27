@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-070208-cw2j",
+  "createdAt": "2026-10-27T22:02:08.046Z",
+  "scheduledAt": "2026-10-27T22:02:08.046Z",
+  "text": "AIはテニスゲームを作れるか？ 四倉の海テニス 第4話\nAIがGodotでテニスゲームを作るシリーズ第4話。タイトル画面・サーブ・5点先取で試合の形に。ところが、つよい相手に5対0で勝ち続け。速い球がネットにかかっていました。自己採点78点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-tennis\n本編: https://youtu.be/V4WRERCWdfE\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #テニス #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-070208-cw2j.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2248040,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 32.6,
+    "alt": "縦長の短い動画。上に「AIはテニスゲームを作れるか 試合の形」の文字。上に「ゆき 1−0 たつや」の点数が出るテニスコートで、青と赤の選手がラリーをする。最後は「ゆきの勝ち！」の結果画面。後半は「第4話の点数 78点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-070208-cw2j/video-20261028-070208-cw2j.mp4",
+    "releaseTag": "manual-20261028-070208-cw2j"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
