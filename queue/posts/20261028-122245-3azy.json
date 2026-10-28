@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-122245-3azy",
+  "createdAt": "2026-10-28T03:22:45.133Z",
+  "scheduledAt": "2026-10-28T03:22:45.133Z",
+  "text": "AIはレースゲームを作れるか？ 四倉の海カートレース 第2話\nAIがGodotでレースゲームを作るシリーズ第2話。四倉の海沿いに1周766mの周回コースを作りました。自動運転は23.22秒・壁0回、AIの手の運転は壁に9回。自己採点79点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-kart\n本編: https://youtu.be/x__hgDH0UBk\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #レースゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-122245-3azy.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2482125,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.9,
+    "alt": "縦長の短い動画。上に「AIはレースゲームを作れるか コース作り」の文字。灰色の道と赤白の壁のコースを赤い車が走り、壁にぶつかって止まる。次に、上から見た豆の形の周回コースが、青い海と緑の陸の間に見える。後半は「第2話の点数 79点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-122245-3azy/video-20261028-122245-3azy.mp4",
+    "releaseTag": "manual-20261028-122245-3azy"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
