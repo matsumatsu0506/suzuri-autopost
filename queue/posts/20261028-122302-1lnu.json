@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-122302-1lnu",
+  "createdAt": "2026-10-28T03:23:02.110Z",
+  "scheduledAt": "2026-10-28T03:23:02.110Z",
+  "text": "AIはレースゲームを作れるか？ 四倉の海カートレース 第4話\nAIがGodotでレースゲームを作るシリーズ第4話。4台・3周・順位・結果の表でレースの形に。速いのに前の車を抜けない→追い越しを教えて2位。自己採点80点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-kart\n本編: https://youtu.be/F7ZmaM1fNCs\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #レースゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-122302-1lnu.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 4635514,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.2,
+    "alt": "縦長の短い動画。上に「AIはレースゲームを作れるか レースの形」の文字。赤い車が青い車の横に並んで抜いていく。名前の札「灯台号」「ゆき」が車の上に浮かぶ。最後は「結果 1位 ゆき 2位 たつや」の表。後半は「第4話の点数 80点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-122302-1lnu/video-20261028-122302-1lnu.mp4",
+    "releaseTag": "manual-20261028-122302-1lnu"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
