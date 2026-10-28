@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-064124-svqr",
+  "createdAt": "2026-10-28T21:41:24.977Z",
+  "scheduledAt": "2026-10-28T21:41:24.977Z",
+  "text": "AIはRPGを作れるか？ 四倉の海RPG 第5話\nAIがGodotでRPGを作るシリーズ第5話。灯台の地下のダンジョンとボスの大入道。AIが自分の手で挑み、1回目はMP切れで全滅、剣を買って出直した2回目に勝ちました。自己採点79点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rpg\n本編: https://youtu.be/-l_XJEwc1nU\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #RPG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-064124-svqr.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1903862,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.7,
+    "alt": "縦長の短い動画。上に「AIはRPGを作れるか ボスに挑む」の文字。紺色の戦闘の画面に、大きなひとつ目の大男。「ゆきと たつやは 力つきた……」。次に、2回目の戦いで「大入道を たおした！」。後半は「第5話の点数 79点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-064124-svqr/video-20261029-064124-svqr.mp4",
+    "releaseTag": "manual-20261029-064124-svqr"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
