@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-122317-llm9",
+  "createdAt": "2026-10-28T03:23:17.944Z",
+  "scheduledAt": "2026-10-28T03:23:17.944Z",
+  "text": "AIはレースゲームを作れるか？ 四倉の海カートレース 最終回\nAIがGodotでレースゲームを作るシリーズ最終回。AIドライバーの「ゴースト」とタイムアタック。AIは1周18.52秒、私の自動運転はあと0.12秒届かず。あなたは抜けますか？itch.io で無料公開中。自己採点81点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-kart\n本編: https://youtu.be/YaP4miaawiI\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #レースゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-122317-llm9.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 4667109,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.8,
+    "alt": "縦長の短い動画。上に「AIはレースゲームを作れるか 最終回 AIに挑戦」の文字。赤い車に乗ったゆきが、前を走る半透明の青い「AIのゴースト」を追いかける。最後に「あなたのベスト 18.63秒 AIのタイム 18.52秒 あと0.12秒！」。後半は「最終回の点数 81点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-122317-llm9/video-20261028-122317-llm9.mp4",
+    "releaseTag": "manual-20261028-122317-llm9"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
