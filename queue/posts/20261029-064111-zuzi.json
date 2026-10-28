@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-064111-zuzi",
+  "createdAt": "2026-10-28T21:41:11.765Z",
+  "scheduledAt": "2026-10-28T21:41:11.765Z",
+  "text": "AIはRPGを作れるか？ 四倉の海RPG 第4話\nAIがGodotでRPGを作るシリーズ第4話。6000回の戦いを1秒で計算する「強さの表」で、楽すぎを発見。数字を直して、ボスはレベル7で66%、8で98%に。自己採点85点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rpg\n本編: https://youtu.be/-mHlNwuJaso\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #RPG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-064111-zuzi.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2089301,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.6,
+    "alt": "縦長の短い動画。上に「AIはRPGを作れるか 強さの調整」の文字。レベル1から10までの勝率とターン数の表。直す前はほとんど100%、直した後はボスの欄が0%から98%まで上がっていく。次に戦闘で、ゆきのHPが0になる。後半は「第4話の点数 85点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-064111-zuzi/video-20261029-064111-zuzi.mp4",
+    "releaseTag": "manual-20261029-064111-zuzi"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
