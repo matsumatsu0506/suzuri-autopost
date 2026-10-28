@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-064139-3ql0",
+  "createdAt": "2026-10-28T21:41:39.119Z",
+  "scheduledAt": "2026-10-28T21:41:39.119Z",
+  "text": "AIはRPGを作れるか？ 四倉の海RPG 最終回\nAIがGodotでRPGを作るシリーズ最終回。近道なしで最初からクリアに挑み、2回全滅してゲームを直し、3回目で27分18秒・レベル8でクリア。あなたは抜けますか？自己採点79点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rpg\n本編: https://youtu.be/LhHk8VPBsPY\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #RPG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-064139-3ql0.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2048629,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.7,
+    "alt": "縦長の短い動画。上に「AIはRPGを作れるか 最終回 クリアタイム」の文字。紺色の戦闘の画面で、大きなひとつ目の大男のHPが20から0になり「大入道を たおした！」。次に「クリアタイム 27分18秒 レベル8 あなたは何分でクリアできた？」。後半は「最終回の点数 79点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-064139-3ql0/video-20261029-064139-3ql0.mp4",
+    "releaseTag": "manual-20261029-064139-3ql0"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
