@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-122121-b387",
+  "createdAt": "2026-10-28T03:21:21.535Z",
+  "scheduledAt": "2026-10-28T03:21:21.535Z",
+  "text": "AIはレースゲームを作れるか？ 四倉の海カートレース 第1話\nAIがGodotでレースゲームを作るシリーズ、第1話。Godotの車の部品で作った車は、自動運転4秒・時速53キロでひっくり返りました。自分で計算する方式に作り直して、時速87キロで安定。自己採点78点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-kart\n本編: https://youtu.be/tTNoaC5Fr7I\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #レースゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-122121-b387.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2597863,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.1,
+    "alt": "縦長の短い動画。上に「AIはレースゲームを作れるか 走る車」の文字。砂浜の上で、赤いレーシングカーが走り出し、カーブでひっくり返って黒い底が上を向く。次に、作り直した赤い車が、三角コーンの輪をすべりながら回る。後半は「第1話の点数 78点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-122121-b387/video-20261028-122121-b387.mp4",
+    "releaseTag": "manual-20261028-122121-b387"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
