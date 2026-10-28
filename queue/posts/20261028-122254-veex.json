@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261028-122254-veex",
+  "createdAt": "2026-10-28T03:22:54.002Z",
+  "scheduledAt": "2026-10-28T03:22:54.002Z",
+  "text": "AIはレースゲームを作れるか？ 四倉の海カートレース 第3話\nAIがGodotでレースゲームを作るシリーズ第3話。AIドライバーに6段階の「攻め方」を4倍速で練習させると、攻めすぎは壁にぶつかって遅い。1周23.22秒→19.05秒。自己採点82点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-kart\n本編: https://youtu.be/qqsTbmY8nIg\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #レースゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261028-122254-veex.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 5292284,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.7,
+    "alt": "縦長の短い動画。上に「AIはレースゲームを作れるか AIドライバー」の文字。赤い車が4倍速で周回コースを走り、左上に「AIの攻め方」と「練習中」の数字が変わっていく。次に、時速106キロでS字に飛び込む。後半は「第3話の点数 82点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261028-122254-veex/video-20261028-122254-veex.mp4",
+    "releaseTag": "manual-20261028-122254-veex"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
