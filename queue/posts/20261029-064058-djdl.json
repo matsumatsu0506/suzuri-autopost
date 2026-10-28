@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-064058-djdl",
+  "createdAt": "2026-10-28T21:40:58.292Z",
+  "scheduledAt": "2026-10-28T21:40:58.292Z",
+  "text": "AIはRPGを作れるか？ 四倉の海RPG 第3話\nAIがGodotでRPGを作るシリーズ第3話。野原と灯台、ターン制の戦闘を作りました。40歩出会わずに調べたら、プログラムは正しく、確率2%の不運でした。自己採点81点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rpg\n本編: https://youtu.be/-1iHEWIQpb8\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #RPG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-064058-djdl.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1787157,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.3,
+    "alt": "縦長の短い動画。上に「AIはRPGを作れるか 戦闘」の文字。紺色の戦闘の画面に、クモのような魔物とコウモリ。下の左に「たたかう・わざ・どうぐ・にげる」、右に2人のHP。風のわざで魔物が消える。後半は「第3話の点数 81点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-064058-djdl/video-20261029-064058-djdl.mp4",
+    "releaseTag": "manual-20261029-064058-djdl"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
