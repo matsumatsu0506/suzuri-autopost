@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-064032-cb4o",
+  "createdAt": "2026-10-28T21:40:32.159Z",
+  "scheduledAt": "2026-10-28T21:40:32.159Z",
+  "text": "AIはRPGを作れるか？ 四倉の海RPG 第1話\nAIがGodotでRPGを作るシリーズ、第1話。四倉の海辺の町を作って、ゆきとたつやを歩かせました。海や家の前でちゃんと止まり、たつやは一歩遅れてついてきます。看板が頭に隠れたのは次の課題。自己採点82点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rpg\n本編: https://youtu.be/xo_1z8dfVQ8\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #RPG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-064032-cb4o.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2568561,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37,
+    "alt": "縦長の短い動画。上に「AIはRPGを作れるか 町と歩く主人公」の文字。ドット絵の町で、黒髪の女の子と金髪の男の子が道を下って砂浜に出て、青い海の手前で止まる。次に、赤い屋根と青い屋根の家の間の道を歩き、看板の前で止まる。後半は「第1話の点数 82点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-064032-cb4o/video-20261029-064032-cb4o.mp4",
+    "releaseTag": "manual-20261029-064032-cb4o"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
