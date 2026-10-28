@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-064045-1v4o",
+  "createdAt": "2026-10-28T21:40:45.856Z",
+  "scheduledAt": "2026-10-28T21:40:45.856Z",
+  "text": "AIはRPGを作れるか？ 四倉の海RPG 第2話\nAIがGodotでRPGを作るシリーズ第2話。町の人5人と話せるようにして、道具屋と宿屋を作りました。灯台の光の石を取り戻す旅が始まります。剣はお金が足りずに買えませんでした。自己採点84点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rpg\n本編: https://youtu.be/9GrDqssAUbc\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #RPG #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-064045-1v4o.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2044951,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.9,
+    "alt": "縦長の短い動画。上に「AIはRPGを作れるか 会話とお店」の文字。ドット絵の町で、紫の服のおじいさんに話しかけると、下の文字の窓に話が出る。次に、浜の道具屋の一覧で剣を選ぶと「お金が足りない」。後半は「第2話の点数 84点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-064045-1v4o/video-20261029-064045-1v4o.mp4",
+    "releaseTag": "manual-20261029-064045-1v4o"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
