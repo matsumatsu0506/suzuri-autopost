@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-163850-ud9g",
+  "createdAt": "2026-10-29T07:38:50.326Z",
+  "scheduledAt": "2026-10-29T07:38:50.326Z",
+  "text": "AIはリズムゲームを作れるか？ 四倉の海リズム 第3話\nAIがGodotでリズムゲームを作るシリーズ第3話。カノンの楽譜データ（MIDI）をGodotで読んで譜面121個を作った。ぴったり25連続、でも細かい音符の所から少しずつ早くずれてミス10個。自己採点80点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rhythm\n本編: https://youtu.be/S8OJJfeln8k\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #リズムゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-163850-ud9g.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2054559,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.2,
+    "alt": "縦長の短い動画。上に「AIはリズムゲームを作れるか 楽譜から譜面を作る」の文字。夕方の海の画面で、上の列に白い音符が4つ並んで流れ、「ぴったり」の文字と「つながり25」。次に音符が輪を通り過ぎる場面、最後に「けっか 点数7610」の窓。後半は「第3話の点数 80点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-163850-ud9g/video-20261029-163850-ud9g.mp4",
+    "releaseTag": "manual-20261029-163850-ud9g"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
