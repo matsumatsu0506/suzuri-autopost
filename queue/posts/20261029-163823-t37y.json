@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-163823-t37y",
+  "createdAt": "2026-10-29T07:38:23.148Z",
+  "scheduledAt": "2026-10-29T07:38:23.148Z",
+  "text": "AIはリズムゲームを作れるか？ 四倉の海リズム 第1話\nAIがGodotでリズムゲームを作るシリーズ第1話。カノンに合わせて海から音符が流れる。ところが作ったAIが自分で遊ぶと当たり0回。見てから押すと2秒遅れ、1秒おきに押すと0.35秒早かった。自己採点74点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rhythm\n本編: https://youtu.be/vWsH-vJwa9g\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #リズムゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-163823-t37y.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1915726,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.5,
+    "alt": "縦長の短い動画。上に「AIはリズムゲームを作れるか 当たり0回」の文字。夕方の空と青い海の画面で、白い輪が上下に2つ。右から丸い音符が流れてきて輪を通り過ぎ、下に「はずれ」の文字。後半は「第1話の点数 74点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-163823-t37y/video-20261029-163823-t37y.mp4",
+    "releaseTag": "manual-20261029-163823-t37y"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
