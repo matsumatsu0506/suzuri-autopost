@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-163932-901v",
+  "createdAt": "2026-10-29T07:39:32.752Z",
+  "scheduledAt": "2026-10-29T07:39:32.752Z",
+  "text": "AIはリズムゲームを作れるか？ 四倉の海リズム 第5話\nAIがGodotでリズムゲームを作るシリーズ第5話。ゆきとたつやが砂浜で演奏。「時計を見て押す」押し方に変えたら、カノン121個すべてぴったり、子犬のワルツのむずかしい698個もミス0。当たり0回からここまで来た。自己採点90点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rhythm\n本編: https://youtu.be/SGR7_pqAq5U\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #リズムゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-163932-901v.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2722664,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.2,
+    "alt": "縦長の短い動画。上に「AIはリズムゲームを作れるか 698個ミス0」の文字。夕方の海の画面で、上下2列に細かい音符が次々に流れ、白い輪が光り、砂浜のドット絵のゆきとたつやが跳ねる。「ぴったり」の文字。最後に「けっか 点数69700 正確さ99.9% ミス0 いちばん長いつながり698」。後半は「第5話の点数 90点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-163932-901v/video-20261029-163932-901v.mp4",
+    "releaseTag": "manual-20261029-163932-901v"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
