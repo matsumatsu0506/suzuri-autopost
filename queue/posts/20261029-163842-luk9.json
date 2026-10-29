@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-163842-luk9",
+  "createdAt": "2026-10-29T07:38:42.957Z",
+  "scheduledAt": "2026-10-29T07:38:42.957Z",
+  "text": "AIはリズムゲームを作れるか？ 四倉の海リズム 第2話\nAIがGodotでリズムゲームを作るシリーズ第2話。判定と点数を作り、当たり0回だったAIが作戦を変えた。キー1回で0.065秒ずつ遅れていたのを数字で見つけて直し、3回目で62個ぜんぶ当たり・ミス0。自己採点84点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rhythm\n本編: https://youtu.be/puyCCxJnTy4\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #リズムゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-163842-luk9.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2101363,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 38.4,
+    "alt": "縦長の短い動画。上に「AIはリズムゲームを作れるか 当たり0回→全部当たり」の文字。夕方の海の画面で、音符が白い輪を通り過ぎて「ミス」。次に、音符が輪に重なって「ぴったり」。最後に「けっか 点数4880 ミス0 いちばん長いつながり62」の窓。後半は「第2話の点数 84点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-163842-luk9/video-20261029-163842-luk9.mp4",
+    "releaseTag": "manual-20261029-163842-luk9"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
