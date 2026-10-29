@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-163917-ao4z",
+  "createdAt": "2026-10-29T07:39:17.601Z",
+  "scheduledAt": "2026-10-29T07:39:17.601Z",
+  "text": "AIはリズムゲームを作れるか？ 四倉の海リズム 最終回\nAIがGodotでリズムゲームを作るシリーズ最終回。記録とランク、AIの記録を並べる画面を作り、最後の演奏（朝 むずかしい）は174個全部ぴったりのランクS。第1話で当たり0回だったAIの記録に挑戦を。自己採点86点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rhythm\n本編: https://youtu.be/7PLXM-7MRj8\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #リズムゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-163917-ao4z.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2257237,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.7,
+    "alt": "縦長の短い動画。上に「AIはリズムゲームを作れるか 最終回 ランクS」の文字。夕方の海の画面で、上下2列に音符が流れ、白い輪が光り、砂浜のドット絵のゆきとたつやが跳ねる。最後に「けっか 新記録！ S 点数17400 正確さ100.0%」の窓。後半は「最終回の点数 86点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-163917-ao4z/video-20261029-163917-ao4z.mp4",
+    "releaseTag": "manual-20261029-163917-ao4z"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
