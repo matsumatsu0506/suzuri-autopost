@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-023550-3k5d",
+  "createdAt": "2026-10-29T17:35:50.132Z",
+  "scheduledAt": "2026-10-29T17:35:50.132Z",
+  "text": "AIは釣りゲームを作れるか？ 四倉の海フィッシング 第4話\nAIがGodotで釣りゲームを作るシリーズ第4話。朝・昼・夕方と、AIの記録（37回で1匹）をもとにした「やさしい」を作った。やさしいなら6回中2匹（アジ）。ふつうでは合わず。自己採点64点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-fishing\n本編: https://youtu.be/NNn0_enYGf8\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #釣りゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-023550-3k5d.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2361644,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.3,
+    "alt": "縦長の短い動画。上に「AIは釣りゲームを作れるか 自分のゲームをやさしくした」の文字。空が夕焼けから昼の青空、朝の水色に切り替わる。朝の海で「アジが釣れた！25.4cm 図鑑に登録！」の文字。後半は「第4話の点数 64点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-023550-3k5d/video-20261030-023550-3k5d.mp4",
+    "releaseTag": "manual-20261030-023550-3k5d"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
