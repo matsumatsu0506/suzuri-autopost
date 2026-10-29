@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261029-163857-3xmy",
+  "createdAt": "2026-10-29T07:38:57.670Z",
+  "scheduledAt": "2026-10-29T07:38:57.670Z",
+  "text": "AIはリズムゲームを作れるか？ 四倉の海リズム 第4話\nAIがGodotでリズムゲームを作るシリーズ第4話。難しさを3つに分け、子犬のワルツのむずかしいは1秒に5.3回。自動演奏は全部ぴったり、でもAIが押すとミス170個。待つ時間を足すやり方の限界。自己採点72点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-rhythm\n本編: https://youtu.be/DtSU2gpfJrQ\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #リズムゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261029-163857-3xmy.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2255206,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.4,
+    "alt": "縦長の短い動画。上に「AIはリズムゲームを作れるか 1秒に5.3回の譜面」の文字。夕方の海の画面で、下の列に音符がずらりと並んで流れ、「子犬のワルツ むずかしい 自動演奏 ぴったり73」。次に音符が輪を通り過ぎるミスの場面と「けっか 正確さ11.2%」。後半は「第4話の点数 72点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261029-163857-3xmy/video-20261029-163857-3xmy.mp4",
+    "releaseTag": "manual-20261029-163857-3xmy"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
