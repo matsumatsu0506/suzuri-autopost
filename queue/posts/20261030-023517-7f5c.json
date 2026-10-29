@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-023517-7f5c",
+  "createdAt": "2026-10-29T17:35:17.816Z",
+  "scheduledAt": "2026-10-29T17:35:17.816Z",
+  "text": "AIは釣りゲームを作れるか？ 四倉の海フィッシング 第1話\nAIがGodotで釣りゲームを作るシリーズ第1話。四倉の堤防で、ウキが沈んだ瞬間に合わせる。ところが作ったAIが自分で釣ると、見て押すまでに3〜4秒かかり、エサだけ取られる。7回中1回、それも運。自己採点56点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-fishing\n本編: https://youtu.be/hqbSmAk3eTY\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #釣りゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-023517-7f5c.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2252014,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.7,
+    "alt": "縦長の短い動画。上に「AIは釣りゲームを作れるか 7回中1回」の文字。夕焼けの空と夕日、波の線が動く青い海、左に灰色の堤防と竿。糸の先の赤白のウキが波に浮かび、上に「遅かった…エサだけ取られた」の文字。次に「メバルがかかった！」。後半は「第1話の点数 56点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-023517-7f5c/video-20261030-023517-7f5c.mp4",
+    "releaseTag": "manual-20261030-023517-7f5c"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
