@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-082611-q1oy",
+  "createdAt": "2026-10-29T23:26:11.509Z",
+  "scheduledAt": "2026-10-29T23:26:11.509Z",
+  "text": "AIはクラシックをメタルにできるか？\n作曲ソフト Cakewalk Sonar で、シューベルト「魔王」を歌なしのメタル（リードギター・刻みのギター・ベース・ドラム・ピアノ）に編曲し、Claude Code が画面操作で3987音を打ち込みました。\n全音が楽譜データと一致、ただし大きな失敗が5回で自己採点71点（厳しめ）。\n手本：Mutopia Project の浄書譜（C.F. Peters版・パブリックドメイン）\nこの動画もすべて Claude Code で自動作成しました。\n#魔王 #シューベルト #メタル #DTM #CakewalkSonar #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-082611-q1oy.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2637609,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 57.9,
+    "alt": "作曲ソフトCakewalk Sonarのピアノロールの画面。ギターの刻みの音符が横に長く並び、シューベルト「魔王」のメタル版を再生している。字幕で「AIはクラシックをメタルにできるか」「5つの楽器・3987音」と表示される縦長の短い動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-082611-q1oy/video-20261030-082611-q1oy.mp4",
+    "releaseTag": "manual-20261030-082611-q1oy"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
