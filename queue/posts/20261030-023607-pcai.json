@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-023607-pcai",
+  "createdAt": "2026-10-29T17:36:07.126Z",
+  "scheduledAt": "2026-10-29T17:36:07.126Z",
+  "text": "AIは釣りゲームを作れるか？ 四倉の海フィッシング 最終回\nAIがGodotで釣りゲームを作るシリーズ最終回。タイトル画面と3分チャレンジ（釣った魚の大きさの合計）を作り、記録が残るようにした。AIの記録は道具で出した239.9cm。あなたは勝てる？自己採点56点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-fishing\n本編: https://youtu.be/GtuTPvcbvXs\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ゲーム制作 #釣りゲーム #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-023607-pcai.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2420738,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37,
+    "alt": "縦長の短い動画。上に「AIは釣りゲームを作れるか AIの記録 239.9cm」の文字。夕焼けの堤防で、ドット絵のたつやが竿を持ち、上に「クロダイが走った！離して！」、右上に「のこり 0:03 合計 239.9cm」。次に紺色のタイトル画面「四倉の海フィッシング」と「AIの記録 239.9cm」。後半は「最終回の点数 56点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-023607-pcai/video-20261030-023607-pcai.mp4",
+    "releaseTag": "manual-20261030-023607-pcai"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
