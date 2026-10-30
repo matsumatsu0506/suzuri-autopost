@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030421-x026",
+  "createdAt": "2026-10-30T18:04:21.778Z",
+  "scheduledAt": "2026-10-30T18:04:21.778Z",
+  "text": "AIはFPSを作れるか？ 四倉の海 みずでっぽう大作戦 第2話\nAIがGodotで水鉄砲FPSを作るシリーズ第2話。おやつをねらう、いたずらカモメ。水が当たるとびしょぬれで海へ帰る。AIは追いかけても当たらず30秒で全部取られたが、止まる場所で待ちぶせて5羽とも帰らせた。自己採点66点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-mizudeppo\n本編: https://youtu.be/Ae08K1XfJLo\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #FPS #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030421-x026.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2334879,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.4,
+    "alt": "縦長の短い動画。上に「AIはFPSを作れるか カモメを待ちぶせ」の文字。一人称の画面で、青い海と空に灰色のカモメが飛び、手前に降りてくる。水の玉が当たるとカモメが青くぬれて海のほうへ飛んでいく。最後に「カモメがみんな帰った！」。後半は「第2話の点数 66点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030421-x026/video-20261031-030421-x026.mp4",
+    "releaseTag": "manual-20261031-030421-x026"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
