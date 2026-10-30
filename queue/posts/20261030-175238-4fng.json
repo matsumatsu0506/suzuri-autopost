@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-175238-4fng",
+  "createdAt": "2026-10-30T08:52:38.773Z",
+  "scheduledAt": "2026-10-30T08:52:38.773Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 第2回 第1話\n第2回はボスの乙姫を作る前に、当たったときの「手ごたえ」を作り直し。当たった瞬間に止まる・画面が揺れる・火花と星・ガードの青い盾、効果音は3段階。同じキックがこう変わりました。厳しめの自己採点41点。\n本編: https://youtu.be/GsuUb54f5KE\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-175238-4fng.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1993587,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 32.3,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト 手ごたえを足す」の文字。夕日の海辺で、黒髪の女性キャラが金髪の男性キャラにキックを当てる。前は小さな星だけ、後は当たった瞬間に白い輪が広がり、オレンジの星が飛び散る。後半は「第2回 第1話の点数 41点」のカードと、前と後を並べた画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-175238-4fng/video-20261030-175238-4fng.mp4",
+    "releaseTag": "manual-20261030-175238-4fng"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
