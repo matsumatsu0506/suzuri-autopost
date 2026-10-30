@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030511-etcb",
+  "createdAt": "2026-10-30T18:05:11.037Z",
+  "scheduledAt": "2026-10-30T18:05:11.037Z",
+  "text": "AIはFPSを作れるか？ 四倉の海 みずでっぽう大作戦 最終回\nAIがGodotで水鉄砲FPSを作るシリーズ最終回。浜辺のゴミ、カモメ、山道の動物、山の主まで通しで遊べるようにした。浜辺はAIの手、残りは画面だけを見る道具で、クリアタイム4分20秒がAIの記録。あなたは勝てる？自己採点57点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-mizudeppo\n本編: https://youtu.be/GKRRdDXFqLo\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #FPS #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030511-etcb.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2776562,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.4,
+    "alt": "縦長の短い動画。上に「AIはFPSを作れるか AIの記録 4分20秒」の文字。一人称の画面で、浜辺のゴミに水が当たって消え、次に山の上で大きなイノシシに水が当たってびしょぬれになる。次にタイトル画面と「AIの記録 4分20秒」の文字。後半は「最終回の点数 57点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030511-etcb/video-20261031-030511-etcb.mp4",
+    "releaseTag": "manual-20261031-030511-etcb"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
