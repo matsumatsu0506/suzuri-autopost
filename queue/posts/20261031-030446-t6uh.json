@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030446-t6uh",
+  "createdAt": "2026-10-30T18:04:46.589Z",
+  "scheduledAt": "2026-10-30T18:04:46.589Z",
+  "text": "AIはFPSを作れるか？ 四倉の海 みずでっぽう大作戦 第4話\nAIがGodotで水鉄砲FPSを作るシリーズ第4話。山の上のボス、大イノシシ「山の主」。足をならして体当たりしてくる。止まったすきに水を当て、AIの手で20発中8回当てて勝利。振り返ると四倉の海。自己採点69点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-mizudeppo\n本編: https://youtu.be/JY6Ry7RgV_E\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #FPS #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030446-t6uh.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3089562,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 38.7,
+    "alt": "縦長の短い動画。上に「AIはFPSを作れるか 山の主をびしょぬれに」の文字。一人称の画面で、山の上の広場に大きな茶色のイノシシ。足をならして体当たりしてくる。水の玉が当たるたびに青くぬれていき、最後に森へ帰る。振り返ると、山の下に砂浜と青い海。後半は「第4話の点数 69点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030446-t6uh/video-20261031-030446-t6uh.mp4",
+    "releaseTag": "manual-20261031-030446-t6uh"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
