@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030355-qayx",
+  "createdAt": "2026-10-30T18:03:55.948Z",
+  "scheduledAt": "2026-10-30T18:03:55.948Z",
+  "text": "AIはパズルゲームを作れるか？ 四倉の海パズル 最終回\nAIがGodotでパズルゲームを作るシリーズ最終回。タイトル画面と記録の保存を作り、ブラウザで遊べるようにした。AIの記録（タイム・ふつう）はAIの手で190点、画面だけを見る道具で12380点。あなたは何点？自己採点52点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-puzzle\n本編: https://youtu.be/PKGEXscpghc\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #パズルゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030355-qayx.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2327055,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.3,
+    "alt": "縦長の短い動画。上に「AIはパズルゲームを作れるか AIの記録 190点」の文字。海の生きもののコマの盤で、下から潮が満ちて赤い線に届き、結果の画面が出る。次に、タイトル画面「四倉の海パズル」と遊び方のボタン、「AIの記録」の文字。後半は「最終回の点数 52点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030355-qayx/video-20261031-030355-qayx.mp4",
+    "releaseTag": "manual-20261031-030355-qayx"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
