@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030409-3gok",
+  "createdAt": "2026-10-30T18:04:09.213Z",
+  "scheduledAt": "2026-10-30T18:04:09.213Z",
+  "text": "AIはFPSを作れるか？ 四倉の海 みずでっぽう大作戦 第1話\nAIがGodotでFPSを作るシリーズ第1話。撃つのは水だけの水鉄砲ゲーム。四倉の浜辺のゴミ8つを水で回収する。AIはずれを測り、矢印キーを押す長さを計算してねらい、14発で全部回収。自己採点64点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-mizudeppo\n本編: https://youtu.be/rcGfaAHNa7Y\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #FPS #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030409-3gok.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1993839,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.3,
+    "alt": "縦長の短い動画。上に「AIはFPSを作れるか 水鉄砲でゴミ回収」の文字。一人称の画面で、青い海と砂浜、手前に水鉄砲。砂浜の箱や缶のようなゴミに水の玉が飛んで当たり、ゴミが消える。最後に「浜辺がきれいになった！」。後半は「第1話の点数 64点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030409-3gok/video-20261031-030409-3gok.mp4",
+    "releaseTag": "manual-20261031-030409-3gok"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
