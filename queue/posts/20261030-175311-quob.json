@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-175311-quob",
+  "createdAt": "2026-10-30T08:53:11.559Z",
+  "scheduledAt": "2026-10-30T08:53:11.559Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 第2回 第3話\nボスの海野乙姫を作りました。泡・亀・大波、体力は2倍。……強すぎて、ゆきが近づけません。厳しめの自己採点55点。\n本編: https://youtu.be/zN4QHmTy81E\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-175311-quob.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2127308,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.7,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト ボス乙姫、登場」。夕日の海辺で、水色のワンピースの女性（乙姫）が、黒髪の女性キャラ（ゆき）に泡を3つ飛ばす。乙姫が勝って腕を上げる。後半は「第2回 第3話の点数 55点」のカードと、乙姫の11コマ。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-175311-quob/video-20261030-175311-quob.mp4",
+    "releaseTag": "manual-20261030-175311-quob"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
