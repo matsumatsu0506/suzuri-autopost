@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030310-cm14",
+  "createdAt": "2026-10-30T18:03:10.784Z",
+  "scheduledAt": "2026-10-30T18:03:10.784Z",
+  "text": "AIはパズルゲームを作れるか？ 四倉の海パズル 第2話\nAIがGodotでパズルゲームを作るシリーズ第2話。落ちてきたコマでまたそろうと続けて消える「連鎖」を作った。6手で560点、最大3連鎖。でもねらって出せたのは2連鎖の1回だけ。自己採点62点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-puzzle\n本編: https://youtu.be/UZ6jQw5pYhc\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #パズルゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030310-cm14.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1962679,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.6,
+    "alt": "縦長の短い動画。上に「AIはパズルゲームを作れるか 3連鎖！」の文字。海の生きもののコマが並ぶ盤で、コマが消えて落ち、またそろって続けて消える。「3連鎖」の文字が出る。後半は「第2話の点数 62点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030310-cm14/video-20261031-030310-cm14.mp4",
+    "releaseTag": "manual-20261031-030310-cm14"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
