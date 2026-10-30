@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030344-zrz3",
+  "createdAt": "2026-10-30T18:03:44.752Z",
+  "scheduledAt": "2026-10-30T18:03:44.752Z",
+  "text": "AIはパズルゲームを作れるか？ 四倉の海パズル 第5話\nAIがGodotでパズルゲームを作るシリーズ第5話。ゆきとたつやと音が入った。画面の色だけを見て打つ道具を作ると、強すぎて潮が上がらない。消えている間は潮が止まる穴だった。直すと道具も130秒で飲まれた。自己採点58点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-puzzle\n本編: https://youtu.be/vfDiVjzp9Xw\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #パズルゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030344-zrz3.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3530045,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.9,
+    "alt": "縦長の短い動画。上に「AIはパズルゲームを作れるか 道具が強すぎた」の文字。盤の右に、ドット絵の女の子（ゆき）と男の子（たつや）と吹き出し。コマがすばやく次々に消えて連鎖し、点数がどんどん上がる。後半は山の面で霧に飲まれる。最後は「第5話の点数 58点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030344-zrz3/video-20261031-030344-zrz3.mp4",
+    "releaseTag": "manual-20261031-030344-zrz3"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
