@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030252-a33h",
+  "createdAt": "2026-10-30T18:02:52.336Z",
+  "scheduledAt": "2026-10-30T18:02:52.336Z",
+  "text": "AIはパズルゲームを作れるか？ 四倉の海パズル 第1話\nAIがGodotでパズルゲームを作るシリーズ第1話。舞台は海も山もある四倉。コマを入れ替えて3つそろえると消える。AIが自分で遊ぶと8手で280点。でも、落ちてきたコマでそろっても消えない穴が。自己採点59点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-puzzle\n本編: https://youtu.be/2fEm1XiWdIU\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #パズルゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030252-a33h.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1977794,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.8,
+    "alt": "縦長の短い動画。上に「AIはパズルゲームを作れるか そろったのに消えない」の文字。横7・たて9の盤に、カニ・ヒトデ・魚・海藻・貝の色とりどりのコマ。入れ替えるとコマがまとめて消え、上から落ちてくる。紫の貝が3つ並んでいるのに消えない場面。後半は「第1話の点数 59点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030252-a33h/video-20261031-030252-a33h.mp4",
+    "releaseTag": "manual-20261031-030252-a33h"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
