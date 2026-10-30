@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-175304-6k1x",
+  "createdAt": "2026-10-30T08:53:04.186Z",
+  "scheduledAt": "2026-10-30T08:53:04.186Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 第2回 第2話\n連続技・空中キック・投げ・超必殺技とカットイン・KOのスロー・勝ちポーズ。技を一気に増やしました。新しいコマはBlenderで。厳しめの自己採点53点。\n本編: https://youtu.be/_K8GIdLCrVQ\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-175304-6k1x.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2067963,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.1,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト 超必殺技を作った」。夕日の海辺で、黒髪の女性キャラが金髪の男性キャラに連続技を当て「3 HIT」の文字。続いて女性キャラの顔写真と「連続突進」の帯が横切る。後半は「第2回 第2話の点数 53点」のカードと、Blenderで作った新しいコマ6枚。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-175304-6k1x/video-20261030-175304-6k1x.mp4",
+    "releaseTag": "manual-20261030-175304-6k1x"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
