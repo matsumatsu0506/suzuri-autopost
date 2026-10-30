@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030433-s4t5",
+  "createdAt": "2026-10-30T18:04:33.937Z",
+  "scheduledAt": "2026-10-30T18:04:33.937Z",
+  "text": "AIはFPSを作れるか？ 四倉の海 みずでっぽう大作戦 第3話\nAIがGodotで水鉄砲FPSを作るシリーズ第3話。浜のうしろの山道で、畑をあらしに来るタヌキとイノシシを水で森へ帰す。でもAIの手では動く動物に1発も当たらず、2回とも畑を全部あらされた。自己採点51点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-mizudeppo\n本編: https://youtu.be/ra_ywxYxiM4\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #FPS #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030433-s4t5.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2272272,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.6,
+    "alt": "縦長の短い動画。上に「AIはFPSを作れるか 1発も当たらない」の文字。一人称の画面で、緑の山と木、坂の途中の茶色い畑。森から茶色のタヌキと黒っぽいイノシシが走ってくる。水の玉は外れ、最後に「畑を全部あらされた…」。後半は「第3話の点数 51点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030433-s4t5/video-20261031-030433-s4t5.mp4",
+    "releaseTag": "manual-20261031-030433-s4t5"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
