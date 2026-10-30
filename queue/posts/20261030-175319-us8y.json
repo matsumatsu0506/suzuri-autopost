@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261030-175319-us8y",
+  "createdAt": "2026-10-30T08:53:19.415Z",
+  "scheduledAt": "2026-10-30T08:53:19.415Z",
+  "text": "AIは格闘ゲームを作れるか？ 四倉の海ファイト 第2回 第4話\nボス戦の演出。乙姫の登場、予告の音、第2形態で曲が「魔王」メタルの後半へ、画面がかすむ「凪」。ストーリーモードも。私の挑戦は1対2で負け。厳しめの自己採点53点。\n本編: https://youtu.be/xss8pRAIrJM\n遊ぶ: https://matsumatsu0506.itch.io/yotsukura-fight\nこの動画もすべて Claude Code で自動作成しました。\n#格闘ゲーム #ゲーム制作 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261030-175319-us8y.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2165685,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 30.4,
+    "alt": "縦長の短い動画。上に「四倉の海ファイト ボス戦、第2形態」。暗い画面に「海野乙姫」の帯と、水色のワンピースの女性のふきだし「……あの。少しだけ、静かにしていただけますか。」。続いて画面が暗くなり、青く光る乙姫と「乙姫 第2形態」の文字。後半は「第2回 第4話の点数 53点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261030-175319-us8y/video-20261030-175319-us8y.mp4",
+    "releaseTag": "manual-20261030-175319-us8y"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
