@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-030322-d90k",
+  "createdAt": "2026-10-30T18:03:22.342Z",
+  "scheduledAt": "2026-10-30T18:03:22.342Z",
+  "text": "AIはパズルゲームを作れるか？ 四倉の海パズル 第3話\nAIがGodotでパズルゲームを作るシリーズ第3話。下から潮が満ちる「タイム」を作った。AIが1手ずつ考えると、考えている間に段が沈んで51秒で飲まれる。3手まとめて打つと3連鎖、69秒・390点。自己採点66点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-puzzle\n本編: https://youtu.be/X6i1YN2T7Gg\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #パズルゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-030322-d90k.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2189043,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.3,
+    "alt": "縦長の短い動画。上に「AIはパズルゲームを作れるか 潮に飲まれる」の文字。盤の下から青い潮が満ちて、下の段が沈んでいく。赤い線まで潮が来て終わる。次に、まとめて打ってコマが続けて消える場面。後半は「第3話の点数 66点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-030322-d90k/video-20261031-030322-d90k.mp4",
+    "releaseTag": "manual-20261031-030322-d90k"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
