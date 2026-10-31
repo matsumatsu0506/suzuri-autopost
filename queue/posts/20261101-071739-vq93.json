@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261101-071739-vq93",
+  "createdAt": "2026-10-31T22:17:39.560Z",
+  "scheduledAt": "2026-10-31T22:17:39.560Z",
+  "text": "AIは経営ゲームを作れるか？ 四倉の海の家 第1話\nAIがGodotで、四倉の浜の海の家を切り盛りする経営ゲームを作るシリーズ第1話。朝に仕入れ、昼に営業、夜に売上。AIは画面の数字を見て仕入れを直し、3日でもうけを1万8800円から3万2200円に。自己採点63点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-uminoie\n本編: https://youtu.be/Lqh4sK-f4_E\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #経営ゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261101-071739-vq93.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2057798,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.2,
+    "alt": "縦長の短い動画。上に「AIは経営ゲームを作れるか」の文字。海の家の画面に、かき氷・焼きそば・ラムネの仕入れの表と、並ぶお客の丸。後半は「第1話の点数 63点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261101-071739-vq93/video-20261101-071739-vq93.mp4",
+    "releaseTag": "manual-20261101-071739-vq93"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
