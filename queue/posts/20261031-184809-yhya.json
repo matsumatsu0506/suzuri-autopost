@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-184809-yhya",
+  "createdAt": "2026-10-31T09:48:09.008Z",
+  "scheduledAt": "2026-10-31T09:48:09.008Z",
+  "text": "AIは音だけのゲームを作れるか？ 四倉の海 ソナー 第4話\nAIがGodotで、音だけで遊ぶ潜水艇ゲームを作るシリーズ第4話。うしろから追ってくる潜水艦の魚雷が、シュルシュルと近づく。こちらは撃たず、囮でそらす。舵では間に合わず捕まったが、囮で4本かわして港へ。自己採点70点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/6MH8QUDT7Mw\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-184809-yhya.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1740525,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.2,
+    "alt": "縦長の短い動画。上に「AIは耳がない 魚雷をかわせ」の文字。暗いソナー画面の下に、だいだい色の太い印（魚雷の音の方向）。「魚雷が囮にひっかかった！」の文字。最後に「港のブイに着いた！」。後半は「第4話の点数 70点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-184809-yhya/video-20261031-184809-yhya.mp4",
+    "releaseTag": "manual-20261031-184809-yhya"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
