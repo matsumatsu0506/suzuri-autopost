@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261101-072322-na93",
+  "createdAt": "2026-10-31T22:23:22.603Z",
+  "scheduledAt": "2026-10-31T22:23:22.603Z",
+  "text": "AIは経営ゲームを作れるか？ 四倉の海の家 第3話\nAIがGodotで海の家の経営ゲームを作るシリーズ第3話。値段と評判を入れた。予報外れで売り切れ、評判は50→29。落ちるのは一瞬、戻すのはゆっくり。雨の日の値下げで初の黒字。自己採点70点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-uminoie\n本編: https://youtu.be/pgp6dTvAjXs\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #経営ゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261101-072322-na93.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2258738,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.6,
+    "alt": "縦長の短い動画。上に「AIは経営ゲームを作れるか」の文字。海の家の画面に、値段の欄と評判の数字。後半は「第3話の点数 70点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261101-072322-na93/video-20261101-072322-na93.mp4",
+    "releaseTag": "manual-20261101-072322-na93"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
