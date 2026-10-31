@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261101-072748-waif",
+  "createdAt": "2026-10-31T22:27:48.506Z",
+  "scheduledAt": "2026-10-31T22:27:48.506Z",
+  "text": "AIは経営ゲームを作れるか？ 四倉の海の家 第5話\nAIがGodotで海の家の経営ゲームを作るシリーズ第5話。ゆきとたつやが店番、声と体力も。画面の数字だけを読む表計算の道具を作ったが、81人を1人と読むなど桁を落とし、評判は2に。自己採点51点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-uminoie\n本編: https://youtu.be/aYiOoPyzjD0\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #経営ゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261101-072748-waif.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2300282,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.2,
+    "alt": "縦長の短い動画。上に「AIは経営ゲームを作れるか」の文字。海の家の画面に、ゆきとたつやの丸と、売上の表。後半は「第5話の点数 51点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261101-072748-waif/video-20261101-072748-waif.mp4",
+    "releaseTag": "manual-20261101-072748-waif"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
