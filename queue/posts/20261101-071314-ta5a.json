@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261101-071314-ta5a",
+  "createdAt": "2026-10-31T22:13:14.027Z",
+  "scheduledAt": "2026-10-31T22:13:14.027Z",
+  "text": "AIは目を閉じて港へ帰れるか？ 四倉の海 ソナー続編 第2話\nAIがGodotで作った音だけの潜水艇ゲームの続編・第2話。ピンを短くして、近くの岩も聞こえるように。岩場では一度ソナー画面をつけて岩を見てから道具を直し、2つの面をぬけた。岩に27回ぶつかり、走り方は前作の計算の使い回し（5点引き）。自己採点55点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/IkOy1Ruvuf0\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261101-071314-ta5a.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1779987,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.2,
+    "alt": "縦長の短い動画。上に続編の題名の文字。真っ黒な画面に字幕だけが出て、潜水艇が岩場を音だけで進む。最後に「沖のブイに着いた！」。後半は「第2話の点数 55点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261101-071314-ta5a/video-20261101-071314-ta5a.mp4",
+    "releaseTag": "manual-20261101-071314-ta5a"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
