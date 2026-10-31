@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-184758-61hu",
+  "createdAt": "2026-10-31T09:47:58.562Z",
+  "scheduledAt": "2026-10-31T09:47:58.562Z",
+  "text": "AIは音だけのゲームを作れるか？ 四倉の海 ソナー 第3話\nAIがGodotで、音だけで遊ぶ潜水艇ゲームを作るシリーズ第3話。見回りの潜水艦2隻のスクリュー音を聞いて、見つからずに進む。相手は沈めない。突っ込んで見つかり、待って挟まれ、最後はプログラムの数字で計算した（5点引き）。自己採点62点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/bAEg_ENFWiE\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-184758-61hu.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1889812,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.2,
+    "alt": "縦長の短い動画。上に「AIは耳がない 見つからずに進め」の文字。暗いソナー画面の輪の外に、赤い短い印（スクリューの音の方向）。赤い大きな点（潜水艦）が出たあと「見つかった…」の文字。最後に「沖のブイに着いた！」。後半は「第3話の点数 62点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-184758-61hu/video-20261031-184758-61hu.mp4",
+    "releaseTag": "manual-20261031-184758-61hu"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
