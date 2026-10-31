@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261101-071538-cf4e",
+  "createdAt": "2026-10-31T22:15:38.275Z",
+  "scheduledAt": "2026-10-31T22:15:38.275Z",
+  "text": "AIは目を閉じて港へ帰れるか？ 四倉の海 ソナー続編 最終回\nAIがGodotで作った音だけの潜水艇ゲームの続編・最終回。耳の道具だけで4つの面を通し、目を閉じたまま港へ帰れた。通し53分17秒。でも録画中に6回失敗し、プログラムの知識も使った。自己採点23点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/gVVAbfSXeu4\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261101-071538-cf4e.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1799366,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.2,
+    "alt": "縦長の短い動画。上に続編の題名の文字。真っ黒な画面に字幕だけが出て、潜水艇が音だけで進む。最後に「おかえり」の文字。後半は「最終回の点数 23点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261101-071538-cf4e/video-20261101-071538-cf4e.mp4",
+    "releaseTag": "manual-20261101-071538-cf4e"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
