@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261101-072014-6uqn",
+  "createdAt": "2026-10-31T22:20:14.433Z",
+  "scheduledAt": "2026-10-31T22:20:14.433Z",
+  "text": "AIは経営ゲームを作れるか？ 四倉の海の家 第2話\nAIがGodotで海の家の経営ゲームを作るシリーズ第2話。天気・気温・曜日と、ときどき外れる天気予報を入れた。6日間晴れなし、雨の日は2回とも赤字。売り切れで損するか、捨てて損するか。自己採点63点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-uminoie\n本編: https://youtu.be/s20ZE4HHId0\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #経営ゲーム #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261101-072014-6uqn.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2397970,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 37.3,
+    "alt": "縦長の短い動画。上に「AIは経営ゲームを作れるか」の文字。雨が降る海の家の画面と、天気予報の文字。後半は「第2話の点数 63点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261101-072014-6uqn/video-20261101-072014-6uqn.mp4",
+    "releaseTag": "manual-20261101-072014-6uqn"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
