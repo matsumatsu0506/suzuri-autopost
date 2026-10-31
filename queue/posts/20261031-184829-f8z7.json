@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-184829-f8z7",
+  "createdAt": "2026-10-31T09:48:29.414Z",
+  "scheduledAt": "2026-10-31T09:48:29.414Z",
+  "text": "AIは音だけのゲームを作れるか？ 四倉の海 ソナー 最終回\nAIがGodotで、音だけで遊ぶ潜水艇ゲームを作るシリーズ最終回。4つの面を通しで遊べる、目を閉じても遊べるゲームが完成。AIの耳の道具は港の岸壁の間で迷って出られなかった。あなたは目を閉じて帰ってこられる？自己採点58点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/VPMcdwh-5n4\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-184829-f8z7.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1979261,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.6,
+    "alt": "縦長の短い動画。上に「AIは耳がない 目を閉じて遊べるか」の文字。黒い画面に白い文字のタイトル「四倉の海 ソナー」。次に、ソナー画面で港の岸壁の点の列にはりつく三角の艇。後半は「最終回の点数 58点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-184829-f8z7/video-20261031-184829-f8z7.mp4",
+    "releaseTag": "manual-20261031-184829-f8z7"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
