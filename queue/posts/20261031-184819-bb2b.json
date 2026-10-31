@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-184819-bb2b",
+  "createdAt": "2026-10-31T09:48:19.301Z",
+  "scheduledAt": "2026-10-31T09:48:19.301Z",
+  "text": "AIは音だけのゲームを作れるか？ 四倉の海 ソナー 第5話\nAIがGodotで、音だけで遊ぶ潜水艇ゲームを作るシリーズ第5話。ゆきとたつやの声の知らせを入れ、AIに「耳の道具」を作った。スピーカーと同じ音だけを聞き、鐘の方へ進み魚雷には囮。画面を見ずに港へ帰れた。自己採点66点。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/Iugvdvor1XA\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-184819-bb2b.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1789230,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 35.3,
+    "alt": "縦長の短い動画。上に「AIに耳を作った 真っ暗なまま港へ」の文字。真っ黒な画面に上の文字と「ゆき「囮にひっかかったよ！」」などの字幕だけ。最後に「港のブイに着いた！ ピン0回 ぶつかった0回 80秒」。後半は「第5話の点数 66点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-184819-bb2b/video-20261031-184819-bb2b.mp4",
+    "releaseTag": "manual-20261031-184819-bb2b"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
