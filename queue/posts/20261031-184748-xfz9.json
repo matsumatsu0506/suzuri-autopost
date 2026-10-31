@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261031-184748-xfz9",
+  "createdAt": "2026-10-31T09:47:48.161Z",
+  "scheduledAt": "2026-10-31T09:47:48.161Z",
+  "text": "AIは音だけのゲームを作れるか？ 四倉の海 ソナー 第2話\nAIがGodotで、音だけで遊ぶ潜水艇ゲームを作るシリーズ第2話。岩はコン、岸壁はボン、ブイはキン、うしろの音はこもる。岩15この沖の岩場をぬけたが、AIは岩の大きさを忘れて3回ゴツン。自己採点68点（厳しめ）。\nゲーム: https://matsumatsu0506.itch.io/yotsukura-sonar\n本編: https://youtu.be/X5HeDuYo2N0\nこの動画もすべて Claude Code で自動作成しました。\n#Godot #ソナー #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261031-184748-xfz9.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1784294,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.8,
+    "alt": "縦長の短い動画。上に「AIは耳がない 岩場を音でぬける」の文字。暗いソナー画面に、緑の点（岩）がたくさん浮かび、真ん中の三角の艇が間を進む。最後に「調査ブイに着いた！」。後半は「第2話の点数 68点」のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261031-184748-xfz9/video-20261031-184748-xfz9.mp4",
+    "releaseTag": "manual-20261031-184748-xfz9"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
