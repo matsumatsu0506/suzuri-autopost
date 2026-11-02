@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261102-171941-pg0w",
+  "createdAt": "2026-11-02T08:19:41.085Z",
+  "scheduledAt": "2026-11-02T08:19:41.085Z",
+  "text": "脳性麻痺のご本人とご家族のみなさまへ。\n定期的なマッサージと関節運動のご案内動画です。\n\n脳性麻痺そのものが治るわけではありませんが、続けることで体のやわらかさを保つことが期待できます。ご自宅への訪問もご相談ください。\n\n雅鍼灸治療院（いわき市四倉町）\nTEL 0246-32-2069\n※効果には個人差があります。\nナレーション VOICEVOX:冥鳴ひまり\n\n#脳性麻痺 #訪問マッサージ #いわき市",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261102-171941-pg0w.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 4796641,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 96.849,
+    "alt": "雅鍼灸治療院の案内動画。生成り色の背景に大きな文字で、脳性麻痺のご本人とご家族向けに、定期的なマッサージと関節運動について説明しています。最後に治療院の住所と電話番号 0246-32-2069 が出ます。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261102-171941-pg0w/video-20261102-171941-pg0w.mp4",
+    "releaseTag": "manual-20261102-171941-pg0w"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
