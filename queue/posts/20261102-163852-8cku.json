@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261102-163852-8cku",
+  "createdAt": "2026-11-02T07:38:52.342Z",
+  "scheduledAt": "2026-11-02T07:38:52.342Z",
+  "text": "本物のオーケストラはどっち？\nClaude Code が Cakewalk Sonar でベートーヴェン「運命」第1楽章を本物の録音に近づけました。本物らしさ度64.6%→79.0%(本物どうしで83.8%)。上がらなかった試しもそのまま、自己採点48点。\n本物の録音：Skidmore College Orchestra(パブリックドメイン)／音源：VSCO 2 CE(CC0)\n本編 https://youtu.be/m_4Ox4NLBC0\nこの動画もすべて Claude Code で自動作成。\n#運命 #ベートーヴェン #DTM #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261102-163852-8cku.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 12139764,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 50.3,
+    "alt": "「本物のオーケストラはどっち？」の文字と、嵐の夜の灯台の映像。AとBの2つの音を流したあと、答え(Bが本物)と本物らしさ度64.6%→79.0%を示すショート動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261102-163852-8cku/video-20261102-163852-8cku.mp4",
+    "releaseTag": "manual-20261102-163852-8cku"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
