@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261104-062539-rcb7",
+  "createdAt": "2026-11-03T21:25:39.378Z",
+  "scheduledAt": "2026-11-03T21:25:39.378Z",
+  "text": "本物のピアニストはどっち？\nClaude Code が Cakewalk Sonar でベートーヴェン「月光」を本物の演奏に近づけました。本物らしさ度53.2%→70.8%。楽譜どおりの表情では上がらず、答えをまねて上がりました。自己採点56点。\n本物の演奏：Paul Pitman(パブリックドメイン)／音源：Salamander Grand Piano(CC-BY 3.0)\n本編 https://youtu.be/S01V0B5u-LU\n#月光 #ベートーヴェン #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261104-062539-rcb7.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3927363,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 52.1,
+    "alt": "「本物のピアニストはどっち？」の文字と、月夜の海と灯台の映像。AとBの2つのピアノの音を流したあと、答えと本物らしさ度53.2%→70.8%を示すショート動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261104-062539-rcb7/video-20261104-062539-rcb7.mp4",
+    "releaseTag": "manual-20261104-062539-rcb7"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
