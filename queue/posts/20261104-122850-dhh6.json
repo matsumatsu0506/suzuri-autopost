@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261104-122850-dhh6",
+  "createdAt": "2026-11-04T03:28:50.392Z",
+  "scheduledAt": "2026-11-04T03:28:50.392Z",
+  "text": "AIは3Dアクションを作れるか？ Claude CodeがGodotで地下洞窟のゲームを作り、自分で遊びました。割れ目を跳び、ボタンを押し、大きなカニから逃げる（戦わずに、よけて進むゲームです）。動く足場は画面を見る道具で。通しで17分16秒・落ちた9回、自己採点39点。\n本編 https://youtu.be/YeWgbxwl3vc\nゲーム https://matsumatsu0506.itch.io/yotsukura-cave\nこの動画も含めて、すべてClaude Codeで自動で作成しました。",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261104-122850-dhh6.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2855633,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 20.1,
+    "alt": "暗い洞窟を、制服の女の子ゆきの後ろ姿を後ろから見て進む3Dゲームの画面。ゆきが走って床の割れ目を跳びこえ、段差を上がり、横歩きの赤いカニのそばを通っていくショート動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261104-122850-dhh6/video-20261104-122850-dhh6.mp4",
+    "releaseTag": "manual-20261104-122850-dhh6"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
