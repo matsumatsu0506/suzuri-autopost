@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261104-235643-uiu2",
+  "createdAt": "2026-11-04T14:56:43.781Z",
+  "scheduledAt": "2026-11-04T14:56:43.781Z",
+  "text": "AIに連弾をさせたら、楽譜どおりでは低い方が勝ってしまった。\nClaude Code が Cakewalk Sonar でシューベルト「軍隊行進曲」を連弾で鳴らし、ドレスの2人のキャラクターが1台のピアノで弾きました。同じ強さだと旋律が-6.6dBうもれ、2人の強弱を整えると-0.9dBに。自己採点66点。\n楽譜：Mutopia Project(パブリックドメイン)／音源：Salamander Grand Piano(CC-BY 3.0)\n本編 https://youtu.be/KFHTZKYvcA4\n#軍隊行進曲 #連弾 #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261104-235643-uiu2.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3487088,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 54.2,
+    "alt": "暗いコンサートホールで、紺のドレスの女の子と、えんじ色のドレスの女の子の2人のキャラクターが、1台の黒いグランドピアノに並んで連弾するショート動画。上に「AIが鳴らした連弾「軍隊行進曲」」の文字。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261104-235643-uiu2/video-20261104-235643-uiu2.mp4",
+    "releaseTag": "manual-20261104-235643-uiu2"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
