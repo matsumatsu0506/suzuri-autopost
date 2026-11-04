@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261104-155252-299s",
+  "createdAt": "2026-11-04T06:52:52.063Z",
+  "scheduledAt": "2026-11-04T06:52:52.063Z",
+  "text": "声で教えてくれるギターのチューナー「みやびチューナー」を公開しました。\n\n🎸 弾いた弦を自動で見分けて「6弦、少し低いです。上げてください」と声で案内。画面を見なくても調弦できます\n🎸 ドロップD・オープンG・オープンD・半音下げにも対応\n🎸 インストール不要・無料。ブラウザで開くだけ\n\nClaude Code で作りました。\n\n▶ https://miyabi-tuner-cw.web.app/\n（iPhoneの声：VOICEVOX:冥鳴ひまり）\n\n#ギター #チューナー #アコギ #ClaudeCode #個人開発",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261104-155252-299s.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 121421,
+    "width": 1080,
+    "height": 1350,
+    "alt": "みやびチューナーのお知らせ画像。左にスマホの画面。5弦A2を測っていて、緑の針が真上を指し「OK」、マイナス1セント、109.96ヘルツと出ている。右に「6弦、少し低いです。上げてください。画面を見なくても声の案内で調弦できます。インストール不要、無料」の文字と、アプリを開くQRコード。下にアドレス miyabi-tuner-cw.web.app。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261104-155252-299s/image-20261104-155252-299s.jpg",
+    "releaseTag": "manual-20261104-155252-299s"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
