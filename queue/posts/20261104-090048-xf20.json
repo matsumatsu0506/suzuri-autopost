@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261104-090048-xf20",
+  "createdAt": "2026-11-04T00:00:48.532Z",
+  "scheduledAt": "2026-11-04T00:00:48.532Z",
+  "text": "AIは3Dダンジョンを作れるか？\nClaude Code がゲームエンジン Godot で、9つの罠がある灯台の地下迷宮を作り、自分で抜けました。落とし穴や鏡は手で、タイミングの天井と槍は画面を見る道具で。通しで5分26秒・自己採点53点。\n本編 https://youtu.be/0WcTEdftA8A\n遊べます https://matsumatsu0506.itch.io/yotsukura-dungeon\n#ゲーム制作 #Godot #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261104-090048-xf20.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3636499,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 20.1,
+    "alt": "石の地下迷宮を、ゆきの後ろ姿を後ろから見て進むゲームの画面。床の落とし穴の線が見え、ゆきが穴に落ちて青い水しぶきの画面になり、入り口に戻されるショート動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261104-090048-xf20/video-20261104-090048-xf20.mp4",
+    "releaseTag": "manual-20261104-090048-xf20"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
