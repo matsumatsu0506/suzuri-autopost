@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261104-205610-3n3n",
+  "createdAt": "2026-11-04T11:56:10.786Z",
+  "scheduledAt": "2026-11-04T11:56:10.786Z",
+  "text": "AIはピアニストをどこまで再現できるか。\nClaude Code が Cakewalk Sonar でベートーヴェン「エリーゼのために」を鳴らし、ドレスのキャラクターがコンサートで弾きました。鍵盤・手・ペダルは音の時刻から自動で動かしています。本物らしさ度50.6%→66.0%。指が回る失敗も。自己採点59点。\n楽譜：Mutopia Project(パブリックドメイン)／音源：Salamander Grand Piano(CC-BY 3.0)\n本編 https://youtu.be/noEXEOkFQ3M\n#エリーゼのために #ピアノ #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261104-205610-3n3n.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 4519056,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 54.6,
+    "alt": "暗いコンサートホールで、紺のノースリーブのドレスを着た黒髪の女の子のキャラクターが、黒いグランドピアノを弾くショート動画。上に「AIが鳴らした「エリーゼのために」」の文字、最後に本物らしさ度50.6%から66.0%の数字。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261104-205610-3n3n/video-20261104-205610-3n3n.mp4",
+    "releaseTag": "manual-20261104-205610-3n3n"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
