@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261105-113826-1q6j",
+  "createdAt": "2026-11-05T02:38:26.327Z",
+  "scheduledAt": "2026-11-05T02:38:26.327Z",
+  "text": "AIが作った学校演劇「浦島太郎」を公開しました。\n「同居生活はじめました。」のキャラクターたちが、体育館の舞台で演じる文化祭の劇です。これは玉手箱を開ける場面。台本・声・書き割り・照明・カメラまで Claude Code で作りました。\n全編（6分50秒）https://youtu.be/_fuCQgeE5jk\n#浦島太郎 #演劇 #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261105-113826-1q6j.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3536442,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 43,
+    "alt": "夕焼けの浜辺の書き割りの舞台で、紺の甚平の太郎が玉手箱を開け、白いけむりのあと白い髪のおじいさんになる縦長の動画。セーラー服の語りも映る。上に「AIが作った学校演劇 浦島太郎」の文字、字幕つき。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261105-113826-1q6j/video-20261105-113826-1q6j.mp4",
+    "releaseTag": "manual-20261105-113826-1q6j"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
