@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261105-180826-4txy",
+  "createdAt": "2026-11-05T09:08:26.659Z",
+  "scheduledAt": "2026-11-05T09:08:26.659Z",
+  "text": "AIが作ったオリジナル曲「とどくまで」を公開しました。\n「同居生活はじめました。」のキャラクターたちが、文化祭の舞台で歌う3Dライブです。曲・歌詞・舞台・照明・カメラまで Claude Code で作りました。\n全編（3分53秒）https://youtu.be/sWkGeSVtflk\n#文化祭 #オリジナル曲 #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261105-180826-4txy.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 14152507,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 44.6,
+    "alt": "文化祭の舞台で、緑のパーカーのゆきと水色のワンピースの乙姫がマイクを持って歌って踊り、後ろでバンドが演奏する縦長の動画。上に「AIが作った文化祭ライブ とどくまで」の文字、下に歌詞の字幕。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261105-180826-4txy/video-20261105-180826-4txy.mp4",
+    "releaseTag": "manual-20261105-180826-4txy"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
