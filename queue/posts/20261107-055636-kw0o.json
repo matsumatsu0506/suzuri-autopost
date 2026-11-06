@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261107-055636-kw0o",
+  "createdAt": "2026-11-06T20:56:36.502Z",
+  "scheduledAt": "2026-11-06T20:56:36.502Z",
+  "text": "AIが作った学校演劇「ロミオとジュリエット」を公開しました。\n「同居生活はじめました。」のキャラクターたちが、体育館の舞台で演じます。台本・舞台・照明・カメラまで Claude Code で作りました。声はキャラクターごとの ElevenLabs です。\n全編（17分18秒）https://youtu.be/nU9ousB-c24\n#ロミオとジュリエット #学校演劇 #ClaudeCode",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261107-055636-kw0o.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 4246129,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 33.066667,
+    "alt": "月夜のバルコニーで、白い衣装のジュリエットと、下の庭の青い衣装のロミオが言葉を交わす縦長の動画。上に題名の文字、下に台詞の字幕。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261107-055636-kw0o/video-20261107-055636-kw0o.mp4",
+    "releaseTag": "manual-20261107-055636-kw0o"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
