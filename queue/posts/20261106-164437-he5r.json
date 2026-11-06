@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261106-164437-he5r",
+  "createdAt": "2026-11-06T07:44:37.758Z",
+  "scheduledAt": "2026-11-06T07:44:37.758Z",
+  "text": "「冷蔵庫のプリン、最後の一個なんだけど」\n\nゆきの返事は台本なし。AIがその場で返した言葉を、書き換えずに声にしました。\n\n冗談を言えば、びっくりして。\n弱音をこぼせば、心配してくれる。\n\n※会話から一部を抜き出しています。こちらの声は説明用の合成音声です。映像と声はAIで作っています。\n\n『同居生活はじめました。』12月2日公開予定\nhttps://tonari-issho.com\n#同居生活はじめました",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261106-164437-he5r.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 7643304,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 36.666667,
+    "alt": "夜のリビングで、黒髪に緑のセーターの女性キャラクター立花ゆきが話す縦動画。プリンの最後の一個を半分こする掛け合いと、仕事をやめようかなという冗談にびっくりする掛け合いが、字幕と声で続く。最後に作品名と公開日が出る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261106-164437-he5r/video-20261106-164437-he5r.mp4",
+    "releaseTag": "manual-20261106-164437-he5r"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
