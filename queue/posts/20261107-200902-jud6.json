@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261107-200902-jud6",
+  "createdAt": "2026-11-07T11:09:02.043Z",
+  "scheduledAt": "2026-11-07T11:09:02.043Z",
+  "text": "AIがマウスを動かして、お絵かきソフトKritaで女の子を描きました。線を1本ずつ引いて、色をぬって、まばたきと口パクで話すところまで。自己採点は54点。あなたなら何点？\n本編（8分16秒）https://youtu.be/q3rUPkAysGU\n#ClaudeCode #Krita #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261107-200902-jud6.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 3957874,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 56.082,
+    "alt": "白いキャンバスに丸と十字線から線が1本ずつ引かれ、色がぬられて、赤橙の短い髪でセーラー服の女の子になり、まばたきをしながら口を動かして話す縦長の動画。上に題名の文字、下に字幕。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261107-200902-jud6/video-20261107-200902-jud6.mp4",
+    "releaseTag": "manual-20261107-200902-jud6"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
