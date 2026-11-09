@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261109-121759-ziv3",
+  "createdAt": "2026-11-09T03:17:59.118Z",
+  "scheduledAt": "2026-11-09T03:17:59.118Z",
+  "text": "本物の演奏はAとBのどっち? AIと本物を聞き比べるショートです。月光、エリーゼのために、運命で全10問の本編もあります。あなたは何問正解?\n本編(6分33秒) https://youtu.be/YhqfV4Picmo\n#聞き比べ #クラシック #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261109-121759-ziv3.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 964276,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.5,
+    "alt": "濃い紺色の縦長の画面に大きなAとBの文字が順に出て、ベートーヴェンの月光の同じ場所を2通りの音で聞き比べ、最後にどちらが本物の演奏かを文字で答える動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261109-121759-ziv3/video-20261109-121759-ziv3.mp4",
+    "releaseTag": "manual-20261109-121759-ziv3"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
