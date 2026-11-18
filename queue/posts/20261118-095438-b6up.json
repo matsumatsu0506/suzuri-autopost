@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261118-095438-b6up",
+  "createdAt": "2026-11-18T00:54:38.488Z",
+  "scheduledAt": "2026-11-30T00:00:00.000Z",
+  "text": "今日が CAMPFIRE の最終日です(23時59分まで)。\nhttps://camp-fire.jp/projects/986551/view",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261118-095438-b6up.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "黒髪の女の子のキャラクター「ゆき」が、ソファとテレビのある明るいリビングに立っているゲーム画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261118-095438-b6up/image-20261118-095438-b6up.jpg",
+    "releaseTag": "manual-20261118-095438-b6up"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
