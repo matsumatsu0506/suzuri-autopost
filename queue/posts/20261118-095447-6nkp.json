@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261118-095447-6nkp",
+  "createdAt": "2026-11-18T00:54:47.130Z",
+  "scheduledAt": "2026-11-30T12:00:00.000Z",
+  "text": "募集は、あと3時間で終わります。見てくださった皆さま、ありがとうございました。\n結果にかかわらず、ゲームは12月2日に公開します。\nhttps://camp-fire.jp/projects/986551/view",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261118-095447-6nkp.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "黒髪の女の子のキャラクター「ゆき」が、ソファとテレビのある明るいリビングに立っているゲーム画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261118-095447-6nkp/image-20261118-095447-6nkp.jpg",
+    "releaseTag": "manual-20261118-095447-6nkp"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
