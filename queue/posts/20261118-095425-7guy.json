@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261118-095425-7guy",
+  "createdAt": "2026-11-18T00:54:25.552Z",
+  "scheduledAt": "2026-11-23T03:00:00.000Z",
+  "text": "CAMPFIRE の募集も、あと1週間になりました(11月30日まで)。\n1,500円のコースから、12月2日の公開後に1か月遊べます。\n迷っている方は、まず登録なしの体験版でゆきと話してみてください。\n\n体験版 https://tonari-issho-play.web.app/?k=taiken\nCAMPFIRE https://camp-fire.jp/projects/986551/view",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261118-095425-7guy.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "黒髪の女の子のキャラクター「ゆき」が、ソファとテレビのある明るいリビングに立っているゲーム画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261118-095425-7guy/image-20261118-095425-7guy.jpg",
+    "releaseTag": "manual-20261118-095425-7guy"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
