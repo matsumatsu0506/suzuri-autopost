@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261118-095442-t8e8",
+  "createdAt": "2026-11-18T00:54:42.805Z",
+  "scheduledAt": "2026-11-30T03:00:00.000Z",
+  "text": "最終日です。お昼休みに、ゆきと少し話してみませんか。登録なしで話せます。\nhttps://tonari-issho-play.web.app/?k=taiken",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261118-095442-t8e8.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "黒髪の女の子のキャラクター「ゆき」が、ソファとテレビのある明るいリビングに立っているゲーム画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261118-095442-t8e8/image-20261118-095442-t8e8.jpg",
+    "releaseTag": "manual-20261118-095442-t8e8"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
