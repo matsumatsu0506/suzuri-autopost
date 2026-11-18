@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261118-095343-k1py",
+  "createdAt": "2026-11-18T00:53:43.363Z",
+  "scheduledAt": "2026-11-19T03:00:00.000Z",
+  "text": "登録なし・無料で、AIの幼なじみ「ゆき」と話せる体験版を用意しました。\n声つきで返事をします。1日10回までです。\n\n話してみて気に入っていただけたら、CAMPFIRE で応援していただけるとうれしいです(11月30日まで)。\n\n体験版 https://tonari-issho-play.web.app/?k=taiken\nCAMPFIRE https://camp-fire.jp/projects/986551/view",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261118-095343-k1py.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "黒髪の女の子のキャラクター「ゆき」が、ソファとテレビのある明るいリビングに立っているゲーム画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261118-095343-k1py/image-20261118-095343-k1py.jpg",
+    "releaseTag": "manual-20261118-095343-k1py"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
