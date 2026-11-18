@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "20261118-095420-ux6g",
+  "createdAt": "2026-11-18T00:54:20.888Z",
+  "scheduledAt": "2026-11-21T11:00:00.000Z",
+  "text": "何を話せばいいか迷ったら、「今日なに食べた？」「最近ねむれてる？」くらいで大丈夫です。\nゆきは、話したことに合わせて、声つきで返事をしてくれます。\n\n登録なしの体験版 https://tonari-issho-play.web.app/?k=taiken\nCAMPFIRE(11月30日まで) https://camp-fire.jp/projects/986551/view",
+  "media": {
+    "kind": "image",
+    "fileName": "image-20261118-095420-ux6g.jpg",
+    "mimeType": "image/jpeg",
+    "bytes": 47787,
+    "width": 1200,
+    "height": 630,
+    "alt": "黒髪の女の子のキャラクター「ゆき」が、ソファとテレビのある明るいリビングに立っているゲーム画面。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261118-095420-ux6g/image-20261118-095420-ux6g.jpg",
+    "releaseTag": "manual-20261118-095420-ux6g"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
