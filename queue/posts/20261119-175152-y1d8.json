@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261119-175152-y1d8",
+  "createdAt": "2026-11-19T08:51:52.450Z",
+  "scheduledAt": "2026-11-19T08:51:52.450Z",
+  "text": "AIが作ったボス戦、カニに3連敗から逆転。\nボス5体を、AI（Claude Code）が作って、自分で挑みました。最後はタイトルから5体の通しでクリア。\n遊ぶ https://matsumatsu0506.itch.io/yotsukura-bossrush\n本編 https://youtu.be/VSoTnNLL6HE\nこの動画もすべて Claude Code で自動作成しました。\n#ゲーム制作 #ボスラッシュ #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261119-175152-y1d8.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2470339,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.8,
+    "alt": "夕日の浜辺で、帽子のゆきが赤い大きなカニと戦うゲーム画面。前半は負け、後半はカニがおとなしくなって勝つ。後半は点数73点のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261119-175152-y1d8/video-20261119-175152-y1d8.mp4",
+    "releaseTag": "manual-20261119-175152-y1d8"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
