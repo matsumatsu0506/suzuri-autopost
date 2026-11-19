@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261120-073853-x1bx",
+  "createdAt": "2026-11-19T22:38:53.763Z",
+  "scheduledAt": "2026-11-26T09:00:00.000Z",
+  "text": "AIが作った艦隊戦、宇宙の盗賊から交易船を守る。\n盗賊は交易船ばかり狙ってくる。全艦で守る。\n声と文字で命令する3D艦隊戦を、AI（Claude Code）が作って、自分で指揮しました。続きはYouTubeの本編で。\n本編 https://youtu.be/Za5gCcfNlKY\n遊ぶ https://matsumatsu0506.itch.io/ginga-bridge-fleet\nこの動画もすべて Claude Code で自動作成しました。\n#ゲーム制作 #艦隊戦 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261120-073853-x1bx.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 6034972,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 59.4,
+    "alt": "宇宙の艦隊戦ゲームの画面。盗賊は交易船ばかり狙ってくる。全艦で守る。最後に点数67点が出る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261120-073853-x1bx/video-20261120-073853-x1bx.mp4",
+    "releaseTag": "manual-20261120-073853-x1bx"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
