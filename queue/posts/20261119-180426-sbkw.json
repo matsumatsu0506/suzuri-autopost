@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261119-180426-sbkw",
+  "createdAt": "2026-11-19T09:04:26.531Z",
+  "scheduledAt": "2026-11-21T09:00:00.000Z",
+  "text": "AIが作ったボス戦、大ダコの墨で画面が真っ暗。\n暗くても、光る印とタコの光る目をたよりに。\nボス5体を、AI（Claude Code）が作って、自分で挑みました。\n遊ぶ https://matsumatsu0506.itch.io/yotsukura-bossrush\n本編 https://youtu.be/VSoTnNLL6HE\nこの動画もすべて Claude Code で自動作成しました。\n#ゲーム制作 #ボスラッシュ #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261119-180426-sbkw.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2821387,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 31.6,
+    "alt": "はちまきの赤い大ダコが足を振り下ろし、墨で画面が暗くなるゲーム画面。暗い中にタコの光る目。後半は点数73点のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261119-180426-sbkw/video-20261119-180426-sbkw.mp4",
+    "releaseTag": "manual-20261119-180426-sbkw"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
