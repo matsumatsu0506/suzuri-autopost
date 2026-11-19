@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261119-180436-c5vx",
+  "createdAt": "2026-11-19T09:04:36.807Z",
+  "scheduledAt": "2026-11-23T09:00:00.000Z",
+  "text": "AIが作ったボス戦、最後のボスは灯台の守り神。\nこれまでの4体の技をぜんぶ使ってくる。ボスラッシュ、クリア。\nボス5体を、AI（Claude Code）が作って、自分で挑みました。\n遊ぶ https://matsumatsu0506.itch.io/yotsukura-bossrush\n本編 https://youtu.be/VSoTnNLL6HE\nこの動画もすべて Claude Code で自動作成しました。\n#ゲーム制作 #ボスラッシュ #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261119-180436-c5vx.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2519054,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 30,
+    "alt": "白と赤のしまの灯台の形をした守り神と、帽子のゆきが戦うゲーム画面。光の柱が落ちる。最後に「ボスラッシュ クリア！」。後半は点数73点のカード。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261119-180436-c5vx/video-20261119-180436-c5vx.mp4",
+    "releaseTag": "manual-20261119-180436-c5vx"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
