@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261120-175148-6z87",
+  "createdAt": "2026-11-20T08:51:48.666Z",
+  "scheduledAt": "2026-11-28T09:00:00.000Z",
+  "text": "AIが作った艦隊戦に、新しい場面。\n敵の司令官と通信で言葉を交わし、1発も撃たずに撤退させる。画面を分けた配置図や、声で変える陣形も足しました。\n声と文字で命令する3D艦隊戦を、AI（Claude Code）が作っています。\n遊ぶ https://matsumatsu0506.itch.io/ginga-bridge-fleet\n本編 https://youtu.be/Za5gCcfNlKY\nこの動画もすべて Claude Code で自動作成しました。\n#ゲーム制作 #艦隊戦 #ClaudeCode #AI",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261120-175148-6z87.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 4761398,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 95.8,
+    "alt": "宇宙の艦隊戦ゲームの画面。敵の司令官と通信で言葉を交わし、撤退させる場面の字幕。後半は画面が二つに分かれ、右に敵と味方の配置図が出る。最後に点数67点が出る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261120-175148-6z87/video-20261120-175148-6z87.mp4",
+    "releaseTag": "manual-20261120-175148-6z87"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
