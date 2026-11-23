@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261123-112439-moiq",
+  "createdAt": "2026-11-23T02:24:39.751Z",
+  "scheduledAt": "2026-11-25T09:00:00.000Z",
+  "text": "PVのタイトルの前に、1秒の暗転と無音の「溜め」を作る。そのあとに出るタイトルが、見る人の心に刻まれます。実際にやってみました。\n\n全16章・90分の解説「アニメPV・MV演出 完全解説」\nhttps://youtu.be/qiJ7tlxAdHA\n\n#アニメ演出 #PV制作 #AI動画",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261123-112439-moiq.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1475467,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 28.7,
+    "alt": "アニメPV・MV演出の解説動画の一場面。PVを強くするコツの表のあと、少年が走る絵、1秒の黒い無音の画面、タイトル「きみと見た空」の順に映る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261123-112439-moiq/video-20261123-112439-moiq.mp4",
+    "releaseTag": "manual-20261123-112439-moiq"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
