@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261123-112412-u9jk",
+  "createdAt": "2026-11-23T02:24:12.858Z",
+  "scheduledAt": "2026-11-23T09:00:00.000Z",
+  "text": "アニメのPV・MVでよく使う「暗転」。音も止めて画面を真っ黒にすると、沈黙そのものが衝撃になります。実際にやってみました。\n\n全16章・90分の解説「アニメPV・MV演出 完全解説」\nhttps://youtu.be/qiJ7tlxAdHA\n\n#アニメ演出 #MV制作 #AI動画",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261123-112412-u9jk.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 2013298,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 34.9,
+    "alt": "アニメPV・MV演出の解説動画の一場面。表で暗転の効果を説明したあと、少年が走るアニメの絵、音の止まった真っ黒な画面、城のある街の絵の順に映る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261123-112412-u9jk/video-20261123-112412-u9jk.mp4",
+    "releaseTag": "manual-20261123-112412-u9jk"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
