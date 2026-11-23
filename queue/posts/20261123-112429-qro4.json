@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261123-112429-qro4",
+  "createdAt": "2026-11-23T02:24:29.800Z",
+  "scheduledAt": "2026-11-24T09:00:00.000Z",
+  "text": "サビの前に、ほんの0.5秒だけ無音にする。静けさのあとの一音は、何倍にも大きく響きます。映像も止めると、さらに強くなります。\n\n全16章・90分の解説「アニメPV・MV演出 完全解説」\nhttps://youtu.be/qiJ7tlxAdHA\n\n#アニメ演出 #MV制作 #AI動画",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261123-112429-qro4.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 1655273,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 27.7,
+    "alt": "アニメPV・MV演出の解説動画の一場面。音楽と映像を合わせる5つのコツの表のあと、目を閉じた少女のアップ、音の止まった黒い画面、光の中で目を開く少女の順に映る。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261123-112429-qro4/video-20261123-112429-qro4.mp4",
+    "releaseTag": "manual-20261123-112429-qro4"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
