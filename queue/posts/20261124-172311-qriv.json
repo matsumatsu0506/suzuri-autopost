@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261124-172311-qriv",
+  "createdAt": "2026-11-24T08:23:11.472Z",
+  "scheduledAt": "2026-11-24T08:23:11.472Z",
+  "text": "自作小説「銀河の気流 〜転生した東洋医学師、宇宙を診る〜」のPVを、AI(Claude Code)で作りました。\n剣ではなく、鍼を持つ。戦争は、脈を取れば止められる。\n\n小説はKindleで(500円・読み放題の会員は無料)\nhttps://www.amazon.co.jp/dp/B0H5HT5K5J\n\n作り方つきの本編(YouTube)\nhttps://youtu.be/B8dZILWbCfU\n\n#銀河の気流 #自作小説 #AI #SF小説",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261124-172311-qriv.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 19415349,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 99.3,
+    "alt": "宇宙を舞台にした小説「銀河の気流」のPV。星の海、艦隊、鍼を持つ少年と仲間たちがセリフ字幕つきで登場する縦型の動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261124-172311-qriv/video-20261124-172311-qriv.mp4",
+    "releaseTag": "manual-20261124-172311-qriv"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
