@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261125-090735-y7io",
+  "createdAt": "2026-11-25T00:07:35.983Z",
+  "scheduledAt": "2026-11-25T00:07:35.983Z",
+  "text": "自作小説「俺が無能なのに、なぜ天才と呼ばれるのか」のPVを、AIで作りました。\n何もできないのに、なぜか全部うまくいく、異世界お仕事コメディです。\n小説(Kindle) https://www.amazon.co.jp/dp/B0H6NQ6FW3\n作り方つきの本編 https://youtu.be/KFqZFFKXQ_o\n#自作小説 #AI #異世界",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261125-090735-y7io.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 23249045,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 102.9,
+    "alt": "異世界の商会を舞台にした小説「俺が無能なのに、なぜ天才と呼ばれるのか」のPV。社長になった青年と、秘書・営業・物流・護衛の仲間たちが、セリフ字幕つきで登場する縦型の動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261125-090735-y7io/video-20261125-090735-y7io.mp4",
+    "releaseTag": "manual-20261125-090735-y7io"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
