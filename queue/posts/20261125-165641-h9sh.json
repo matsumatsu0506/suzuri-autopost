@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261125-165641-h9sh",
+  "createdAt": "2026-11-25T07:56:41.147Z",
+  "scheduledAt": "2026-11-25T07:56:41.147Z",
+  "text": "自作小説「俺が無能なのに、なぜ天才と呼ばれるのか」第二巻のPVを、AIで作りました。\n謎の大商人と、米の値段の危機。無能な社長は、今度は夜空で勝負する。\n小説(Kindle) https://www.amazon.co.jp/dp/B0H5C28984\n作り方つきの本編 https://youtu.be/DhAJxfe9d2c\n#自作小説 #AI #異世界",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261125-165641-h9sh.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 26283596,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 105.1,
+    "alt": "異世界の商会を舞台にした小説「俺が無能なのに、なぜ天才と呼ばれるのか」第二巻のPV。社長の青年と仲間たち、謎の大商人が、セリフ字幕つきで登場し、夜の広場で群衆が空を見上げる縦型の動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261125-165641-h9sh/video-20261125-165641-h9sh.mp4",
+    "releaseTag": "manual-20261125-165641-h9sh"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
