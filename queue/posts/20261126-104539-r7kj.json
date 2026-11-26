@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "20261126-104539-r7kj",
+  "createdAt": "2026-11-26T01:45:39.777Z",
+  "scheduledAt": "2026-11-26T01:45:39.777Z",
+  "text": "自作小説「失われた技術を継ぐ者〜三人の才女と追放英雄〜」のPVを、AIで作りました。\n追放された英雄は、港町の鍼灸師。失われた技術を、三人の才女へ。\n小説(Kindle) https://www.amazon.co.jp/dp/B0FPZWWD99\n作り方つきの本編 https://youtu.be/Xem1JvGbLP4\n#自作小説 #AI #異世界",
+  "media": {
+    "kind": "video",
+    "fileName": "video-20261126-104539-r7kj.mp4",
+    "mimeType": "video/mp4",
+    "bytes": 28321846,
+    "width": 1080,
+    "height": 1920,
+    "durationSec": 107.3,
+    "alt": "異世界ファンタジー小説「失われた技術を継ぐ者」のPV。港町の鍼灸院で暮らす元英雄の騎士と、赤髪・水色の髪・金髪の三人の若い女性、魔族や魔王が、セリフ字幕つきで登場する縦型の動画。",
+    "url": "https://github.com/matsumatsu0506/suzuri-autopost/releases/download/manual-20261126-104539-r7kj/video-20261126-104539-r7kj.mp4",
+    "releaseTag": "manual-20261126-104539-r7kj"
+  },
+  "platforms": {
+    "bluesky": {
+      "status": "pending"
+    },
+    "threads": {
+      "status": "pending"
+    },
+    "instagram": {
+      "status": "pending"
+    },
+    "facebook": {
+      "status": "pending"
+    }
+  }
+}
